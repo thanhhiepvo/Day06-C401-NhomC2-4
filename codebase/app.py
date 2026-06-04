@@ -72,56 +72,40 @@ def rule_prefilter(
     chips: list,
 ) -> list[dict]:
     lst = list(meals)
-    if budget:
-        cap = int(budget * 1.1)
-        lst = [m for m in lst if m["price"] <= cap]
+    # Bỏ lọc ngân sách cứng ở đây để LLM có thể gợi ý nới lỏng ngân sách
     if max_eta:
         lst = [m for m in lst if m["etaMinutes"] <= max_eta]
     if no_spicy:
         lst = [m for m in lst if not m["spicy"]]
-    if "Rẻ hơn" in chips and budget:
-        lst = [m for m in lst if m["price"] <= budget * 0.85]
     if "Giao nhanh hơn" in chips:
         lst = [m for m in lst if m["etaMinutes"] <= 20]
     return lst if lst else meals
 
 
 def system_prompt(catalog: list[dict]) -> str:
-    return f"""Bạn là AI gợi ý món ăn cho prototype "Quick Meal Picker" (augment, không đặt hộ).
-Chỉ chọn món từ catalog JSON (theo id). Trả về JSON đúng schema:
-{{
-  "mode": "clarify" | "recommend",
-  "clarifyQuestion": string | null,
-  "criteriaSummary": string,
-  "recommendations": [
-    {{ "mealId": string, "reason": string, "confidence": "cao" | "trung bình" | "thấp" }}
-  ]
-}}
-Quy tắc:
-- mode=clarify khi thiếu budget VÀ input quá mơ hồ; chỉ hỏi MỘT câu ngắn (ăn no / nhẹ / tiết kiệm).
-- mode=recommend: đúng 3 mealId khác nhau, đa dạng category, tôn trọng không cay / budget / ETA.
-- Không bịa món ngoài catalog. Không nói đã đặt món.
-Catalog: {json.dumps(catalog, ensure_ascii=False)}"""
+    prompt_path = BASE_DIR / "system_prompt.md"
+    with open(prompt_path, encoding="utf-8") as f:
+        template = f.read()
+    return template + "\n\nFiltered meal dataset:\n" + json.dumps(catalog, ensure_ascii=False)
 
 
-def call_llm(messages: list[dict]) -> dict:
+def call_llm(messages: list[dict]) -> str:
     base = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
     model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"), base_url=base)
     resp = client.chat.completions.create(
         model=model,
         temperature=0.4,
-        response_format={"type": "json_object"},
         messages=messages,
     )
-    content = resp.choices[0].message.content
-    return json.loads(content or "{}")
+    return resp.choices[0].message.content or ""
 
 
 def validate_recommendations(raw: dict, allowed_ids: set[str]) -> dict:
-    if raw.get("mode") == "clarify":
+    mode = raw.get("mode")
+    if mode in ("clarify", "external_link"):
         return {
-            "mode": "clarify",
+            "mode": mode,
             "clarifyQuestion": raw.get("clarifyQuestion")
             or "Bạn muốn ăn no, ăn nhẹ hay tiết kiệm hôm nay?",
             "criteriaSummary": raw.get("criteriaSummary", ""),
@@ -238,18 +222,6 @@ def recommend():
             corrections,
         )
 
-        if (
-            is_vague_input(budget, prompt, chips)
-            and not clarify_answer
-            and not corrections
-        ):
-            return jsonify(
-                mode="clarify",
-                clarifyQuestion="Bạn muốn ăn no, ăn nhẹ hay tiết kiệm hôm nay?",
-                criteriaSummary=criteria_summary,
-                recommendations=[],
-                aiSource="rule",
-            )
 
         no_spicy = (
             "Không cay" in chips
@@ -279,7 +251,7 @@ def recommend():
             "catalogIds": list(allowed_ids),
         }
 
-        raw = call_llm(
+        raw_text = call_llm(
             [
                 {"role": "system", "content": system_prompt(filtered)},
                 {
@@ -289,13 +261,52 @@ def recommend():
             ]
         )
 
-        validated = validate_recommendations(raw, allowed_ids)
+        lines = [line.strip() for line in raw_text.strip().split("\n") if line.strip()]
+        
+        recommend_lines = []
+        for line in lines:
+            if "|" in line:
+                part0 = line.split("|")[0].strip()
+                if re.match(r"^m\d+$", part0, re.IGNORECASE):
+                    recommend_lines.append(line)
+        
+        raw_dict = {
+            "criteriaSummary": criteria_summary,
+            "recommendations": []
+        }
+        
+        if recommend_lines:
+            raw_dict["mode"] = "recommend"
+            for line in recommend_lines:
+                parts = line.split("|", 1)
+                raw_mid = parts[0].strip().lower()
+                # normalize M001 -> m1
+                if raw_mid.startswith("m"):
+                    num = raw_mid[1:].lstrip("0")
+                    if not num: num = "0"
+                    normalized_mid = "m" + num
+                else:
+                    normalized_mid = raw_mid
+                
+                raw_dict["recommendations"].append({
+                    "mealId": normalized_mid,
+                    "reason": parts[1].strip(),
+                    "confidence": "cao"
+                })
+        elif "http" in raw_text.lower() or "shopeefood" in raw_text.lower():
+            raw_dict["mode"] = "external_link"
+            raw_dict["clarifyQuestion"] = raw_text.strip()
+        else:
+            raw_dict["mode"] = "clarify"
+            raw_dict["clarifyQuestion"] = raw_text.strip()
+
+        validated = validate_recommendations(raw_dict, allowed_ids)
         if (
             validated["mode"] == "recommend"
-            and len(validated["recommendations"]) < 3
+            and len(validated["recommendations"]) == 0
         ):
             merged = fallback_recommend(filtered, validated["criteriaSummary"])
-            merged["aiSource"] = "llm+rule"
+            merged["aiSource"] = "llm+rule (0 matches)"
             return jsonify(merged)
 
         validated["aiSource"] = "llm"

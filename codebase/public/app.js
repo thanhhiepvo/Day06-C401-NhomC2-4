@@ -26,13 +26,27 @@ const CLARIFY_CHIPS = ["Ăn no", "Ăn nhẹ", "Tiết kiệm"];
 
 const REFINE_CHIPS = ["Không cay", "Rẻ hơn", "Giao nhanh hơn", "Đổi món"];
 
+const savedState = JSON.parse(localStorage.getItem('qmp_state') || '{}');
 const state = {
-  selectedPrefs: new Set(),
-  corrections: [],
-  clarifyAnswer: null,
-  prompt: "",
+  selectedPrefs: new Set(savedState.selectedPrefs || []),
+  corrections: savedState.corrections || [],
+  clarifyAnswer: savedState.clarifyAnswer || null,
+  prompt: savedState.prompt || "",
   busy: false,
 };
+
+let chatSegments = JSON.parse(localStorage.getItem('qmp_chat_segments') || '[]');
+let isRestoring = false;
+
+function saveState() {
+  const stateToSave = {
+    ...state,
+    selectedPrefs: [...state.selectedPrefs],
+    busy: false
+  };
+  localStorage.setItem('qmp_state', JSON.stringify(stateToSave));
+  localStorage.setItem('qmp_chat_segments', JSON.stringify(chatSegments));
+}
 
 function parseHistory() {
   const raw = $("#history").value.trim();
@@ -67,7 +81,12 @@ function parseUserMessage(text) {
   }
 
   state.selectedPrefs = prefs;
-  state.prompt = text.trim();
+  if (state.prompt) {
+    state.prompt += "\nUser: " + text.trim();
+  } else {
+    state.prompt = "User: " + text.trim();
+  }
+  saveState();
 }
 
 function getPayload(extra = {}) {
@@ -138,6 +157,12 @@ function appendMessage(role, html, meta = "") {
   `;
   $("#chat-messages").appendChild(row);
   scrollToBottom();
+  
+  if (!isRestoring) {
+    chatSegments.push({ role, html, meta });
+    saveState();
+  }
+  
   return row;
 }
 
@@ -262,12 +287,30 @@ function handleBotResponse(data) {
     : "";
 
   if (data.mode === "clarify") {
+    let question = data.clarifyQuestion || "Bạn muốn ăn no, ăn nhẹ hay tiết kiệm?";
+    state.prompt += "\nAI: " + question;
+    saveState();
     appendMessage(
       "bot",
-      `<p>${escapeHtml(data.clarifyQuestion || "Bạn muốn ăn no, ăn nhẹ hay tiết kiệm?")}</p>${criteria}`,
+      `<p>${escapeHtml(question)}</p>${criteria}`,
       "Cần thêm thông tin"
     );
     setQuickReplies(CLARIFY_CHIPS, handleClarifyChip);
+    return;
+  }
+
+  if (data.mode === "external_link") {
+    let question = data.clarifyQuestion || "";
+    state.prompt += "\nAI: " + question;
+    saveState();
+    let msg = escapeHtml(question);
+    msg = msg.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank">$1</a>');
+    appendMessage(
+      "bot",
+      `<p>${msg}</p>${criteria}`,
+      "Gợi ý ngoài"
+    );
+    setQuickReplies(STARTER_CHIPS, (label) => sendUserText(label));
     return;
   }
 
@@ -311,7 +354,7 @@ async function sendUserText(text, { skipParse = false } = {}) {
 function handleClarifyChip(label) {
   state.clarifyAnswer = label;
   if (!state.selectedPrefs.has(label)) state.selectedPrefs.add(label);
-  if (!$("#budget").value.trim()) $("#budget").value = "50000";
+  saveState();
   sendUserText(label, { skipParse: true });
 }
 
@@ -320,6 +363,7 @@ function handleRefineChip(label) {
   if (label === "Không cay" && !state.selectedPrefs.has("Không cay")) {
     state.selectedPrefs.add("Không cay");
   }
+  saveState();
   sendUserText(label, { skipParse: true });
 }
 
@@ -329,8 +373,12 @@ function resetChat() {
   state.clarifyAnswer = null;
   state.prompt = "";
   state.busy = false;
-  $("#budget").value = "50000";
-  $("#time-slot").value = "trưa";
+  chatSegments = [];
+  saveState();
+  
+  $("#budget").value = "";
+  $("#time-slot").value = "";
+  $("#history").value = "";
   $("#chat-messages").innerHTML = "";
   clearQuickReplies();
   showWelcome();
@@ -376,4 +424,28 @@ $("#chat-form").addEventListener("submit", (e) => {
 $("#btn-reset").addEventListener("click", resetChat);
 
 initHealth();
-showWelcome();
+
+if (chatSegments.length > 0) {
+  isRestoring = true;
+  chatSegments.forEach(seg => appendMessage(seg.role, seg.html, seg.meta));
+  isRestoring = false;
+  
+  // Re-bind click events on restored buttons if any
+  wirePickButtons($("#chat-messages"));
+  
+  // If the last bot message was a recommendation, show refine chips
+  const lastBotMessage = chatSegments.filter(s => s.role === 'bot').pop();
+  if (lastBotMessage) {
+    if (lastBotMessage.meta === "Cần thêm thông tin") {
+      setQuickReplies(CLARIFY_CHIPS, handleClarifyChip);
+    } else if (lastBotMessage.meta === "Gợi ý xong") {
+      setQuickReplies(REFINE_CHIPS, handleRefineChip);
+    } else {
+      setQuickReplies(STARTER_CHIPS, (label) => sendUserText(label));
+    }
+  } else {
+    setQuickReplies(STARTER_CHIPS, (label) => sendUserText(label));
+  }
+} else {
+  showWelcome();
+}

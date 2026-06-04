@@ -178,5 +178,29 @@
     "filling": "nhe",
     "rating": 4.4,
     "tags": ["an-nhe", "re", "khuya"]
+  },
+  {
+    "id": "m16",
+    "name": "Cơm trộn Bibimbap",
+    "restaurant": "K-Food Express",
+    "price": 55000,
+    "etaMinutes": 22,
+    "category": "cơm",
+    "spicy": false,
+    "filling": "no",
+    "rating": 4.5,
+    "tags": ["an-no", "mon-han"]
+  },
+  {
+    "id": "m17",
+    "name": "Gà rán Hàn Quốc",
+    "restaurant": "Seoul Chicken",
+    "price": 75000,
+    "etaMinutes": 25,
+    "category": "fastfood",
+    "spicy": true,
+    "filling": "no",
+    "rating": 4.6,
+    "tags": ["cay", "mon-han", "chi-em"]
   }
 ]
