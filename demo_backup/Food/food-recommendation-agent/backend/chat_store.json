@@ -1,0 +1,1410 @@
+{
+  "1b31317c-fd59-453e-9b09-ed7390c54b3d": {
+    "session_id": "1b31317c-fd59-453e-9b09-ed7390c54b3d",
+    "old_intent": null,
+    "messages": [],
+    "last_recommendations": [],
+    "last_filters": {}
+  },
+  "c6713404-212b-48d6-a017-9af18389a992": {
+    "session_id": "c6713404-212b-48d6-a017-9af18389a992",
+    "old_intent": null,
+    "messages": [],
+    "last_recommendations": [],
+    "last_filters": {}
+  },
+  "b4e34550-228b-436f-98b7-bcb06f63b9f8": {
+    "session_id": "b4e34550-228b-436f-98b7-bcb06f63b9f8",
+    "old_intent": "filter_food",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Món Chiên Xào"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Bò Xào Măng Tây (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 99.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 79.200đ\n- Rating: 4.8\n- Thời gian dự kiến: 25 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 79200đ, dự kiến 25 phút, đã bán 1359, voucher 20.0%, phù hợp danh mục chiên xào.\n- Link món: https://www.foodhub.vn/592682-bo-xao-mang-tay-4-nguoi-an-350gr\n\n2. Nem Thịt Lợn Quế - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 8.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 7.200đ\n- Rating: 4.6\n- Thời gian dự kiến: 24 phút\n- Lý do: Món này nổi bật vì rating 4.6, giá sau voucher 7200đ, dự kiến 24 phút, đã bán 1373, voucher 10.0%, phù hợp danh mục chiên xào.\n- Link món: https://www.foodhub.vn/nem-thit-10-chiec-khay\n\n3. Diềm Bò Xào Cải Bó Xôi (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 89.000đ\n- Voucher: 5.0%\n- Giá sau voucher: 84.550đ\n- Rating: 4.9\n- Thời gian dự kiến: 20 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 84550đ, dự kiến 20 phút, đã bán 1330, voucher 5.0%, phù hợp danh mục chiên xào.\n- Link món: https://www.foodhub.vn/diem-bo-xao-cai-bo-xoi-4-nguoi-an\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "Giao nhanh"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Cải Ngọt Nhặt Sẵn (Túi ~ 200gr) - THÁI ECO FARM\n- Danh mục: Rau, Củ Sơ Chế Sẵn\n- Giá gốc: 20.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 17.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui\n\n2. Xương Cục Lợn bản (~500gr) - Bình Minh Farm\n- Danh mục: Lợn\n- Giá gốc: 56.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 42.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 23 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr\n\n3. Rau Mùi Tàu Thái ECO (100gr/ Túi) - Thái Eco\n- Danh mục: Rau, Củ Gia Vị\n- Giá gốc: 9.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 8.100đ\n- Rating: 4.8\n- Thời gian dự kiến: 21 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "Cho tôi link món số 1"
+      },
+      {
+        "role": "assistant",
+        "content": "Link món số 1: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui"
+      },
+      {
+        "role": "user",
+        "content": "thời gian  giao hàng dưới 30 phút"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Cải Ngọt Nhặt Sẵn (Túi ~ 200gr) - THÁI ECO FARM\n- Danh mục: Rau, Củ Sơ Chế Sẵn\n- Giá gốc: 20.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 17.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui\n\n2. Xương Cục Lợn bản (~500gr) - Bình Minh Farm\n- Danh mục: Lợn\n- Giá gốc: 56.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 42.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 23 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr\n\n3. Rau Mùi Tàu Thái ECO (100gr/ Túi) - Thái Eco\n- Danh mục: Rau, Củ Gia Vị\n- Giá gốc: 9.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 8.100đ\n- Rating: 4.8\n- Thời gian dự kiến: 21 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "bạn chưa hiển thị thẻ ở bên cạnh"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Canh Ngao Mồng Tơi (4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Canh\n- Giá gốc: 88.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 70.400đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 70400đ, dự kiến 16 phút, đã bán 1271, voucher 20.0%, phù hợp danh mục canh.\n- Link món: https://www.foodhub.vn/canh-mong-toi-nau-ngao-set-danh-cho-3-4-nguoi-an\n\n2. Canh Rau Ngót Thịt Lợn Quế Bằm (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Canh\n- Giá gốc: 65.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 58.500đ\n- Rating: 4.9\n- Thời gian dự kiến: 24 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 58500đ, dự kiến 24 phút, đã bán 1246, voucher 10.0%, phù hợp danh mục canh.\n- Link món: https://www.foodhub.vn/set-canh-rau-ngot-thit-bam\n\n3. Canh Rau Dền Thịt Lợn Quế Bằm (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Canh\n- Giá gốc: 65.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 48.750đ\n- Rating: 4.5\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 48750đ, dự kiến 31 phút, đã bán 1008, voucher 25.0%, phù hợp danh mục canh.\n- Link món: https://www.foodhub.vn/canh-rau-den-nau-thit-bam-4-nguoi-an\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/canh-mong-toi-nau-ngao-set-danh-cho-3-4-nguoi-an",
+        "name": "Canh Ngao Mồng Tơi (4 Người Ăn)",
+        "brand": "FoodHub Kitchen",
+        "category": "Món Canh",
+        "price": 88000,
+        "parsed_price": 88000,
+        "new_price": 70400,
+        "voucher": 20.0,
+        "rating": 4.5,
+        "distance_km": 1.1,
+        "prep_time_minutes": 14.0,
+        "estimated_time_minutes": 16,
+        "sold_count": 1271,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/1659671631-phpviwnpf.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/1659672586-phpsgprgf.png",
+          "https://cdn.abphotos.link/photos/resized/450x450/1659671631-phpviwnpf.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "Việt Nam English",
+          "Việt Nam",
+          "English",
+          "Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả",
+          "Liên hệ",
+          "Giới thiệu",
+          "Đăng Nhập"
+        ],
+        "origin": "['Làm sạch theo công nghệ Hà Lan, loại bỏ hoàn toàn cát, chất bẩn, vi khuẩn gây bệnh', 'Đóng gói kín, hút chân không', 'Mọi khâu từ tuyển chọn nguyên liệu tới, đóng bao bì đều diễn ra khép kín dưới sự giám sát và kiểm tra nghiêm ngặt, người tiêu dùng hoàn toàn có thể yên tâm khi lựa chọn.']",
+        "product_info": "Canh ngao mồng tơi là món ăn dân dã và có tác dụng giải nhiệt cơ thể rất tốt. Set canh ngao với thành phần là 600gr ngao sạch Lenger và 400gr rau mồng tơi Thái Eco được nhặt và rửa sẵn, cùng gói nước cốt canh xương hầm, mẹ chỉ cần cho vào nấu 3-5 phút là có ngay món ăn ngon. Một set canh ngao phù hợp cho 4 người ăn thoái mái.",
+        "description": "",
+        "product_code": "8100907",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 70400đ, dự kiến 16 phút, đã bán 1271, voucher 20.0%, phù hợp danh mục canh."
+      },
+      {
+        "url": "https://www.foodhub.vn/set-canh-rau-ngot-thit-bam",
+        "name": "Canh Rau Ngót Thịt Lợn Quế Bằm (3-4 Người Ăn)",
+        "brand": "FoodHub Kitchen",
+        "category": "Món Canh",
+        "price": 65000,
+        "parsed_price": 65000,
+        "new_price": 58500,
+        "voucher": 10.0,
+        "rating": 4.9,
+        "distance_km": 1.4,
+        "prep_time_minutes": 21.0,
+        "estimated_time_minutes": 24,
+        "sold_count": 1246,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/10/11/1665460011_gUDnpEAreVRWOobT_1665467729-phpcb26xa.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/10/11/1665460029_pkUj06WK98grqMYo_1665462542-php2pynfz.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/10/11/1665460044_D6OUn9xkviQ2dy5N_1665469813-php95zpcg.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/10/11/1665460099_IG5v3Fu7fSj6Uqib_1665466696-phpsyqywt.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/10/11/1665460117_JpBFGRlmztNTSIsu_1665462894-phpanxcc4.png",
+          "https://cdn.abphotos.link/photos/resized/450x450/2022/10/11/1665460011_gUDnpEAreVRWOobT_1665467729-phpcb26xa.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "Nước cốt xương hầm lợn quế: 200ml",
+          "Rau ngót Thái Eco làm sạch: 300gr",
+          "Thịt vai Lợn Quế xay: 100gr",
+          "Hành khô bóc vỏ: 10gr"
+        ],
+        "origin": "['Được nhập trực tiếp từ nông trại Thái ECO.', 'Ứng dụng mô hình nông nghiệp sạch công nghệ cao.', 'Không bị lệ thuộc vào việc sử dụng các loại thuốc trừ sâu và phân bón hoá học.', 'Đảm bảo không chỉ ngon mà còn phải tươi.']",
+        "product_info": "Set canh gồm nước cốt xương hầm và thịt băm ốc quế ngọt thịt Bình Minh Farm, kết hợp với rau ngót thanh mát thu hoạch từ nông trại Thái ECO cho món canh đậm đà, hấp dẫn. Canh định lượng phù hợp cho 3-4 người ăn, mẹ đem về chỉ việc đun nấu thêm 3-5 phút là có món ngon hoàn chỉnh.",
+        "description": "Set canh gồm nước cốt xương hầm và thịt băm ốc quế ngọt thịt Bình Minh Farm, kết hợp với rau ngót thanh mát thu hoạch từ nông trại Thái ECO cho món canh đậm đà, hấp dẫn. Canh định lượng phù hợp cho 3-4 người ăn, mẹ đem về chỉ việc đun nấu thêm 3-5 phút là có món ngon hoàn chỉnh. Sản phẩm được sơ chế, chế biến tại bếp FoodHub đạt tiêu chuẩn ISO 22000:2018.",
+        "product_code": "8100209",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.9, giá sau voucher 58500đ, dự kiến 24 phút, đã bán 1246, voucher 10.0%, phù hợp danh mục canh."
+      },
+      {
+        "url": "https://www.foodhub.vn/canh-rau-den-nau-thit-bam-4-nguoi-an",
+        "name": "Canh Rau Dền Thịt Lợn Quế Bằm (3-4 Người Ăn)",
+        "brand": "FoodHub Kitchen",
+        "category": "Món Canh",
+        "price": 65000,
+        "parsed_price": 65000,
+        "new_price": 48750,
+        "voucher": 25.0,
+        "rating": 4.5,
+        "distance_km": 3.0,
+        "prep_time_minutes": 25.0,
+        "estimated_time_minutes": 31,
+        "sold_count": 1008,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/1658209785-phpqirdty.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/1658212412-phpejygpd.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/1659156511-phpcaogdn.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/1659156899-phpl0m03e.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/1659157326-phpfoyrgh.png",
+          "https://cdn.abphotos.link/photos/resized/450x450/1659157326-phpfoyrgh.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "Rau dền Thái Eco đã sơ chế: 300gr",
+          "Thịt vai Lợn Quế xay: 100gr",
+          "Hành khô bóc sẵn: 20gr",
+          "Cốt canh: 200ml"
+        ],
+        "origin": "['Được nuôi bằng giun quế với hàng lượng protein rất lớn, lên tới 70% hạm lượng cơ thể, bổ sung dinh dưỡng cho vật nuôi.', 'Giống lợn đều được tuyển chọn vô cùng kỹ càng với công nghệ chăn nuôi đạt tiêu chuẩn VIETGAP kết hợp dinh dưỡng bổ sung từ dịch Trùn quế.', 'Thịt lợn có mùi thơm và vị ngọt đậm đặc trưng riêng khác biệt so với thịt lợn nuôi thông thường.']",
+        "product_info": "Set canh bao gồm Rau dền tươi Thái ECO hái trong ngày đảm bảo sạch, mới cùng nước cốt canh xương hầm và thịt lợn quế bằm Bình Minh Farm có vị ngọt thơm tạo thành món canh giải nhiệt hảo hạn. Set canh phù hợp cho 3-4 người ăn, đã được sơ chế sẵn, mẹ chỉ việc đem về thao tác thêm 3-5 phút là có món ngon hoàn chỉnh.",
+        "description": "Set canh bao gồm Rau dền tươi Thái ECO hái trong ngày đảm bảo sạch, mới cùng nước cốt canh xương hầm và thịt lợn quế bằm Bình Minh Farm có vị ngọt thơm tạo thành món canh giải nhiệt hảo hạn. Set canh phù hợp cho 3-4 người ăn, đã được sơ chế sẵn, mẹ chỉ việc đem về thao tác thêm 3-5 phút là có món ngon hoàn chỉnh. Sản phẩm được sơ chế, chế biến tại bếp FoodHub đạt tiêu chuẩn ISO 22000:2018.",
+        "product_code": "8102361",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 48750đ, dự kiến 31 phút, đã bán 1008, voucher 25.0%, phù hợp danh mục canh."
+      }
+    ],
+    "last_filters": {}
+  },
+  "9d4e7258-6365-47e1-9d37-abe4fe341e63": {
+    "session_id": "9d4e7258-6365-47e1-9d37-abe4fe341e63",
+    "old_intent": "recommend_food",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tôi muốn TRÁI CÂY"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Dừa Xiêm - KATAFOOD\n- Danh mục: TRÁI CÂY\n- Giá gốc: 30.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 24.000đ\n- Rating: 4.7\n- Thời gian dự kiến: 41 phút\n- Lý do: Món này nổi bật vì rating 4.7, giá sau voucher 24000đ, dự kiến 41 phút, đã bán 1276, voucher 20.0%, phù hợp danh mục TRÁI CÂY.\n- Link món: https://www.foodhub.vn/dua-xiem-so\n\n2. Măng cụt (kg) - KATAFOOD\n- Danh mục: TRÁI CÂY\n- Giá gốc: 85.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 63.750đ\n- Rating: 4.4\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 4.4, giá sau voucher 63750đ, dự kiến 31 phút, đã bán 521, voucher 25.0%, phù hợp danh mục TRÁI CÂY.\n- Link món: https://www.foodhub.vn/mang-cut\n\n3. Dưa Kim Hoàng Hậu (Kg) - Lam Sơn\n- Danh mục: TRÁI CÂY\n- Giá gốc: 90.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 67.500đ\n- Rating: 3.8\n- Thời gian dự kiến: 32 phút\n- Lý do: Món này nổi bật vì rating 3.8, giá sau voucher 67500đ, dự kiến 32 phút, đã bán 363, voucher 25.0%, phù hợp danh mục TRÁI CÂY.\n- Link món: https://www.foodhub.vn/dua-kim-hoang-hau\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "tôi muốn ít hơn 30 phút cơ"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Cải Ngọt Nhặt Sẵn (Túi ~ 200gr) - THÁI ECO FARM\n- Danh mục: Rau, Củ Sơ Chế Sẵn\n- Giá gốc: 20.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 17.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%.\n- Link món: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui\n\n2. Xương Cục Lợn bản (~500gr) - Bình Minh Farm\n- Danh mục: Lợn\n- Giá gốc: 56.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 42.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 23 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%.\n- Link món: https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr\n\n3. Rau Mùi Tàu Thái ECO (100gr/ Túi) - Thái Eco\n- Danh mục: Rau, Củ Gia Vị\n- Giá gốc: 9.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 8.100đ\n- Rating: 4.8\n- Thời gian dự kiến: 21 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%.\n- Link món: https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui",
+        "name": "Cải Ngọt Nhặt Sẵn (Túi ~ 200gr)",
+        "brand": "THÁI ECO FARM",
+        "category": "Rau, Củ Sơ Chế Sẵn",
+        "price": 20000,
+        "parsed_price": 20000,
+        "new_price": 17000,
+        "voucher": 15.0,
+        "rating": 4.5,
+        "distance_km": 1.5,
+        "prep_time_minutes": 13.0,
+        "estimated_time_minutes": 16,
+        "sold_count": 1392,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/05/18/1684399970_gq9dutBiYESb3h1G_1684407164-phpwjwalu.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Cải Ngọt Nhặt Sẵn định lượng 200gr một túi. Nguồn gốc: Thái ECO Rau xanh, được sơ chế sẵn, nhặt bỏ lá vàng, lá héo úa, lá già.",
+        "description": "Cải Ngọt Nhặt Sẵn được đầu bếp FoodHub sơ chế tỉ mỉ, đảm bảo nguyên liệu tươi mới, chất lượng khi giao đến khách hàng.",
+        "product_code": "8102435",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%."
+      },
+      {
+        "url": "https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr",
+        "name": "Xương Cục Lợn bản (~500gr)",
+        "brand": "Bình Minh Farm",
+        "category": "Lợn",
+        "price": 56000,
+        "parsed_price": 56000,
+        "new_price": 42000,
+        "voucher": 25.0,
+        "rating": 4.5,
+        "distance_km": 1.8,
+        "prep_time_minutes": 19.0,
+        "estimated_time_minutes": 23,
+        "sold_count": 1389,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/23/1663899394_LG0Sm2AP6CHKD7hT_1663904999-phpzz38bc.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Xương Cục Lợn Quế định lượng 300gr một khay Nguồn gốc: Bình Minh Farm Đặc điểm: Tươi, chắc, đã được lọc bỏ gân, cơ, mỡ",
+        "description": "Xương Cục Lợn Quế có chứa nhiều dinh dưỡng như vitamin, khoáng chất dễ hấp thụ. Nguyên liệu được nhập trực tiếp từ trang trại Bình Minh, đảm bảo tươi mới, không chứa chất bảo quản, đóng gói tiêu chuẩn. Thông tin sản phẩm Xương cục là toàn bộ phần xương của con lợn đã được lọc bỏ thịt, gân, cơ, mỡ. Trong xương có chứa rất nhiều chất dinh dưỡng và khoáng chất có lợi cho sức khỏe. Xương khi ninh lên có vị hơi mặn, ngọt, giúp tăng cường các chức năng hoạt động của da, phát triển cơ bắp, tăng huyết mạch, tiêu khát, giải độc, hạn chế nguy cơ mắc các bệnh loãng xương, cải thiện hệ tiêu hóa,... Xương cục khi hầm càng lâu càng cho ra phần nước ngọt, làm canh, nước cốt các loại bún, phở, hủ tiếu,... rất ngon.",
+        "product_code": "8101741",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%."
+      },
+      {
+        "url": "https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui",
+        "name": "Rau Mùi Tàu Thái ECO (100gr/ Túi)",
+        "brand": "Thái Eco",
+        "category": "Rau, Củ Gia Vị",
+        "price": 9000,
+        "parsed_price": 9000,
+        "new_price": 8100,
+        "voucher": 10.0,
+        "rating": 4.8,
+        "distance_km": 1.5,
+        "prep_time_minutes": 18.0,
+        "estimated_time_minutes": 21,
+        "sold_count": 1035,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/04/25/1682397099_oSLtu2jw1Ea8CTMZ_1682402331-phppxe4gu.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Rau Mùi Tầu Thái ECO đóng gói túi 100gr. Nguồn gốc: Thái ECO Đặc điểm: tươi, xanh, thơm đặc trưng.",
+        "description": "Rau Mùi Tầu Thái ECO được lấy trực tiếp từ trang trại Thái ECO trong ngày, đảm bảo nguyên liệu sạch, tươi mới. Đơn hàng đầu tiên mua qua app FoodHub được giảm 50.000VNĐ.",
+        "product_code": "8102373",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%."
+      }
+    ],
+    "last_filters": {}
+  },
+  "89a9d669-a311-4f56-84c4-df23112282cd": {
+    "session_id": "89a9d669-a311-4f56-84c4-df23112282cd",
+    "old_intent": "recommend_food",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tôi muốn món giá rẻ hơn"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Cải Ngọt Nhặt Sẵn (Túi ~ 200gr) - THÁI ECO FARM\n- Danh mục: Rau, Củ Sơ Chế Sẵn\n- Giá gốc: 20.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 17.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%.\n- Link món: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui\n\n2. Xương Cục Lợn bản (~500gr) - Bình Minh Farm\n- Danh mục: Lợn\n- Giá gốc: 56.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 42.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 23 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%.\n- Link món: https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr\n\n3. Rau Mùi Tàu Thái ECO (100gr/ Túi) - Thái Eco\n- Danh mục: Rau, Củ Gia Vị\n- Giá gốc: 9.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 8.100đ\n- Rating: 4.8\n- Thời gian dự kiến: 21 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%.\n- Link món: https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "Tôi muốn Gạo, mỳ, miến"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Mỳ Chũ Nam Dương (400gr/Túi) - Donavi\n- Danh mục: Gạo, mỳ, miến\n- Giá gốc: 24.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 18.000đ\n- Rating: 4.9\n- Thời gian dự kiến: 47 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 18000đ, dự kiến 47 phút, đã bán 1018, voucher 25.0%, phù hợp danh mục Gạo, mỳ, miến.\n- Link món: https://www.foodhub.vn/my-chu-nam-duong-400g\n\n2. Phở Khô DONAVI (400gr/ Gói) - Donavi\n- Danh mục: Gạo, mỳ, miến\n- Giá gốc: 20.000đ\n- Voucher: 0.0%\n- Giá sau voucher: 20.000đ\n- Rating: 4.8\n- Thời gian dự kiến: 26 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 20000đ, dự kiến 26 phút, đã bán 957, phù hợp danh mục Gạo, mỳ, miến.\n- Link món: https://www.foodhub.vn/pho-kho-donavi-400gr-goi\n\n3. Miến Kiên Sơn (250gr) - Miến Kiên Sơn\n- Danh mục: Gạo, mỳ, miến\n- Giá gốc: 35.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 29.750đ\n- Rating: 4.5\n- Thời gian dự kiến: 22 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 29750đ, dự kiến 22 phút, đã bán 501, voucher 15.0%, phù hợp danh mục Gạo, mỳ, miến.\n- Link món: https://www.foodhub.vn/mien-kien-son-tui-250gr\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "Tôi muốn TRÁI CÂY"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Dừa Xiêm - KATAFOOD\n- Danh mục: TRÁI CÂY\n- Giá gốc: 30.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 24.000đ\n- Rating: 4.7\n- Thời gian dự kiến: 41 phút\n- Lý do: Món này nổi bật vì rating 4.7, giá sau voucher 24000đ, dự kiến 41 phút, đã bán 1276, voucher 20.0%, phù hợp danh mục TRÁI CÂY.\n- Link món: https://www.foodhub.vn/dua-xiem-so\n\n2. Măng cụt (kg) - KATAFOOD\n- Danh mục: TRÁI CÂY\n- Giá gốc: 85.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 63.750đ\n- Rating: 4.4\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 4.4, giá sau voucher 63750đ, dự kiến 31 phút, đã bán 521, voucher 25.0%, phù hợp danh mục TRÁI CÂY.\n- Link món: https://www.foodhub.vn/mang-cut\n\n3. Dưa Kim Hoàng Hậu (Kg) - Lam Sơn\n- Danh mục: TRÁI CÂY\n- Giá gốc: 90.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 67.500đ\n- Rating: 3.8\n- Thời gian dự kiến: 32 phút\n- Lý do: Món này nổi bật vì rating 3.8, giá sau voucher 67500đ, dự kiến 32 phút, đã bán 363, voucher 25.0%, phù hợp danh mục TRÁI CÂY.\n- Link món: https://www.foodhub.vn/dua-kim-hoang-hau\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "giới thiệu món số 1"
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin món số 1:\n\n- Tên món: Dừa Xiêm\n- Quán/brand: KATAFOOD\n- Danh mục: TRÁI CÂY\n- Giá gốc: 30.000đ\n- Giá sau voucher: 24.000đ\n- Voucher: 20.0%\n- Rating: 4.7\n- Lượt bán: 1276\n- Thời gian dự kiến: 41 phút\n- Nguyên liệu: Chưa có thông tin trong dataset.\n- Thông tin sản phẩm: Dừa xiêm trọc nhiều nước, quả ngọt thanh đặc trưng Thơm ngon, mát lành tự nhiên giúp giải khát cho mùa hè\n- Mô tả: Dừa xiêm là loại nước giải khát cực kỳ yêu thích cho mùa hè này. Nước dừa ngọt thanh lại vô cùng an toàn. Hướng dẫn bảo quản: Nhiệt độc 2 - 5 độ C: 25 - 30 ngày. Để nơi thoáng mát tránh ánh nắng trực tiếp từ mặt trời: 5 - 7 ngày\n- Link món: https://www.foodhub.vn/dua-xiem-so"
+      },
+      {
+        "role": "user",
+        "content": "Tôi muốn MÂM CỖ RẰM LỄ"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Xôi gấc đĩa 1,5kg - FoodHub Kitchen\n- Danh mục: RẰM & LỄ\n- Giá gốc: 80.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 68.000đ\n- Rating: 3.3\n- Thời gian dự kiến: 22 phút\n- Lý do: Món này nổi bật vì rating 3.3, giá sau voucher 68000đ, dự kiến 22 phút, đã bán 373, voucher 15.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ'].\n- Link món: https://www.foodhub.vn/xoi-gac-dia-15kg\n\n2. Xôi Gấc, Gà Lễ Cánh Tiên - FoodHub Kitchen\n- Danh mục: MÂM CỖ RẰM LỄ\n- Giá gốc: 490.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 392.000đ\n- Rating: 3.1\n- Thời gian dự kiến: 40 phút\n- Lý do: Món này nổi bật vì rating 3.1, giá sau voucher 392000đ, dự kiến 40 phút, đã bán 1490, voucher 20.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ'].\n- Link món: https://www.foodhub.vn/xoi-gac-ga-le-canh-tien\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "Tôi muốn MÂM CỖ RẰM LỄ"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Xôi gấc đĩa 1,5kg - FoodHub Kitchen\n- Danh mục: RẰM & LỄ\n- Giá gốc: 80.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 68.000đ\n- Rating: 3.3\n- Thời gian dự kiến: 22 phút\n- Lý do: Món này nổi bật vì rating 3.3, giá sau voucher 68000đ, dự kiến 22 phút, đã bán 373, voucher 15.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ'].\n- Link món: https://www.foodhub.vn/xoi-gac-dia-15kg\n\n2. Xôi Gấc, Gà Lễ Cánh Tiên - FoodHub Kitchen\n- Danh mục: MÂM CỖ RẰM LỄ\n- Giá gốc: 490.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 392.000đ\n- Rating: 3.1\n- Thời gian dự kiến: 40 phút\n- Lý do: Món này nổi bật vì rating 3.1, giá sau voucher 392000đ, dự kiến 40 phút, đã bán 1490, voucher 20.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ'].\n- Link món: https://www.foodhub.vn/xoi-gac-ga-le-canh-tien\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/xoi-gac-dia-15kg",
+        "name": "Xôi gấc đĩa 1,5kg",
+        "brand": "FoodHub Kitchen",
+        "category": "RẰM & LỄ",
+        "price": 80000,
+        "parsed_price": 80000,
+        "new_price": 68000,
+        "voucher": 15.0,
+        "rating": 3.3,
+        "distance_km": 2.6,
+        "prep_time_minutes": 17.0,
+        "estimated_time_minutes": 22,
+        "sold_count": 373,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/15/1663233609_k0io6MbrXT8KEtvq_1663242721-phpp9cklq.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "[]",
+        "product_info": "Xôi gấc được nấu bằng gạo nếp nương Điện Biên loại 1. Món ăn là sự kết hợp giữa vị thơm ngọt của gấc cùng sự thơm dẻo của gạo nếp. Cái vị béo của gấc khi đã được hòa quyện vào những hạt nếp thơm lừng, chỉ cần ăn một lần là nhớ mãi.",
+        "description": "Xôi gấc được nấu bằng gạo nếp nương Điện Biên loại 1. Món ăn là sự kết hợp giữa vị thơm ngọt của gấc cùng sự thơm dẻo của gạo nếp. Cái vị béo của gấc khi đã được hòa quyện vào những hạt nếp thơm lừng, chỉ cần ăn một lần là nhớ mãi. Theo quan niệm của người Việt, màu đỏ là màu của hạnh phúc, màu thắm của sắc xuân, là biểu tượng cho sự may mắn, tốt lành. Trong khi đó, màu đỏ của gấc là màu tự nhiên của đất nên sẽ tạo ra sự dung hòa, thuận lợi cho năm mới. 💚 Công dụng : Xôi gấc không chỉ có tác dụng cung cấp năng lượng cho cơ thể mà còn có tác dụng làm đẹp và giúp cơ thể chống lại một số bệnh thường gặp: tốt cho mắt, hỗ trợ tiêu hoá, tăng cường sức đề kháng Bán chạy Xem tất cả Còn hàng Hành Khô Thái ECO (200gr/ Túi) 19.000đ 31 Đã bán THÁI ECO FARM Còn hàng Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ 25 Đã bán THÁI ECO FARM Bắc Giang Còn hàng Gạo ST25 Ông Cua (5kg/Túi) 225.000đ 23 Đã bán Gạo Ông Cua Còn hàng Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ 20 Đã bán THÁI ECO FARM Còn hàng Rau Muống Thái ECO (400gr/ Túi) 18.000đ 19 Đã bán KATAFOOD Còn hàng Cải Xanh Thái ECO (400gr/ Túi) 21.000đ 19 Đã bán Thái Eco Còn hàng Cải Ngọt Thái ECO (400gr/ Túi) 20.000đ 18 Đã bán THÁI ECO FARM Còn hàng Rau Mồng Tơi Thái ECO (400gr/ Túi) 19.000đ 15 Đã bán THÁI ECO FARM Còn hàng Nhân Lạc Chay Bắc Việt (200gr) 21.000đ 15 Đã bán Bắc Việt Còn hàng Bắp Cải Thái ECO (~1 Kg/ Cây) 24.000đ 13 Đã bán THÁI ECO FARM Còn hàng Cải Bó Xôi Thái ECO (400gr/ Túi) 21.000đ 12 Đã bán THÁI ECO FARM Còn hàng Dưa Muối Chua Nghi Khúc (250gr/ Hộp) 16.000đ 11 Đã bán Tp ABC Sản phẩm đã xem Xem tất cả Còn hàng Xôi gấc đĩa 1,5kg 80.000đ -29 Đã bán FoodHub Kitchen Còn hàng Vịt Xào Sả Ớt (4,5 người ăn) 92.000đ ~ 97.000đ 999 Đã bán FoodHub Kitchen Còn hàng Trà Cà Gai Leo Hapi (Hộp) 110.000đ 999 Đã bán Vitamin D2 Còn hàng Quả Tim Lợn Bản (quả) 175.000đ ~ 350.000đ -4 Đã bán KATAFOOD Còn hàng Thịt Kho Tàu (350g, 4 Người Ăn) 90.000đ ~ 99.000đ 1 Đã bán FoodHub Kitchen Còn hàng Ba Chỉ Rang Cháy Cạnh (350gr/ 4 Người Ăn) 88.000đ ~ 98.000đ -1 Đã bán FoodHub Kitchen Còn hàng Súp Lơ Xanh Thái ECO (350-500gr/ Cái) 19.600đ ~ 28.000đ 999 Đã bán THÁI ECO FARM 20% GIẢM Sườn Lợn Quế Sốt Me (400g, 4 Người Ăn) 130.000đ ~ 135.000đ 104.000đ ~ 109.000đ 999 Đã bán FoodHub Kitchen 18.5% GIẢM Bò Xào Cần Tỏi (4 Người Ăn) 135.000đ ~ 140.000đ 110.000đ ~ 120.000đ 999 Đã bán FoodHub Kitchen Còn hàng Sa Tế Tâm Đức (85gr/Chai) 15.000đ 2 Đã bán Còn hàng Rau Răm Thái ECO (100gr/ Túi) 10.000đ 999 Đã bán THÁI ECO FARM Còn hàng Rau Mùi Ta Thái ECO (100gr/ Túi) 10.000đ 1 Đã bán THÁI ECO FARM Bán chạy Hành Khô Thái ECO (200gr/ Túi) 19.000đ Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ Gạo ST25 Ông Cua (5kg/Túi) 225.000đ Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ Thêm vào giỏ hàng Mua ngay 0888301518 Chat Bạn cần đăng nhập để chat với shop Đăng nhập ngay Bạn có muốn huỷ bỏ đơn hàng này không ? Đơn hàng bị huỷ bỏ sẽ không được Huỷ Xác nhận Chăm sóc khách hàng Trung tâm trợ giúp Hướng dẫn mua hàng Chính sách vận chuyển Về chúng tôi Về FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách thanh toán Điều khoản chính sách Theo dõi chúng tôi Facebook Youtube Đi tới cửa hàng FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách bảo mật Quy chế hoạt động Trả hàng & hoàn tiền Sitemap © 2021. Công ty cổ phần FoodHub Vietnam. GPDKKD: 0107709060 do sở KH & ĐT TP Hà Nội cấp ngày 18/01/2017. Địa chỉ: Số 29, ngõ 66, ngách 66/36, đường Hồ Tùng Mậu, tổ 20, Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam. Cửa hàng: 47 Nguyễn Tuân, quận Thanh Xuân, Thành phố Hà Nội. Điện thoại: 0888.30.15.18. Email: contact@foodhub.vn.",
+        "product_code": "8101211",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 3.3, giá sau voucher 68000đ, dự kiến 22 phút, đã bán 373, voucher 15.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ']."
+      },
+      {
+        "url": "https://www.foodhub.vn/xoi-gac-ga-le-canh-tien",
+        "name": "Xôi Gấc, Gà Lễ Cánh Tiên",
+        "brand": "FoodHub Kitchen",
+        "category": "MÂM CỖ RẰM LỄ",
+        "price": 490000,
+        "parsed_price": 490000,
+        "new_price": 392000,
+        "voucher": 20.0,
+        "rating": 3.1,
+        "distance_km": 7.7,
+        "prep_time_minutes": 25.0,
+        "estimated_time_minutes": 40,
+        "sold_count": 1490,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592440_HhefZ05AV4mLoxjE_1694599239-phpu9ymio.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592476_pc4vY0AKNhRtP3aX_1694597954-phpjqgxmi.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592488_WFHdTfmvRolargGw_1694596194-php3epbfm.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "[]",
+        "product_info": "Một đĩa lớn xôi gấc nếp nương Điện Biên dẻo thơm 1,5kg và 1 con gà trống quế Ba Vì bắt cánh tiên 1,5 - 1,7kg đã được luộc sẵn vàng óng, ngon mắt. Gà cánh tiên đã được bếp trưởng nhiều năm kinh nghiệm bắt cách tiên và luộc sẵn để đảm bảo mẫu mã đẹp để cho mâm lễ càng thêm trang trọng.",
+        "description": "CỖ XÔI GÀ VỚI CÁC SẢN PHẨM DƯỚI ĐÂY Một đĩa lớn xôi gấc nếp nương Điện Biên dẻo thơm 1,5kg và 1 con gà trống bắt cánh tiên ngậm hồng 1,5 - 1,7kg đã được luộc sẵn vàng óng, ngon mắt. Gà cánh tiên đã được bếp trưởng nhiều năm kinh nghiệm bắt cách tiên và luộc sẵn để đảm bảo mẫu mã đẹp để cho mâm lễ càng thêm trang trọng. GÀ QUẾ BẮT CÁNH TIÊN NGẬM HỒNG LUỘC SẴN Gà trống quế thả vườn tại Ba Vì với vị thịt dai, ngọt thơm ngon đặc trưng. Gà trống nguyên con với lớp da vàng óng được đầu bếp FoodHub bắt cánh tiên và luộc sẵn đẹp mắt, kèm một bông hồng để trang trí, góp phần giúp mâm cỗ cúng dâng tổ tiên nhà bạn thêm phần trang trọng, thể hiện được sự tinh tế và tỉ mỉ của người nội trợ trong gia đình. ĐĨA XÔI GẤC NẾP NƯƠNG LOẠI LỚN 1.5KG Đĩa xôi gấc nếp nương Điện Biên loại lớn, có thể bày gà lên đĩa xôi để tăng phần trang trọng. Bán chạy Xem tất cả Còn hàng Hành Khô Thái ECO (200gr/ Túi) 19.000đ 31 Đã bán THÁI ECO FARM Còn hàng Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ 25 Đã bán THÁI ECO FARM Bắc Giang Còn hàng Gạo ST25 Ông Cua (5kg/Túi) 225.000đ 23 Đã bán Gạo Ông Cua Còn hàng Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ 20 Đã bán THÁI ECO FARM Còn hàng Rau Muống Thái ECO (400gr/ Túi) 18.000đ 19 Đã bán KATAFOOD Còn hàng Cải Xanh Thái ECO (400gr/ Túi) 21.000đ 19 Đã bán Thái Eco Còn hàng Cải Ngọt Thái ECO (400gr/ Túi) 20.000đ 18 Đã bán THÁI ECO FARM Còn hàng Rau Mồng Tơi Thái ECO (400gr/ Túi) 19.000đ 15 Đã bán THÁI ECO FARM Còn hàng Nhân Lạc Chay Bắc Việt (200gr) 21.000đ 15 Đã bán Bắc Việt Còn hàng Bắp Cải Thái ECO (~1 Kg/ Cây) 24.000đ 13 Đã bán THÁI ECO FARM Còn hàng Cải Bó Xôi Thái ECO (400gr/ Túi) 21.000đ 12 Đã bán THÁI ECO FARM Còn hàng Dưa Muối Chua Nghi Khúc (250gr/ Hộp) 16.000đ 11 Đã bán Tp ABC Sản phẩm đã xem Xem tất cả Còn hàng Xôi Gấc, Gà Lễ Cánh Tiên 490.000đ -74 Đã bán FoodHub Kitchen Còn hàng Vừng Đen DONAVI (100gr) 17.000đ 1 Đã bán Donavi Còn hàng Trứng cút (30 quả) 35.000đ 3 Đã bán Trứng_An Nhàn Còn hàng Tinh Bột Nghệ (500gr) 105.000đ 999 Đã bán Hạt Thăng Còn hàng Thịt Nạc Vai N21 18.100đ ~ 181.000đ 999 Đã bán CTY CPTM N21 7.1% GIẢM Thịt Lợn Quế Cuốn Lá Lốt (10 Cái) 85.000đ ~ 90.000đ 79.000đ ~ 89.000đ 999 Đã bán FoodHub Kitchen Còn hàng Gia Vị Tần Gà (50gr/ Gói) 20.000đ -39 Đã bán Chinh Spicy 1% GIẢM Sườn Nướng Sa Tế (400gr) 105.000đ ~ 110.000đ 104.000đ ~ 109.000đ 999 Đã bán FoodHub Kitchen Còn hàng Set Đồ Cúng (Tiền Vàng, Rượu, Thuốc, Chè, Trầu Cau, Hoa Cúc) 48.000đ ~ 99.000đ 999 Đã bán FoodHub Kitchen Còn hàng SẦU RIÊNG RI 6 185.000đ -2 Đã bán KATAFOOD Còn hàng Rượu nếp cẩm Mom's Kitchen (hộp 500g) 50.000đ 999 Đã bán Đông Anh Còn hàng Rau Muống Xào Ngao (4 Người Ăn) 88.000đ ~ 98.000đ 2 Đã bán FoodHub Kitchen Bán chạy Hành Khô Thái ECO (200gr/ Túi) 19.000đ Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ Gạo ST25 Ông Cua (5kg/Túi) 225.000đ Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ Thêm vào giỏ hàng Mua ngay 0888301518 Chat Bạn cần đăng nhập để chat với shop Đăng nhập ngay Bạn có muốn huỷ bỏ đơn hàng này không ? Đơn hàng bị huỷ bỏ sẽ không được Huỷ Xác nhận Chăm sóc khách hàng Trung tâm trợ giúp Hướng dẫn mua hàng Chính sách vận chuyển Về chúng tôi Về FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách thanh toán Điều khoản chính sách Theo dõi chúng tôi Facebook Youtube Đi tới cửa hàng FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách bảo mật Quy chế hoạt động Trả hàng & hoàn tiền Sitemap © 2021. Công ty cổ phần FoodHub Vietnam. GPDKKD: 0107709060 do sở KH & ĐT TP Hà Nội cấp ngày 18/01/2017. Địa chỉ: Số 29, ngõ 66, ngách 66/36, đường Hồ Tùng Mậu, tổ 20, Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam. Cửa hàng: 47 Nguyễn Tuân, quận Thanh Xuân, Thành phố Hà Nội. Điện thoại: 0888.30.15.18. Email: contact@foodhub.vn.",
+        "product_code": "8100071",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 3.1, giá sau voucher 392000đ, dự kiến 40 phút, đã bán 1490, voucher 20.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ']."
+      }
+    ],
+    "last_filters": {
+      "category": [
+        "MÂM CỖ RẰM LỄ",
+        "RẰM & LỄ"
+      ]
+    }
+  },
+  "d41cb581-1485-4b5a-901c-74f4d3f7777e": {
+    "session_id": "d41cb581-1485-4b5a-901c-74f4d3f7777e",
+    "old_intent": "recommend_food",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tôi muốn MÂM CỖ RẰM LỄ"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Xôi gấc đĩa 1,5kg - FoodHub Kitchen\n- Danh mục: RẰM & LỄ\n- Giá gốc: 80.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 68.000đ\n- Rating: 3.3\n- Thời gian dự kiến: 22 phút\n- Lý do: Món này nổi bật vì rating 3.3, giá sau voucher 68000đ, dự kiến 22 phút, đã bán 373, voucher 15.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ'].\n- Link món: https://www.foodhub.vn/xoi-gac-dia-15kg\n\n2. Xôi Gấc, Gà Lễ Cánh Tiên - FoodHub Kitchen\n- Danh mục: MÂM CỖ RẰM LỄ\n- Giá gốc: 490.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 392.000đ\n- Rating: 3.1\n- Thời gian dự kiến: 40 phút\n- Lý do: Món này nổi bật vì rating 3.1, giá sau voucher 392000đ, dự kiến 40 phút, đã bán 1490, voucher 20.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ'].\n- Link món: https://www.foodhub.vn/xoi-gac-ga-le-canh-tien\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/xoi-gac-dia-15kg",
+        "name": "Xôi gấc đĩa 1,5kg",
+        "brand": "FoodHub Kitchen",
+        "category": "RẰM & LỄ",
+        "price": 80000,
+        "parsed_price": 80000,
+        "new_price": 68000,
+        "voucher": 15.0,
+        "rating": 3.3,
+        "distance_km": 2.6,
+        "prep_time_minutes": 17.0,
+        "estimated_time_minutes": 22,
+        "sold_count": 373,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/15/1663233609_k0io6MbrXT8KEtvq_1663242721-phpp9cklq.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "[]",
+        "product_info": "Xôi gấc được nấu bằng gạo nếp nương Điện Biên loại 1. Món ăn là sự kết hợp giữa vị thơm ngọt của gấc cùng sự thơm dẻo của gạo nếp. Cái vị béo của gấc khi đã được hòa quyện vào những hạt nếp thơm lừng, chỉ cần ăn một lần là nhớ mãi.",
+        "description": "Xôi gấc được nấu bằng gạo nếp nương Điện Biên loại 1. Món ăn là sự kết hợp giữa vị thơm ngọt của gấc cùng sự thơm dẻo của gạo nếp. Cái vị béo của gấc khi đã được hòa quyện vào những hạt nếp thơm lừng, chỉ cần ăn một lần là nhớ mãi. Theo quan niệm của người Việt, màu đỏ là màu của hạnh phúc, màu thắm của sắc xuân, là biểu tượng cho sự may mắn, tốt lành. Trong khi đó, màu đỏ của gấc là màu tự nhiên của đất nên sẽ tạo ra sự dung hòa, thuận lợi cho năm mới. 💚 Công dụng : Xôi gấc không chỉ có tác dụng cung cấp năng lượng cho cơ thể mà còn có tác dụng làm đẹp và giúp cơ thể chống lại một số bệnh thường gặp: tốt cho mắt, hỗ trợ tiêu hoá, tăng cường sức đề kháng Bán chạy Xem tất cả Còn hàng Hành Khô Thái ECO (200gr/ Túi) 19.000đ 31 Đã bán THÁI ECO FARM Còn hàng Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ 25 Đã bán THÁI ECO FARM Bắc Giang Còn hàng Gạo ST25 Ông Cua (5kg/Túi) 225.000đ 23 Đã bán Gạo Ông Cua Còn hàng Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ 20 Đã bán THÁI ECO FARM Còn hàng Rau Muống Thái ECO (400gr/ Túi) 18.000đ 19 Đã bán KATAFOOD Còn hàng Cải Xanh Thái ECO (400gr/ Túi) 21.000đ 19 Đã bán Thái Eco Còn hàng Cải Ngọt Thái ECO (400gr/ Túi) 20.000đ 18 Đã bán THÁI ECO FARM Còn hàng Rau Mồng Tơi Thái ECO (400gr/ Túi) 19.000đ 15 Đã bán THÁI ECO FARM Còn hàng Nhân Lạc Chay Bắc Việt (200gr) 21.000đ 15 Đã bán Bắc Việt Còn hàng Bắp Cải Thái ECO (~1 Kg/ Cây) 24.000đ 13 Đã bán THÁI ECO FARM Còn hàng Cải Bó Xôi Thái ECO (400gr/ Túi) 21.000đ 12 Đã bán THÁI ECO FARM Còn hàng Dưa Muối Chua Nghi Khúc (250gr/ Hộp) 16.000đ 11 Đã bán Tp ABC Sản phẩm đã xem Xem tất cả Còn hàng Xôi gấc đĩa 1,5kg 80.000đ -29 Đã bán FoodHub Kitchen Còn hàng Vịt Xào Sả Ớt (4,5 người ăn) 92.000đ ~ 97.000đ 999 Đã bán FoodHub Kitchen Còn hàng Trà Cà Gai Leo Hapi (Hộp) 110.000đ 999 Đã bán Vitamin D2 Còn hàng Quả Tim Lợn Bản (quả) 175.000đ ~ 350.000đ -4 Đã bán KATAFOOD Còn hàng Thịt Kho Tàu (350g, 4 Người Ăn) 90.000đ ~ 99.000đ 1 Đã bán FoodHub Kitchen Còn hàng Ba Chỉ Rang Cháy Cạnh (350gr/ 4 Người Ăn) 88.000đ ~ 98.000đ -1 Đã bán FoodHub Kitchen Còn hàng Súp Lơ Xanh Thái ECO (350-500gr/ Cái) 19.600đ ~ 28.000đ 999 Đã bán THÁI ECO FARM 20% GIẢM Sườn Lợn Quế Sốt Me (400g, 4 Người Ăn) 130.000đ ~ 135.000đ 104.000đ ~ 109.000đ 999 Đã bán FoodHub Kitchen 18.5% GIẢM Bò Xào Cần Tỏi (4 Người Ăn) 135.000đ ~ 140.000đ 110.000đ ~ 120.000đ 999 Đã bán FoodHub Kitchen Còn hàng Sa Tế Tâm Đức (85gr/Chai) 15.000đ 2 Đã bán Còn hàng Rau Răm Thái ECO (100gr/ Túi) 10.000đ 999 Đã bán THÁI ECO FARM Còn hàng Rau Mùi Ta Thái ECO (100gr/ Túi) 10.000đ 1 Đã bán THÁI ECO FARM Bán chạy Hành Khô Thái ECO (200gr/ Túi) 19.000đ Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ Gạo ST25 Ông Cua (5kg/Túi) 225.000đ Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ Thêm vào giỏ hàng Mua ngay 0888301518 Chat Bạn cần đăng nhập để chat với shop Đăng nhập ngay Bạn có muốn huỷ bỏ đơn hàng này không ? Đơn hàng bị huỷ bỏ sẽ không được Huỷ Xác nhận Chăm sóc khách hàng Trung tâm trợ giúp Hướng dẫn mua hàng Chính sách vận chuyển Về chúng tôi Về FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách thanh toán Điều khoản chính sách Theo dõi chúng tôi Facebook Youtube Đi tới cửa hàng FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách bảo mật Quy chế hoạt động Trả hàng & hoàn tiền Sitemap © 2021. Công ty cổ phần FoodHub Vietnam. GPDKKD: 0107709060 do sở KH & ĐT TP Hà Nội cấp ngày 18/01/2017. Địa chỉ: Số 29, ngõ 66, ngách 66/36, đường Hồ Tùng Mậu, tổ 20, Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam. Cửa hàng: 47 Nguyễn Tuân, quận Thanh Xuân, Thành phố Hà Nội. Điện thoại: 0888.30.15.18. Email: contact@foodhub.vn.",
+        "product_code": "8101211",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 3.3, giá sau voucher 68000đ, dự kiến 22 phút, đã bán 373, voucher 15.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ']."
+      },
+      {
+        "url": "https://www.foodhub.vn/xoi-gac-ga-le-canh-tien",
+        "name": "Xôi Gấc, Gà Lễ Cánh Tiên",
+        "brand": "FoodHub Kitchen",
+        "category": "MÂM CỖ RẰM LỄ",
+        "price": 490000,
+        "parsed_price": 490000,
+        "new_price": 392000,
+        "voucher": 20.0,
+        "rating": 3.1,
+        "distance_km": 7.7,
+        "prep_time_minutes": 25.0,
+        "estimated_time_minutes": 40,
+        "sold_count": 1490,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592440_HhefZ05AV4mLoxjE_1694599239-phpu9ymio.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592476_pc4vY0AKNhRtP3aX_1694597954-phpjqgxmi.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592488_WFHdTfmvRolargGw_1694596194-php3epbfm.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "[]",
+        "product_info": "Một đĩa lớn xôi gấc nếp nương Điện Biên dẻo thơm 1,5kg và 1 con gà trống quế Ba Vì bắt cánh tiên 1,5 - 1,7kg đã được luộc sẵn vàng óng, ngon mắt. Gà cánh tiên đã được bếp trưởng nhiều năm kinh nghiệm bắt cách tiên và luộc sẵn để đảm bảo mẫu mã đẹp để cho mâm lễ càng thêm trang trọng.",
+        "description": "CỖ XÔI GÀ VỚI CÁC SẢN PHẨM DƯỚI ĐÂY Một đĩa lớn xôi gấc nếp nương Điện Biên dẻo thơm 1,5kg và 1 con gà trống bắt cánh tiên ngậm hồng 1,5 - 1,7kg đã được luộc sẵn vàng óng, ngon mắt. Gà cánh tiên đã được bếp trưởng nhiều năm kinh nghiệm bắt cách tiên và luộc sẵn để đảm bảo mẫu mã đẹp để cho mâm lễ càng thêm trang trọng. GÀ QUẾ BẮT CÁNH TIÊN NGẬM HỒNG LUỘC SẴN Gà trống quế thả vườn tại Ba Vì với vị thịt dai, ngọt thơm ngon đặc trưng. Gà trống nguyên con với lớp da vàng óng được đầu bếp FoodHub bắt cánh tiên và luộc sẵn đẹp mắt, kèm một bông hồng để trang trí, góp phần giúp mâm cỗ cúng dâng tổ tiên nhà bạn thêm phần trang trọng, thể hiện được sự tinh tế và tỉ mỉ của người nội trợ trong gia đình. ĐĨA XÔI GẤC NẾP NƯƠNG LOẠI LỚN 1.5KG Đĩa xôi gấc nếp nương Điện Biên loại lớn, có thể bày gà lên đĩa xôi để tăng phần trang trọng. Bán chạy Xem tất cả Còn hàng Hành Khô Thái ECO (200gr/ Túi) 19.000đ 31 Đã bán THÁI ECO FARM Còn hàng Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ 25 Đã bán THÁI ECO FARM Bắc Giang Còn hàng Gạo ST25 Ông Cua (5kg/Túi) 225.000đ 23 Đã bán Gạo Ông Cua Còn hàng Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ 20 Đã bán THÁI ECO FARM Còn hàng Rau Muống Thái ECO (400gr/ Túi) 18.000đ 19 Đã bán KATAFOOD Còn hàng Cải Xanh Thái ECO (400gr/ Túi) 21.000đ 19 Đã bán Thái Eco Còn hàng Cải Ngọt Thái ECO (400gr/ Túi) 20.000đ 18 Đã bán THÁI ECO FARM Còn hàng Rau Mồng Tơi Thái ECO (400gr/ Túi) 19.000đ 15 Đã bán THÁI ECO FARM Còn hàng Nhân Lạc Chay Bắc Việt (200gr) 21.000đ 15 Đã bán Bắc Việt Còn hàng Bắp Cải Thái ECO (~1 Kg/ Cây) 24.000đ 13 Đã bán THÁI ECO FARM Còn hàng Cải Bó Xôi Thái ECO (400gr/ Túi) 21.000đ 12 Đã bán THÁI ECO FARM Còn hàng Dưa Muối Chua Nghi Khúc (250gr/ Hộp) 16.000đ 11 Đã bán Tp ABC Sản phẩm đã xem Xem tất cả Còn hàng Xôi Gấc, Gà Lễ Cánh Tiên 490.000đ -74 Đã bán FoodHub Kitchen Còn hàng Vừng Đen DONAVI (100gr) 17.000đ 1 Đã bán Donavi Còn hàng Trứng cút (30 quả) 35.000đ 3 Đã bán Trứng_An Nhàn Còn hàng Tinh Bột Nghệ (500gr) 105.000đ 999 Đã bán Hạt Thăng Còn hàng Thịt Nạc Vai N21 18.100đ ~ 181.000đ 999 Đã bán CTY CPTM N21 7.1% GIẢM Thịt Lợn Quế Cuốn Lá Lốt (10 Cái) 85.000đ ~ 90.000đ 79.000đ ~ 89.000đ 999 Đã bán FoodHub Kitchen Còn hàng Gia Vị Tần Gà (50gr/ Gói) 20.000đ -39 Đã bán Chinh Spicy 1% GIẢM Sườn Nướng Sa Tế (400gr) 105.000đ ~ 110.000đ 104.000đ ~ 109.000đ 999 Đã bán FoodHub Kitchen Còn hàng Set Đồ Cúng (Tiền Vàng, Rượu, Thuốc, Chè, Trầu Cau, Hoa Cúc) 48.000đ ~ 99.000đ 999 Đã bán FoodHub Kitchen Còn hàng SẦU RIÊNG RI 6 185.000đ -2 Đã bán KATAFOOD Còn hàng Rượu nếp cẩm Mom's Kitchen (hộp 500g) 50.000đ 999 Đã bán Đông Anh Còn hàng Rau Muống Xào Ngao (4 Người Ăn) 88.000đ ~ 98.000đ 2 Đã bán FoodHub Kitchen Bán chạy Hành Khô Thái ECO (200gr/ Túi) 19.000đ Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ Gạo ST25 Ông Cua (5kg/Túi) 225.000đ Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ Thêm vào giỏ hàng Mua ngay 0888301518 Chat Bạn cần đăng nhập để chat với shop Đăng nhập ngay Bạn có muốn huỷ bỏ đơn hàng này không ? Đơn hàng bị huỷ bỏ sẽ không được Huỷ Xác nhận Chăm sóc khách hàng Trung tâm trợ giúp Hướng dẫn mua hàng Chính sách vận chuyển Về chúng tôi Về FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách thanh toán Điều khoản chính sách Theo dõi chúng tôi Facebook Youtube Đi tới cửa hàng FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách bảo mật Quy chế hoạt động Trả hàng & hoàn tiền Sitemap © 2021. Công ty cổ phần FoodHub Vietnam. GPDKKD: 0107709060 do sở KH & ĐT TP Hà Nội cấp ngày 18/01/2017. Địa chỉ: Số 29, ngõ 66, ngách 66/36, đường Hồ Tùng Mậu, tổ 20, Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam. Cửa hàng: 47 Nguyễn Tuân, quận Thanh Xuân, Thành phố Hà Nội. Điện thoại: 0888.30.15.18. Email: contact@foodhub.vn.",
+        "product_code": "8100071",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 3.1, giá sau voucher 392000đ, dự kiến 40 phút, đã bán 1490, voucher 20.0%, phù hợp danh mục ['MÂM CỖ RẰM LỄ', 'RẰM & LỄ']."
+      }
+    ],
+    "last_filters": {
+      "category": [
+        "MÂM CỖ RẰM LỄ",
+        "RẰM & LỄ"
+      ]
+    }
+  },
+  "52d779a4-c872-480a-9f94-9a43fbf03e08": {
+    "session_id": "52d779a4-c872-480a-9f94-9a43fbf03e08",
+    "old_intent": "ask_food_detail",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tôi muốn BÁNH & ĐỒ ĂN VẶT"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Mít Sấy Đặc Sản Lâm Đồng - Vua Hải Sản\n- Danh mục: BÁNH & ĐỒ ĂN VẶT\n- Giá gốc: 55.000đ\n- Voucher: 5.0%\n- Giá sau voucher: 52.250đ\n- Rating: 4.9\n- Thời gian dự kiến: 29 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 52250đ, dự kiến 29 phút, đã bán 195, voucher 5.0%, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT.\n- Link món: https://www.foodhub.vn/mit-say-dac-san-lam-dong\n\n2. Bánh Tráng Chuối 250gr - Vua đặc sản\n- Danh mục: BÁNH & ĐỒ ĂN VẶT\n- Giá gốc: 35.000đ\n- Voucher: 0.0%\n- Giá sau voucher: 35.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 35000đ, dự kiến 31 phút, đã bán 376, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT.\n- Link món: https://www.foodhub.vn/banh-trang-chuoi-250gr\n\n3. Nem bùi Kinh Bắc - Tp ABC\n- Danh mục: BÁNH & ĐỒ ĂN VẶT\n- Giá gốc: 35.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 26.250đ\n- Rating: 3.9\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 3.9, giá sau voucher 26250đ, dự kiến 31 phút, đã bán 160, voucher 25.0%, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT.\n- Link món: https://www.foodhub.vn/nem-bui-kinh-bac-goi-170gr\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "giá ít hơn 40000"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Bánh Tráng Chuối 250gr - Vua đặc sản\n- Danh mục: BÁNH & ĐỒ ĂN VẶT\n- Giá gốc: 35.000đ\n- Voucher: 0.0%\n- Giá sau voucher: 35.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 35000đ, dự kiến 31 phút, đã bán 376, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT.\n- Link món: https://www.foodhub.vn/banh-trang-chuoi-250gr\n\n2. Nem bùi Kinh Bắc - Tp ABC\n- Danh mục: BÁNH & ĐỒ ĂN VẶT\n- Giá gốc: 35.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 26.250đ\n- Rating: 3.9\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 3.9, giá sau voucher 26250đ, dự kiến 31 phút, đã bán 160, voucher 25.0%, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT.\n- Link món: https://www.foodhub.vn/nem-bui-kinh-bac-goi-170gr\n\n3. NEM CHUA ĂN LIỀN - KATAFOOD\n- Danh mục: BÁNH & ĐỒ ĂN VẶT\n- Giá gốc: 45.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 38.250đ\n- Rating: 4.0\n- Thời gian dự kiến: 53 phút\n- Lý do: Món này nổi bật vì rating 4.0, giá sau voucher 38250đ, dự kiến 53 phút, đã bán 1429, voucher 15.0%, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT.\n- Link món: https://www.foodhub.vn/nem-chua-an-lien\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "giới thiệu món số 1"
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin món số 1:\n\n- Tên món: Bánh Tráng Chuối 250gr\n- Quán/brand: Vua đặc sản\n- Danh mục: BÁNH & ĐỒ ĂN VẶT\n- Giá gốc: 35.000đ\n- Giá sau voucher: 35.000đ\n- Voucher: 0.0%\n- Rating: 4.5\n- Lượt bán: 376\n- Thời gian dự kiến: 31 phút\n- Nguyên liệu: Chưa có thông tin trong dataset.\n- Thông tin sản phẩm: Chưa có thông tin trong dataset.\n- Mô tả: Chưa có thông tin trong dataset.\n- Link món: https://www.foodhub.vn/banh-trang-chuoi-250gr"
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/banh-trang-chuoi-250gr",
+        "name": "Bánh Tráng Chuối 250gr",
+        "brand": "Vua đặc sản",
+        "category": [
+          "BÁNH & ĐỒ ĂN VẶT"
+        ],
+        "price": 35000,
+        "parsed_price": 35000,
+        "new_price": 35000,
+        "voucher": 0.0,
+        "rating": 4.5,
+        "distance_km": 4.6,
+        "prep_time_minutes": 22.0,
+        "estimated_time_minutes": 31,
+        "sold_count": 376,
+        "image_urls": [
+          "https://cdn2-retail-images.kiotviet.vn/foodhub/1db53c4d3dbd4cc0b5a86f95a1b7b826.jpg",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "[]",
+        "product_info": "",
+        "description": "",
+        "product_code": "8102569",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 35000đ, dự kiến 31 phút, đã bán 376, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT."
+      },
+      {
+        "url": "https://www.foodhub.vn/nem-bui-kinh-bac-goi-170gr",
+        "name": "Nem bùi Kinh Bắc",
+        "brand": "Tp ABC",
+        "category": [
+          "BÁNH & ĐỒ ĂN VẶT"
+        ],
+        "price": 35000,
+        "parsed_price": 35000,
+        "new_price": 26250,
+        "voucher": 25.0,
+        "rating": 3.9,
+        "distance_km": 3.7,
+        "prep_time_minutes": 24.0,
+        "estimated_time_minutes": 31,
+        "sold_count": 160,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/14/1663142176_gDuIKb2A4ZdMU8z5_1663150028-phptptos6.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "là vô cù",
+          "g qua",
+          "trọ",
+          "g: Thịt",
+          "ạc thă",
+          ": Là phầ",
+          "thịt",
+          "ạc thă",
+          "có màu sắc tươi sá",
+          "g",
+          "đà",
+          "hồi tốt",
+          "thịt mới mổ luô",
+          "là lựa chọ",
+          "tốt",
+          "hất. Mỡ: Phầ",
+          "mỡ lợ",
+          "được chọ",
+          "là phầ",
+          "mỡ gáy",
+          "màu trắ",
+          "g đẹp và có mùi thơm đặc trư",
+          "g. Bì: được lọc sạch mỡ",
+          "sơ chế thật sạch trước khi chế biế",
+          ". Bì dai dai ă",
+          "rất thích miệ",
+          "g. Thí",
+          "h gạo: là",
+          "guyê",
+          "liệu khô",
+          "g thể thiếu tạo lê",
+          "vị bùi đặc trư",
+          "g của quả",
+          "em. Lá su",
+          "g: Ă",
+          "cù",
+          "g với",
+          "em bùi thì khô",
+          "g thể thiếu lá su",
+          "g",
+          "vị bùi và chát",
+          "hẹ cà",
+          "g làm tă",
+          "g độ trò",
+          "vị khi ă",
+          "kèm. Nem bùi của ABC Food sử dụ",
+          "g phươ",
+          "g pháp hút châ",
+          "khô",
+          "g",
+          "hằm giữ được hươ",
+          "g vị và chất lượ",
+          "g của sả",
+          "phẩm. 💚Đặt hà",
+          "g qua ứ",
+          "g dụ",
+          "g FoodHub",
+          "hậ",
+          "gay ưu đãi 50K cho đơ",
+          "hà",
+          "g đầu tiê",
+          "💚Foodhub cam kết hoà",
+          "tiề",
+          "100%",
+          "ếu",
+          "guyê",
+          "liệu khô",
+          "g tươi",
+          "go",
+          "💚Giao hà",
+          "g",
+          "ha",
+          "h tro",
+          "g 30 phút",
+          "gay sau khi",
+          "hậ",
+          "được đơ",
+          "hà",
+          "g"
+        ],
+        "origin": "[]",
+        "product_info": "Nem bùi truyền thống với vị nguyên bản, thịt lợn được chọn là phần thịt nạc thăn có màu sắc tươi sáng, đàn hồi tốt được lấy tại lò mổ được kiểm dịch nghiêm ngặt, đầy đủ chứng nhận VSATTP .",
+        "description": "Nem bùi truyền thống với vị nguyên bản, thịt lợn được chọn là phần thịt nạc thăn có màu sắc tươi sáng, đàn hồi tốt được lấy tại lò mổ được kiểm dịch nghiêm ngặt, đầy đủ chứng nhận VSATTP. Nem bùi từ lâu đã là món ăn chơi được nhiều người ưa chuộng. Để có một sản phẩn ngon thì việc lựa chọn nguyên liệu là vô cùng quan trọng: Thịt nạc thăn: Là phần thịt nạc thăn có màu sắc tươi sáng, đàn hồi tốt, thịt mới mổ luôn là lựa chọn tốt nhất. Mỡ: Phần mỡ lợn được chọn là phần mỡ gáy, màu trắng đẹp và có mùi thơm đặc trưng. Bì: được lọc sạch mỡ, sơ chế thật sạch trước khi chế biến. Bì dai dai ăn rất thích miệng. Thính gạo: là nguyên liệu không thể thiếu tạo lên vị bùi đặc trưng của quả nem. Lá sung: Ăn cùng với nem bùi thì không thể thiếu lá sung, vị bùi và chát nhẹ càng làm tăng độ tròn vị khi ăn kèm. Nem bùi của ABC Food sử dụng phương pháp hút chân không nhằm giữ được hương vị và chất lượng của sản phẩm. 💚Đặt hàng qua ứng dụng FoodHub nhận ngay ưu đãi 50K cho đơn hàng đầu tiên 💚Foodhub cam kết hoàn tiền 100% nếu nguyên liệu không tươi ngon 💚Giao hàng nhanh trong 30 phút, ngay sau khi nhận được đơn hàng",
+        "product_code": "8101266",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 3.9, giá sau voucher 26250đ, dự kiến 31 phút, đã bán 160, voucher 25.0%, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT."
+      },
+      {
+        "url": "https://www.foodhub.vn/nem-chua-an-lien",
+        "name": "NEM CHUA ĂN LIỀN",
+        "brand": "KATAFOOD",
+        "category": [
+          "BÁNH & ĐỒ ĂN VẶT"
+        ],
+        "price": 45000,
+        "parsed_price": 45000,
+        "new_price": 38250,
+        "voucher": 15.0,
+        "rating": 4.0,
+        "distance_km": 8.0,
+        "prep_time_minutes": 37.0,
+        "estimated_time_minutes": 53,
+        "sold_count": 1429,
+        "image_urls": [
+          "https://cdn2-retail-images.kiotviet.vn/foodhub/0236fc87c96c45058458f00399a3e25f.jpg",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "[]",
+        "product_info": "",
+        "description": "",
+        "product_code": "SP876320",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.0, giá sau voucher 38250đ, dự kiến 53 phút, đã bán 1429, voucher 15.0%, phù hợp danh mục BÁNH & ĐỒ ĂN VẶT."
+      }
+    ],
+    "last_filters": {
+      "price_max": 40000,
+      "category": "BÁNH & ĐỒ ĂN VẶT"
+    }
+  },
+  "6599c013-5b56-4dc5-bb62-557653a129ac": {
+    "session_id": "6599c013-5b56-4dc5-bb62-557653a129ac",
+    "old_intent": "filter_food",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tôi muốn BÚN TRỨNG ĐẬU DƯA CÀ"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Đậu Non Làng Mơ (Khay) - Tp ABC\n- Danh mục: BÚN TRỨNG ĐẬU DƯA CÀ\n- Giá gốc: 18.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 16.200đ\n- Rating: 4.5\n- Thời gian dự kiến: 28 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 16200đ, dự kiến 28 phút, đã bán 589, voucher 10.0%, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ.\n- Link món: https://www.foodhub.vn/dau-non-lang-mo\n\n2. KIM CHI CẢI THẢO ICHIBAN 350GR - Chưa rõ quán/brand\n- Danh mục: BÚN TRỨNG ĐẬU DƯA CÀ\n- Giá gốc: 35.000đ\n- Voucher: 0.0%\n- Giá sau voucher: 35.000đ\n- Rating: 4.7\n- Thời gian dự kiến: 28 phút\n- Lý do: Món này nổi bật vì rating 4.7, giá sau voucher 35000đ, dự kiến 28 phút, đã bán 814, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ.\n- Link món: https://www.foodhub.vn/kim-chi-cai-thao-ichiban-350gr\n\n3. Bún Trắng Mạch Tràng (500gr/ Set) - Mạch Tràng\n- Danh mục: BÚN TRỨNG ĐẬU DƯA CÀ\n- Giá gốc: 15.000đ\n- Voucher: 5.0%\n- Giá sau voucher: 14.250đ\n- Rating: 4.7\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 4.7, giá sau voucher 14250đ, dự kiến 31 phút, đã bán 383, voucher 5.0%, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ.\n- Link món: https://www.foodhub.vn/bun-trang-mach-trang-500gr-set\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "tôi muốn giá từ 15000 đến 30000"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Đậu Non Làng Mơ (Khay) - Tp ABC\n- Danh mục: BÚN TRỨNG ĐẬU DƯA CÀ\n- Giá gốc: 18.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 16.200đ\n- Rating: 4.5\n- Thời gian dự kiến: 28 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 16200đ, dự kiến 28 phút, đã bán 589, voucher 10.0%, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ.\n- Link món: https://www.foodhub.vn/dau-non-lang-mo\n\n2. Dưa Muối Chua Nghi Khúc (250gr/ Hộp) - Tp ABC\n- Danh mục: BÚN TRỨNG ĐẬU DƯA CÀ\n- Giá gốc: 16.000đ\n- Voucher: 5.0%\n- Giá sau voucher: 15.200đ\n- Rating: 4.4\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 4.4, giá sau voucher 15200đ, dự kiến 31 phút, đã bán 815, voucher 5.0%, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ.\n- Link món: https://www.foodhub.vn/dua-muoi-chua-nghi-khuc-250g\n\n3. Đậu Thanh Truyền Thống (Khay) - Tp ABC\n- Danh mục: BÚN TRỨNG ĐẬU DƯA CÀ\n- Giá gốc: 19.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 16.150đ\n- Rating: 3.5\n- Thời gian dự kiến: 27 phút\n- Lý do: Món này nổi bật vì rating 3.5, giá sau voucher 16150đ, dự kiến 27 phút, đã bán 1075, voucher 15.0%, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ.\n- Link món: https://www.foodhub.vn/dau-thanh-truyen-thong-500g\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/dau-non-lang-mo",
+        "name": "Đậu Non Làng Mơ (Khay)",
+        "brand": "Tp ABC",
+        "category": [
+          "BÚN TRỨNG ĐẬU DƯA CÀ"
+        ],
+        "price": 18000,
+        "parsed_price": 18000,
+        "new_price": 16200,
+        "voucher": 10.0,
+        "rating": 4.5,
+        "distance_km": 2.4,
+        "prep_time_minutes": 23.0,
+        "estimated_time_minutes": 28,
+        "sold_count": 589,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/14/1663131174_13o9jOkq47lwvAeQ_1663140697-phplf5f3s.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "Trung tâm trợ giúp",
+          "Hướng dẫn mua hàng",
+          "Chính sách vận chuyển"
+        ],
+        "origin": "[]",
+        "product_info": "Đậu Hũ Làng Mơ là sản phẩm truyền thống được làm ra từ những đậu tương tự nhiên được tuyển chọn kỹ lưỡng. Sản phẩm được sản xuất trên dây chuyền công nghệ hiện đại được thanh trùng kỹ lưỡng, loại bỏ hoàn toàn các tạp chất đem tới sản phẩm thơm ngậy. Thành phần: Đậu nành, nước, chất làm rắn chắc, chất điểu chỉnh độ acid,...",
+        "description": "",
+        "product_code": "8101265",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 16200đ, dự kiến 28 phút, đã bán 589, voucher 10.0%, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ."
+      },
+      {
+        "url": "https://www.foodhub.vn/dua-muoi-chua-nghi-khuc-250g",
+        "name": "Dưa Muối Chua Nghi Khúc (250gr/ Hộp)",
+        "brand": "Tp ABC",
+        "category": [
+          "BÚN TRỨNG ĐẬU DƯA CÀ"
+        ],
+        "price": 16000,
+        "parsed_price": 16000,
+        "new_price": 15200,
+        "voucher": 5.0,
+        "rating": 4.4,
+        "distance_km": 5.0,
+        "prep_time_minutes": 21.0,
+        "estimated_time_minutes": 31,
+        "sold_count": 815,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/14/1663140478_PX1b5muDlSCAhKJx_1663148829-phpnmtusn.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "Sạch: quy trình sản xuất hiện đại, khép kín, đạt tiêu chuẩn VSATTP",
+          "Tươi: sử dụng nguyên liệu 100% từ tự nhiên, không sử dụng chất bảo quản",
+          "Ngon: Hương vị chuẩn gia truyền",
+          "An toàn: Là sản phẩm được kiểm nghiệm kỹ lưỡng trước khi đưa đến tay người tiêu dùng."
+        ],
+        "origin": "[]",
+        "product_info": "Dưa muối chua Nghi Khúc được sản xuất trên quy trình hiện đại, khép kín, đạt chuẩn VSATTP. Sử dụng nguyên liệu 100% từ tự nhiên, không sử dụng chất bảo quản. Sản phẩm được kiểm nghiệm kỹ lưỡng trước khi đưa đến tay người tiêu dùng.",
+        "description": "Định lượng: 250g",
+        "product_code": "8101264",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.4, giá sau voucher 15200đ, dự kiến 31 phút, đã bán 815, voucher 5.0%, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ."
+      },
+      {
+        "url": "https://www.foodhub.vn/dau-thanh-truyen-thong-500g",
+        "name": "Đậu Thanh Truyền Thống (Khay)",
+        "brand": "Tp ABC",
+        "category": [
+          "BÚN TRỨNG ĐẬU DƯA CÀ"
+        ],
+        "price": 19000,
+        "parsed_price": 19000,
+        "new_price": 16150,
+        "voucher": 15.0,
+        "rating": 3.5,
+        "distance_km": 1.6,
+        "prep_time_minutes": 24.0,
+        "estimated_time_minutes": 27,
+        "sold_count": 1075,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/14/1663139392_SgB7QnryA9JkslPj_1663145436-phpo1gawb.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "khô",
+          "g tươi",
+          "go",
+          "💚Giao hà",
+          "g",
+          "ha",
+          "h tro",
+          "g 30 phút",
+          "gay sau khi",
+          "hậ",
+          "được đơ",
+          "hà",
+          "g"
+        ],
+        "origin": "[]",
+        "product_info": "Đậu thanh truyền thống khi ra lò có bề mặt mịn và phẳng, có mùi thơm đặc trưng, khi thưởng thức có thể cảm nhận rõ vị béo và ngậy. Đậu thanh truyền thống được làm bằng công thức truyền thống, với mặt da xung quanh bìa đậu, tạo độ ròn dai khi chế biến.",
+        "description": "Đậu thanh truyền thống khi ra lò có bề mặt mịn và phẳng, có mùi thơm đặc trưng, khi thưởng thức có thể cảm nhận rõ vị béo và ngậy. Đậu thanh truyền thống được làm bằng công thức truyền thống, với mặt da xung quanh bìa đậu, tạo độ ròn dai khi chế biến. Quy trình sản xuất hiện đại, được kiểm soát chặt chẽ công thêm phương pháp đóng hộp giúp giữ cho đậu phụ luôn đảm bảo vệ sinh, an toàn cho người sử dụng. Tuỳ theo sở thích của mỗi người mà đậu phụ thanh truyền thông có thể dễ dàng chế biến thành nhiều món ngon khác nhau: Đậu rán, đậu trần, Đậu nhồi thịt sốt cà chua , Ếch Om Chuối Đậu , Canh Nấm Đậu Phụ Thả Tôm , Cà Tím Bung Thịt Đậu Mơ 💚Đặt hàng qua ứng dụng FoodHub nhận ngay ưu đãi 50K cho đơn hàng đầu tiên 💚Foodhub cam kết hoàn tiền 100% nếu nguyên liệu không tươi ngon 💚Giao hàng nhanh trong 30 phút, ngay sau khi nhận được đơn hàng",
+        "product_code": "8101261",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 3.5, giá sau voucher 16150đ, dự kiến 27 phút, đã bán 1075, voucher 15.0%, phù hợp danh mục BÚN TRỨNG ĐẬU DƯA CÀ."
+      }
+    ],
+    "last_filters": {
+      "price_min": 15000,
+      "price_max": 30000,
+      "category": "BÚN TRỨNG ĐẬU DƯA CÀ"
+    }
+  },
+  "7d9e92be-e6a2-43bd-a352-ae6dce04f435": {
+    "session_id": "7d9e92be-e6a2-43bd-a352-ae6dce04f435",
+    "old_intent": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "chào"
+      }
+    ],
+    "last_recommendations": [],
+    "last_filters": {}
+  },
+  "86aa5c35-613b-4a10-875f-d7700eb94001": {
+    "session_id": "86aa5c35-613b-4a10-875f-d7700eb94001",
+    "old_intent": "ask_food_detail",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Mình đã tạo đoạn chat mới."
+      },
+      {
+        "role": "user",
+        "content": "Thêm Món Canh nữa"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Canh Ngao Mồng Tơi (4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Canh\n- Giá gốc: 88.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 70.400đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 70400đ, dự kiến 16 phút, đã bán 1271, voucher 20.0%, phù hợp danh mục Món Canh.\n- Link món: https://www.foodhub.vn/canh-mong-toi-nau-ngao-set-danh-cho-3-4-nguoi-an\n\n2. Canh Rau Ngót Thịt Lợn Quế Bằm (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Canh\n- Giá gốc: 65.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 58.500đ\n- Rating: 4.9\n- Thời gian dự kiến: 24 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 58500đ, dự kiến 24 phút, đã bán 1246, voucher 10.0%, phù hợp danh mục Món Canh.\n- Link món: https://www.foodhub.vn/set-canh-rau-ngot-thit-bam\n\n3. Canh Rau Dền Thịt Lợn Quế Bằm (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Canh\n- Giá gốc: 65.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 48.750đ\n- Rating: 4.5\n- Thời gian dự kiến: 31 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 48750đ, dự kiến 31 phút, đã bán 1008, voucher 25.0%, phù hợp danh mục Món Canh.\n- Link món: https://www.foodhub.vn/canh-rau-den-nau-thit-bam-4-nguoi-an\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "tôi muốn món chiên rán"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Bò Xào Măng Tây (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 99.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 79.200đ\n- Rating: 4.8\n- Thời gian dự kiến: 25 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 79200đ, dự kiến 25 phút, đã bán 1359, voucher 20.0%, phù hợp danh mục Món Chiên Xào.\n- Link món: https://www.foodhub.vn/592682-bo-xao-mang-tay-4-nguoi-an-350gr\n\n2. Nem Thịt Lợn Quế - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 8.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 7.200đ\n- Rating: 4.6\n- Thời gian dự kiến: 24 phút\n- Lý do: Món này nổi bật vì rating 4.6, giá sau voucher 7200đ, dự kiến 24 phút, đã bán 1373, voucher 10.0%, phù hợp danh mục Món Chiên Xào.\n- Link món: https://www.foodhub.vn/nem-thit-10-chiec-khay\n\n3. Diềm Bò Xào Cải Bó Xôi (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 89.000đ\n- Voucher: 5.0%\n- Giá sau voucher: 84.550đ\n- Rating: 4.9\n- Thời gian dự kiến: 20 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 84550đ, dự kiến 20 phút, đã bán 1330, voucher 5.0%, phù hợp danh mục Món Chiên Xào.\n- Link món: https://www.foodhub.vn/diem-bo-xao-cai-bo-xoi-4-nguoi-an\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "giá từ 30000 đến 60000 thôi"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Tỏi Gà Chiên Xù (2 chiếc) - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 55.000đ\n- Voucher: 0.0%\n- Giá sau voucher: 55.000đ\n- Rating: 4.2\n- Thời gian dự kiến: 35 phút\n- Lý do: Món này nổi bật vì rating 4.2, giá sau voucher 55000đ, dự kiến 35 phút, đã bán 713, phù hợp danh mục Món Chiên Xào.\n- Link món: https://www.foodhub.vn/dui-ga-chien-xu-250g\n\n2. Đậu Phụ Rán Nhồi Thịt Xốt Cà Chua (9 Miếng) - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 80.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 60.000đ\n- Rating: 3.2\n- Thời gian dự kiến: 24 phút\n- Lý do: Món này nổi bật vì rating 3.2, giá sau voucher 60000đ, dự kiến 24 phút, đã bán 415, voucher 25.0%, phù hợp danh mục Món Chiên Xào.\n- Link món: https://www.foodhub.vn/dau-phu-ran-nhoi-thit-sot-ca-chua\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "hôm nay tôi muốn mua đồ cung"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Hoa Cúc Vàng (Bó) - Chưa rõ quán/brand\n- Danh mục: ĐỒ CÚNG\n- Giá gốc: 40.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 30.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 45 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 30000đ, dự kiến 45 phút, đã bán 101, voucher 25.0%, phù hợp danh mục Món Chiên Xào, ĐỒ CÚNG.\n- Link món: https://www.foodhub.vn/595813-hoa-cuc-vang-bo\n\n2. Tỏi Gà Chiên Xù (2 chiếc) - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 55.000đ\n- Voucher: 0.0%\n- Giá sau voucher: 55.000đ\n- Rating: 4.2\n- Thời gian dự kiến: 35 phút\n- Lý do: Món này nổi bật vì rating 4.2, giá sau voucher 55000đ, dự kiến 35 phút, đã bán 713, phù hợp danh mục Món Chiên Xào, ĐỒ CÚNG.\n- Link món: https://www.foodhub.vn/dui-ga-chien-xu-250g\n\n3. Xôi Gấc (500gr) - Chưa rõ quán/brand\n- Danh mục: ĐỒ CÚNG\n- Giá gốc: 40.000đ\n- Voucher: 0.0%\n- Giá sau voucher: 40.000đ\n- Rating: 3.8\n- Thời gian dự kiến: 33 phút\n- Lý do: Món này nổi bật vì rating 3.8, giá sau voucher 40000đ, dự kiến 33 phút, đã bán 1162, phù hợp danh mục Món Chiên Xào, ĐỒ CÚNG.\n- Link món: https://www.foodhub.vn/xoi-gac\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "giới thiệu món số 3"
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin món số 3:\n\n- Tên món: Xôi Gấc (500gr)\n- Quán/brand: Chưa có thông tin trong dataset.\n- Danh mục: ĐỒ CÚNG\n- Giá gốc: 40.000đ\n- Giá sau voucher: 40.000đ\n- Voucher: 0.0%\n- Rating: 3.8\n- Lượt bán: 1162\n- Thời gian dự kiến: 33 phút\n- Nguyên liệu: Chưa có thông tin trong dataset.\n- Thông tin sản phẩm: Xôi gấc được nấu bằng gạo nếp nương Điện Biên loại 1. Món ăn là sự kết hợp giữa vị thơm ngọt của gấc cùng sự thơm dẻo của gạo nếp. Cái vị béo của gấc khi đã được hòa quyện vào những hạt nếp thơm lừng, chỉ cần ăn một lần là nhớ mãi.\n- Mô tả: Xôi gấc được nấu bằng gạo nếp nương Điện Biên loại 1. Món ăn là sự kết hợp giữa vị thơm ngọt của gấc cùng sự thơm dẻo của gạo nếp. Cái vị béo của gấc khi đã được hòa quyện vào những hạt nếp thơm lừng, chỉ cần ăn một lần là nhớ mãi. Theo quan niệm của người Việt, màu đỏ là màu của hạnh phúc, màu thắm của sắc xuân, là biểu tượng cho sự may mắn, tốt lành. Trong khi đó, màu đỏ của gấc là màu tự nhiên của đất nên sẽ tạo ra sự dung hòa, thuận lợi cho năm mới. 💚 Công dụng : Xôi gấc không chỉ có tác dụng cung cấp năng lượng cho cơ thể mà còn có tác dụng làm đẹp và giúp cơ thể chống lại một số bệnh thường gặp: tốt cho mắt, hỗ trợ tiêu hoá, tăng cường sức đề kháng\n- Link món: https://www.foodhub.vn/xoi-gac"
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/595813-hoa-cuc-vang-bo",
+        "name": "Hoa Cúc Vàng (Bó)",
+        "brand": "",
+        "category": [
+          "ĐỒ CÚNG"
+        ],
+        "price": 40000,
+        "parsed_price": 40000,
+        "new_price": 30000,
+        "voucher": 25.0,
+        "rating": 4.5,
+        "distance_km": 6.3,
+        "prep_time_minutes": 32.0,
+        "estimated_time_minutes": 45,
+        "sold_count": 101,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/12/21/1671614312_40QpjI92mW1wGUFV_1671622653-phpdxfn0p.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "khô",
+          "g tươi",
+          "go",
+          "! Giao hà",
+          "g cực",
+          "ha",
+          "h tro",
+          "g 30 phút",
+          "gay sau khi",
+          "hậ",
+          "được đơ",
+          "hà",
+          "g."
+        ],
+        "origin": "[]",
+        "product_info": "Hoa Cúc vàng là loài hoa cúng đem lại nhiều may mắn, tiền tài và thịnh vượng cho gia đình chủ nhà. Bên cạnh đó cúc đồng tiền còn biểu trưng cho sức khỏe và tuổi thọ. Hoa cúc vàng mang trong mình rất nhiều ý nghĩa khác nhau như lòng hiếu thảo. Sự trường tồn vĩnh cửu hay còn là biểu tượng của sự sống, phúc lộc và may mắn. Bên cạnh đó, hương thơm của hoa nhè nhẹ đem đến sự dễ chịu, thoải mái.",
+        "description": "Hoa Cúc vàng là loài hoa cúng đem lại nhiều may mắn, tiền tài và thịnh vượng cho gia đình chủ nhà. Bên cạnh đó cúc đồng tiền còn biểu trưng cho sức khỏe và tuổi thọ. Hoa cúc vàng mang trong mình rất nhiều ý nghĩa khác nhau như lòng hiếu thảo. Sự trường tồn vĩnh cửu hay còn là biểu tượng của sự sống, phúc lộc và may mắn. Bên cạnh đó, hương thơm của hoa nhè nhẹ đem đến sự dễ chịu, thoải mái. ---------------------- Ghé gian hàng của FoodHub để chọn lựa những sản phẩm tươi ngon mỗi ngày tại: 224 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội Hoặc đặt hàng qua App FoodHub nhận ngay ưu đãi 50K cho đơn hàng đầu tiên. Mời bạn thực hiện các bước: 1. Tải ứng dụng Foodhub miễn phí bằng cách tìm kiếm từ khóa Foodhub trên App Store hoặc Google Play Store 2. Mở ứng dụng và nhập số điện thoại muốn đăng kí Foodhub 3. Một tin nhắn chứa mã xác thực sẽ gửi trực tiếp đến số điện thoại của bạn, vui lòng kiểm tra và nhập chính xác mã xác thực vào ô rồi nhấn tiếp tục 4. Sau đó bạn nhấn xác nhận để hoàn tất đăng kí Website: https://foodhub.vn/ Foodhub cam kết hoàn tiền 100% nếu nguyên liệu không tươi ngon! Giao hàng cực nhanh trong 30 phút, ngay sau khi nhận được đơn hàng.",
+        "product_code": "8101054",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 30000đ, dự kiến 45 phút, đã bán 101, voucher 25.0%, phù hợp danh mục Món Chiên Xào, ĐỒ CÚNG."
+      },
+      {
+        "url": "https://www.foodhub.vn/dui-ga-chien-xu-250g",
+        "name": "Tỏi Gà Chiên Xù (2 chiếc)",
+        "brand": "FoodHub Kitchen",
+        "category": [
+          "Món Chiên Xào"
+        ],
+        "price": 55000,
+        "parsed_price": 55000,
+        "new_price": 55000,
+        "voucher": 0.0,
+        "rating": 4.2,
+        "distance_km": 6.2,
+        "prep_time_minutes": 23.0,
+        "estimated_time_minutes": 35,
+        "sold_count": 713,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/05/29/1685353913_2YCytTsrGjz9IqNU_1685361482-php1chjtq.png",
+          "https://cdn.abphotos.link/photos/resized/450x450/2023/05/29/1685353913_2YCytTsrGjz9IqNU_1685361482-php1chjtq.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [
+          "Tỏi gà N21: 2 chiếc",
+          "Bột chiên xù: 40gr",
+          "Tương ớt chua ngọt: 80gr",
+          "Gia vị: 1 gói"
+        ],
+        "origin": "[]",
+        "product_info": "Đùi Gà Chiên Xù rất được trẻ nhỏ yêu thích, đặc biệt là khi qua bàn tay tẩm ướp khéo léo của đầu bếp FoodHub, bạn có thể yên tâm về khẩu vị. Set ăn gồm 2 đùi gà tươi, sạch, an toàn cho gia đình, lớp vỏ giòn rụm, thịt mềm ngọt. Đây là món ăn lý tưởng cho bạn khi đã chán cơm, muốn đổi vị nhưng không muốn ra ngoài hàng quán.",
+        "description": "Đùi Gà Chiên Xù hấp dẫn bởi bên ngoài có lớp vỏ giòn rụm, vàng ươm, bên trong là thịt mềm, mọng nước, đậm vị. Đến với FoodHub, bạn không cần phải “lăn tăn” về giá, lo lắng về chất lượng, FoodHub là ứng dụng cung cấp thực phẩm sạch đến tận nhà. Sản phẩm được sơ chế, chế biến tại bếp FoodHub đạt tiêu chuẩn ISO 22000:2018.",
+        "product_code": "8100177",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.2, giá sau voucher 55000đ, dự kiến 35 phút, đã bán 713, phù hợp danh mục Món Chiên Xào, ĐỒ CÚNG."
+      },
+      {
+        "url": "https://www.foodhub.vn/xoi-gac",
+        "name": "Xôi Gấc (500gr)",
+        "brand": "",
+        "category": [
+          "ĐỒ CÚNG"
+        ],
+        "price": 40000,
+        "parsed_price": 40000,
+        "new_price": 40000,
+        "voucher": 0.0,
+        "rating": 3.8,
+        "distance_km": 2.9,
+        "prep_time_minutes": 27.0,
+        "estimated_time_minutes": 33,
+        "sold_count": 1162,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/15/1663233609_k0io6MbrXT8KEtvq_1663242721-phpp9cklq.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "[]",
+        "product_info": "Xôi gấc được nấu bằng gạo nếp nương Điện Biên loại 1. Món ăn là sự kết hợp giữa vị thơm ngọt của gấc cùng sự thơm dẻo của gạo nếp. Cái vị béo của gấc khi đã được hòa quyện vào những hạt nếp thơm lừng, chỉ cần ăn một lần là nhớ mãi.",
+        "description": "Xôi gấc được nấu bằng gạo nếp nương Điện Biên loại 1. Món ăn là sự kết hợp giữa vị thơm ngọt của gấc cùng sự thơm dẻo của gạo nếp. Cái vị béo của gấc khi đã được hòa quyện vào những hạt nếp thơm lừng, chỉ cần ăn một lần là nhớ mãi. Theo quan niệm của người Việt, màu đỏ là màu của hạnh phúc, màu thắm của sắc xuân, là biểu tượng cho sự may mắn, tốt lành. Trong khi đó, màu đỏ của gấc là màu tự nhiên của đất nên sẽ tạo ra sự dung hòa, thuận lợi cho năm mới. 💚 Công dụng : Xôi gấc không chỉ có tác dụng cung cấp năng lượng cho cơ thể mà còn có tác dụng làm đẹp và giúp cơ thể chống lại một số bệnh thường gặp: tốt cho mắt, hỗ trợ tiêu hoá, tăng cường sức đề kháng",
+        "product_code": "8101035",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 3.8, giá sau voucher 40000đ, dự kiến 33 phút, đã bán 1162, phù hợp danh mục Món Chiên Xào, ĐỒ CÚNG."
+      }
+    ],
+    "last_filters": {
+      "price_min": 30000,
+      "price_max": 60000,
+      "category": [
+        "Món Chiên Xào",
+        "ĐỒ CÚNG"
+      ]
+    }
+  },
+  "f8a3f9c7-1a6e-445a-b7ba-1b702f50c436": {
+    "session_id": "f8a3f9c7-1a6e-445a-b7ba-1b702f50c436",
+    "old_intent": "filter_food",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tôi muốn Hải sản"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Nghêu Sạch Lenger (600gr/ Khay) - Chưa rõ quán/brand\n- Danh mục: Thủy, Hải Sản\n- Giá gốc: 38.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 34.200đ\n- Rating: 4.5\n- Thời gian dự kiến: 34 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 34200đ, dự kiến 34 phút, đã bán 874, voucher 10.0%, phù hợp danh mục Hải sản.\n- Link món: https://www.foodhub.vn/ngheu-sach-lenger-600g\n\n2. Cá Diêu Hồng Nguyên Con (Kg) (1.2-1.5Kg/Con) - Cá Sông Đà\n- Danh mục: Thủy, Hải Sản\n- Giá gốc: 120.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 108.000đ\n- Rating: 4.2\n- Thời gian dự kiến: 20 phút\n- Lý do: Món này nổi bật vì rating 4.2, giá sau voucher 108000đ, dự kiến 20 phút, đã bán 1350, voucher 10.0%, phù hợp danh mục Hải sản.\n- Link món: https://www.foodhub.vn/ca-dieu-hong-nguyen-con\n\n3. Cá nục bỏ da (hộp 500gr, 6-8 con) - KATAFOOD\n- Danh mục: Thủy, Hải Sản\n- Giá gốc: 95.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 80.750đ\n- Rating: 4.2\n- Thời gian dự kiến: 22 phút\n- Lý do: Món này nổi bật vì rating 4.2, giá sau voucher 80750đ, dự kiến 22 phút, đã bán 827, voucher 15.0%, phù hợp danh mục Hải sản.\n- Link món: https://www.foodhub.vn/ca-nuc-bo-da-hop-500gr-6-8-con\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "bạn là ai"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Cải Ngọt Nhặt Sẵn (Túi ~ 200gr) - THÁI ECO FARM\n- Danh mục: Rau, Củ Sơ Chế Sẵn\n- Giá gốc: 20.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 17.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%.\n- Link món: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui\n\n2. Xương Cục Lợn bản (~500gr) - Bình Minh Farm\n- Danh mục: Lợn\n- Giá gốc: 56.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 42.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 23 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%.\n- Link món: https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr\n\n3. Rau Mùi Tàu Thái ECO (100gr/ Túi) - Thái Eco\n- Danh mục: Rau, Củ Gia Vị\n- Giá gốc: 9.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 8.100đ\n- Rating: 4.8\n- Thời gian dự kiến: 21 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%.\n- Link món: https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui",
+        "name": "Cải Ngọt Nhặt Sẵn (Túi ~ 200gr)",
+        "brand": "THÁI ECO FARM",
+        "category": [
+          "Rau, Củ Sơ Chế Sẵn"
+        ],
+        "price": 20000,
+        "parsed_price": 20000,
+        "new_price": 17000,
+        "voucher": 15.0,
+        "rating": 4.5,
+        "distance_km": 1.5,
+        "prep_time_minutes": 13.0,
+        "estimated_time_minutes": 16,
+        "sold_count": 1392,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/05/18/1684399970_gq9dutBiYESb3h1G_1684407164-phpwjwalu.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Cải Ngọt Nhặt Sẵn định lượng 200gr một túi. Nguồn gốc: Thái ECO Rau xanh, được sơ chế sẵn, nhặt bỏ lá vàng, lá héo úa, lá già.",
+        "description": "Cải Ngọt Nhặt Sẵn được đầu bếp FoodHub sơ chế tỉ mỉ, đảm bảo nguyên liệu tươi mới, chất lượng khi giao đến khách hàng.",
+        "product_code": "8102435",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%."
+      },
+      {
+        "url": "https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr",
+        "name": "Xương Cục Lợn bản (~500gr)",
+        "brand": "Bình Minh Farm",
+        "category": [
+          "Lợn"
+        ],
+        "price": 56000,
+        "parsed_price": 56000,
+        "new_price": 42000,
+        "voucher": 25.0,
+        "rating": 4.5,
+        "distance_km": 1.8,
+        "prep_time_minutes": 19.0,
+        "estimated_time_minutes": 23,
+        "sold_count": 1389,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/23/1663899394_LG0Sm2AP6CHKD7hT_1663904999-phpzz38bc.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Xương Cục Lợn Quế định lượng 300gr một khay Nguồn gốc: Bình Minh Farm Đặc điểm: Tươi, chắc, đã được lọc bỏ gân, cơ, mỡ",
+        "description": "Xương Cục Lợn Quế có chứa nhiều dinh dưỡng như vitamin, khoáng chất dễ hấp thụ. Nguyên liệu được nhập trực tiếp từ trang trại Bình Minh, đảm bảo tươi mới, không chứa chất bảo quản, đóng gói tiêu chuẩn. Thông tin sản phẩm Xương cục là toàn bộ phần xương của con lợn đã được lọc bỏ thịt, gân, cơ, mỡ. Trong xương có chứa rất nhiều chất dinh dưỡng và khoáng chất có lợi cho sức khỏe. Xương khi ninh lên có vị hơi mặn, ngọt, giúp tăng cường các chức năng hoạt động của da, phát triển cơ bắp, tăng huyết mạch, tiêu khát, giải độc, hạn chế nguy cơ mắc các bệnh loãng xương, cải thiện hệ tiêu hóa,... Xương cục khi hầm càng lâu càng cho ra phần nước ngọt, làm canh, nước cốt các loại bún, phở, hủ tiếu,... rất ngon.",
+        "product_code": "8101741",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%."
+      },
+      {
+        "url": "https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui",
+        "name": "Rau Mùi Tàu Thái ECO (100gr/ Túi)",
+        "brand": "Thái Eco",
+        "category": [
+          "Rau, Củ Gia Vị"
+        ],
+        "price": 9000,
+        "parsed_price": 9000,
+        "new_price": 8100,
+        "voucher": 10.0,
+        "rating": 4.8,
+        "distance_km": 1.5,
+        "prep_time_minutes": 18.0,
+        "estimated_time_minutes": 21,
+        "sold_count": 1035,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/04/25/1682397099_oSLtu2jw1Ea8CTMZ_1682402331-phppxe4gu.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Rau Mùi Tầu Thái ECO đóng gói túi 100gr. Nguồn gốc: Thái ECO Đặc điểm: tươi, xanh, thơm đặc trưng.",
+        "description": "Rau Mùi Tầu Thái ECO được lấy trực tiếp từ trang trại Thái ECO trong ngày, đảm bảo nguyên liệu sạch, tươi mới. Đơn hàng đầu tiên mua qua app FoodHub được giảm 50.000VNĐ.",
+        "product_code": "8102373",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%."
+      }
+    ],
+    "last_filters": {}
+  },
+  "d5f4a0d4-d13c-456a-8e44-6fcfb31a75eb": {
+    "session_id": "d5f4a0d4-d13c-456a-8e44-6fcfb31a75eb",
+    "old_intent": "filter_food",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tôi muốn MÂM CỖ RẰM LỄ"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Xôi Gấc, Gà Lễ Cánh Tiên - FoodHub Kitchen\n- Danh mục: MÂM CỖ RẰM LỄ\n- Giá gốc: 490.000đ\n- Voucher: 20.0%\n- Giá sau voucher: 392.000đ\n- Rating: 3.1\n- Thời gian dự kiến: 40 phút\n- Lý do: Món này nổi bật vì rating 3.1, giá sau voucher 392000đ, dự kiến 40 phút, đã bán 1490, voucher 20.0%, phù hợp danh mục MÂM CỖ RẰM LỄ.\n- Link món: https://www.foodhub.vn/xoi-gac-ga-le-canh-tien\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "gà chiên gà chiên"
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin món số 1:\n\n- Tên món: Xôi Gấc, Gà Lễ Cánh Tiên\n- Quán/brand: FoodHub Kitchen\n- Danh mục: MÂM CỖ RẰM LỄ\n- Giá gốc: 490.000đ\n- Giá sau voucher: 392.000đ\n- Voucher: 20.0%\n- Rating: 3.1\n- Lượt bán: 1490\n- Thời gian dự kiến: 40 phút\n- Nguyên liệu: Chưa có thông tin trong dataset.\n- Thông tin sản phẩm: Một đĩa lớn xôi gấc nếp nương Điện Biên dẻo thơm 1,5kg và 1 con gà trống quế Ba Vì bắt cánh tiên 1,5 - 1,7kg đã được luộc sẵn vàng óng, ngon mắt. Gà cánh tiên đã được bếp trưởng nhiều năm kinh nghiệm bắt cách tiên và luộc sẵn để đảm bảo mẫu mã đẹp để cho mâm lễ càng thêm trang trọng.\n- Mô tả: CỖ XÔI GÀ VỚI CÁC SẢN PHẨM DƯỚI ĐÂY Một đĩa lớn xôi gấc nếp nương Điện Biên dẻo thơm 1,5kg và 1 con gà trống bắt cánh tiên ngậm hồng 1,5 - 1,7kg đã được luộc sẵn vàng óng, ngon mắt. Gà cánh tiên đã được bếp trưởng nhiều năm kinh nghiệm bắt cách tiên và luộc sẵn để đảm bảo mẫu mã đẹp để cho mâm lễ càng thêm trang trọng. GÀ QUẾ BẮT CÁNH TIÊN NGẬM HỒNG LUỘC SẴN Gà trống quế thả vườn tại Ba Vì với vị thịt dai, ngọt thơm ngon đặc trưng. Gà trống nguyên con với lớp da vàng óng được đầu bếp FoodHub bắt cánh tiên và luộc sẵn đẹp mắt, kèm một bông hồng để trang trí, góp phần giúp mâm cỗ cúng dâng tổ tiên nhà bạn thêm phần trang trọng, thể hiện được sự tinh tế và tỉ mỉ của người nội trợ trong gia đình. ĐĨA XÔI GẤC NẾP NƯƠNG LOẠI LỚN 1.5KG Đĩa xôi gấc nếp nương Điện Biên loại lớn, có thể bày gà lên đĩa xôi để tăng phần trang trọng. Bán chạy Xem tất cả Còn hàng Hành Khô Thái ECO (200gr/ Túi) 19.000đ 31 Đã bán THÁI ECO FARM Còn hàng Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ 25 Đã bán THÁI ECO FARM Bắc Giang Còn hàng Gạo ST25 Ông Cua (5kg/Túi) 225.000đ 23 Đã bán Gạo Ông Cua Còn hàng Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ 20 Đã bán THÁI ECO FARM Còn hàng Rau Muống Thái ECO (400gr/ Túi) 18.000đ 19 Đã bán KATAFOOD Còn hàng Cải Xanh Thái ECO (400gr/ Túi) 21.000đ 19 Đã bán Thái Eco Còn hàng Cải Ngọt Thái ECO (400gr/ Túi) 20.000đ 18 Đã bán THÁI ECO FARM Còn hàng Rau Mồng Tơi Thái ECO (400gr/ Túi) 19.000đ 15 Đã bán THÁI ECO FARM Còn hàng Nhân Lạc Chay Bắc Việt (200gr) 21.000đ 15 Đã bán Bắc Việt Còn hàng Bắp Cải Thái ECO (~1 Kg/ Cây) 24.000đ 13 Đã bán THÁI ECO FARM Còn hàng Cải Bó Xôi Thái ECO (400gr/ Túi) 21.000đ 12 Đã bán THÁI ECO FARM Còn hàng Dưa Muối Chua Nghi Khúc (250gr/ Hộp) 16.000đ 11 Đã bán Tp ABC Sản phẩm đã xem Xem tất cả Còn hàng Xôi Gấc, Gà Lễ Cánh Tiên 490.000đ -74 Đã bán FoodHub Kitchen Còn hàng Vừng Đen DONAVI (100gr) 17.000đ 1 Đã bán Donavi Còn hàng Trứng cút (30 quả) 35.000đ 3 Đã bán Trứng_An Nhàn Còn hàng Tinh Bột Nghệ (500gr) 105.000đ 999 Đã bán Hạt Thăng Còn hàng Thịt Nạc Vai N21 18.100đ ~ 181.000đ 999 Đã bán CTY CPTM N21 7.1% GIẢM Thịt Lợn Quế Cuốn Lá Lốt (10 Cái) 85.000đ ~ 90.000đ 79.000đ ~ 89.000đ 999 Đã bán FoodHub Kitchen Còn hàng Gia Vị Tần Gà (50gr/ Gói) 20.000đ -39 Đã bán Chinh Spicy 1% GIẢM Sườn Nướng Sa Tế (400gr) 105.000đ ~ 110.000đ 104.000đ ~ 109.000đ 999 Đã bán FoodHub Kitchen Còn hàng Set Đồ Cúng (Tiền Vàng, Rượu, Thuốc, Chè, Trầu Cau, Hoa Cúc) 48.000đ ~ 99.000đ 999 Đã bán FoodHub Kitchen Còn hàng SẦU RIÊNG RI 6 185.000đ -2 Đã bán KATAFOOD Còn hàng Rượu nếp cẩm Mom's Kitchen (hộp 500g) 50.000đ 999 Đã bán Đông Anh Còn hàng Rau Muống Xào Ngao (4 Người Ăn) 88.000đ ~ 98.000đ 2 Đã bán FoodHub Kitchen Bán chạy Hành Khô Thái ECO (200gr/ Túi) 19.000đ Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ Gạo ST25 Ông Cua (5kg/Túi) 225.000đ Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ Thêm vào giỏ hàng Mua ngay 0888301518 Chat Bạn cần đăng nhập để chat với shop Đăng nhập ngay Bạn có muốn huỷ bỏ đơn hàng này không ? Đơn hàng bị huỷ bỏ sẽ không được Huỷ Xác nhận Chăm sóc khách hàng Trung tâm trợ giúp Hướng dẫn mua hàng Chính sách vận chuyển Về chúng tôi Về FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách thanh toán Điều khoản chính sách Theo dõi chúng tôi Facebook Youtube Đi tới cửa hàng FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách bảo mật Quy chế hoạt động Trả hàng & hoàn tiền Sitemap © 2021. Công ty cổ phần FoodHub Vietnam. GPDKKD: 0107709060 do sở KH & ĐT TP Hà Nội cấp ngày 18/01/2017. Địa chỉ: Số 29, ngõ 66, ngách 66/36, đường Hồ Tùng Mậu, tổ 20, Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam. Cửa hàng: 47 Nguyễn Tuân, quận Thanh Xuân, Thành phố Hà Nội. Điện thoại: 0888.30.15.18. Email: contact@foodhub.vn.\n- Link món: https://www.foodhub.vn/xoi-gac-ga-le-canh-tien"
+      },
+      {
+        "role": "user",
+        "content": "Giao dưới 30 phút"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình chưa tìm thấy món phù hợp với điều kiện này. Bạn có thể nới khoảng giá, giảm yêu cầu rating hoặc tăng thời gian chờ."
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/xoi-gac-ga-le-canh-tien",
+        "name": "Xôi Gấc, Gà Lễ Cánh Tiên",
+        "brand": "FoodHub Kitchen",
+        "category": [
+          "MÂM CỖ RẰM LỄ"
+        ],
+        "price": 490000,
+        "parsed_price": 490000,
+        "new_price": 392000,
+        "voucher": 20.0,
+        "rating": 3.1,
+        "distance_km": 7.7,
+        "prep_time_minutes": 25.0,
+        "estimated_time_minutes": 40,
+        "sold_count": 1490,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592440_HhefZ05AV4mLoxjE_1694599239-phpu9ymio.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592476_pc4vY0AKNhRtP3aX_1694597954-phpjqgxmi.png",
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/09/13/1694592488_WFHdTfmvRolargGw_1694596194-php3epbfm.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "[]",
+        "product_info": "Một đĩa lớn xôi gấc nếp nương Điện Biên dẻo thơm 1,5kg và 1 con gà trống quế Ba Vì bắt cánh tiên 1,5 - 1,7kg đã được luộc sẵn vàng óng, ngon mắt. Gà cánh tiên đã được bếp trưởng nhiều năm kinh nghiệm bắt cách tiên và luộc sẵn để đảm bảo mẫu mã đẹp để cho mâm lễ càng thêm trang trọng.",
+        "description": "CỖ XÔI GÀ VỚI CÁC SẢN PHẨM DƯỚI ĐÂY Một đĩa lớn xôi gấc nếp nương Điện Biên dẻo thơm 1,5kg và 1 con gà trống bắt cánh tiên ngậm hồng 1,5 - 1,7kg đã được luộc sẵn vàng óng, ngon mắt. Gà cánh tiên đã được bếp trưởng nhiều năm kinh nghiệm bắt cách tiên và luộc sẵn để đảm bảo mẫu mã đẹp để cho mâm lễ càng thêm trang trọng. GÀ QUẾ BẮT CÁNH TIÊN NGẬM HỒNG LUỘC SẴN Gà trống quế thả vườn tại Ba Vì với vị thịt dai, ngọt thơm ngon đặc trưng. Gà trống nguyên con với lớp da vàng óng được đầu bếp FoodHub bắt cánh tiên và luộc sẵn đẹp mắt, kèm một bông hồng để trang trí, góp phần giúp mâm cỗ cúng dâng tổ tiên nhà bạn thêm phần trang trọng, thể hiện được sự tinh tế và tỉ mỉ của người nội trợ trong gia đình. ĐĨA XÔI GẤC NẾP NƯƠNG LOẠI LỚN 1.5KG Đĩa xôi gấc nếp nương Điện Biên loại lớn, có thể bày gà lên đĩa xôi để tăng phần trang trọng. Bán chạy Xem tất cả Còn hàng Hành Khô Thái ECO (200gr/ Túi) 19.000đ 31 Đã bán THÁI ECO FARM Còn hàng Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ 25 Đã bán THÁI ECO FARM Bắc Giang Còn hàng Gạo ST25 Ông Cua (5kg/Túi) 225.000đ 23 Đã bán Gạo Ông Cua Còn hàng Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ 20 Đã bán THÁI ECO FARM Còn hàng Rau Muống Thái ECO (400gr/ Túi) 18.000đ 19 Đã bán KATAFOOD Còn hàng Cải Xanh Thái ECO (400gr/ Túi) 21.000đ 19 Đã bán Thái Eco Còn hàng Cải Ngọt Thái ECO (400gr/ Túi) 20.000đ 18 Đã bán THÁI ECO FARM Còn hàng Rau Mồng Tơi Thái ECO (400gr/ Túi) 19.000đ 15 Đã bán THÁI ECO FARM Còn hàng Nhân Lạc Chay Bắc Việt (200gr) 21.000đ 15 Đã bán Bắc Việt Còn hàng Bắp Cải Thái ECO (~1 Kg/ Cây) 24.000đ 13 Đã bán THÁI ECO FARM Còn hàng Cải Bó Xôi Thái ECO (400gr/ Túi) 21.000đ 12 Đã bán THÁI ECO FARM Còn hàng Dưa Muối Chua Nghi Khúc (250gr/ Hộp) 16.000đ 11 Đã bán Tp ABC Sản phẩm đã xem Xem tất cả Còn hàng Xôi Gấc, Gà Lễ Cánh Tiên 490.000đ -74 Đã bán FoodHub Kitchen Còn hàng Vừng Đen DONAVI (100gr) 17.000đ 1 Đã bán Donavi Còn hàng Trứng cút (30 quả) 35.000đ 3 Đã bán Trứng_An Nhàn Còn hàng Tinh Bột Nghệ (500gr) 105.000đ 999 Đã bán Hạt Thăng Còn hàng Thịt Nạc Vai N21 18.100đ ~ 181.000đ 999 Đã bán CTY CPTM N21 7.1% GIẢM Thịt Lợn Quế Cuốn Lá Lốt (10 Cái) 85.000đ ~ 90.000đ 79.000đ ~ 89.000đ 999 Đã bán FoodHub Kitchen Còn hàng Gia Vị Tần Gà (50gr/ Gói) 20.000đ -39 Đã bán Chinh Spicy 1% GIẢM Sườn Nướng Sa Tế (400gr) 105.000đ ~ 110.000đ 104.000đ ~ 109.000đ 999 Đã bán FoodHub Kitchen Còn hàng Set Đồ Cúng (Tiền Vàng, Rượu, Thuốc, Chè, Trầu Cau, Hoa Cúc) 48.000đ ~ 99.000đ 999 Đã bán FoodHub Kitchen Còn hàng SẦU RIÊNG RI 6 185.000đ -2 Đã bán KATAFOOD Còn hàng Rượu nếp cẩm Mom's Kitchen (hộp 500g) 50.000đ 999 Đã bán Đông Anh Còn hàng Rau Muống Xào Ngao (4 Người Ăn) 88.000đ ~ 98.000đ 2 Đã bán FoodHub Kitchen Bán chạy Hành Khô Thái ECO (200gr/ Túi) 19.000đ Cải Ngồng Thái ECO (400gr/ Túi) 20.000đ Gạo ST25 Ông Cua (5kg/Túi) 225.000đ Tỏi Khô Thái ECO (200gr/ Túi) 18.000đ Thêm vào giỏ hàng Mua ngay 0888301518 Chat Bạn cần đăng nhập để chat với shop Đăng nhập ngay Bạn có muốn huỷ bỏ đơn hàng này không ? Đơn hàng bị huỷ bỏ sẽ không được Huỷ Xác nhận Chăm sóc khách hàng Trung tâm trợ giúp Hướng dẫn mua hàng Chính sách vận chuyển Về chúng tôi Về FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách thanh toán Điều khoản chính sách Theo dõi chúng tôi Facebook Youtube Đi tới cửa hàng FoodHub - Thực phẩm sơ chế theo yêu cầu Chính sách bảo mật Quy chế hoạt động Trả hàng & hoàn tiền Sitemap © 2021. Công ty cổ phần FoodHub Vietnam. GPDKKD: 0107709060 do sở KH & ĐT TP Hà Nội cấp ngày 18/01/2017. Địa chỉ: Số 29, ngõ 66, ngách 66/36, đường Hồ Tùng Mậu, tổ 20, Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam. Cửa hàng: 47 Nguyễn Tuân, quận Thanh Xuân, Thành phố Hà Nội. Điện thoại: 0888.30.15.18. Email: contact@foodhub.vn.",
+        "product_code": "8100071",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 3.1, giá sau voucher 392000đ, dự kiến 40 phút, đã bán 1490, voucher 20.0%, phù hợp danh mục MÂM CỖ RẰM LỄ."
+      }
+    ],
+    "last_filters": {
+      "category": "MÂM CỖ RẰM LỄ",
+      "max_wait_minutes": 30
+    }
+  },
+  "bda71720-3c6b-484b-9f31-98f9786392d3": {
+    "session_id": "bda71720-3c6b-484b-9f31-98f9786392d3",
+    "old_intent": "filter_food",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Trên 3 sao"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Cải Ngọt Nhặt Sẵn (Túi ~ 200gr) - THÁI ECO FARM\n- Danh mục: Rau, Củ Sơ Chế Sẵn\n- Giá gốc: 20.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 17.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%.\n- Link món: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui\n\n2. Xương Cục Lợn bản (~500gr) - Bình Minh Farm\n- Danh mục: Lợn\n- Giá gốc: 56.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 42.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 23 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%.\n- Link món: https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr\n\n3. Rau Mùi Tàu Thái ECO (100gr/ Túi) - Thái Eco\n- Danh mục: Rau, Củ Gia Vị\n- Giá gốc: 9.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 8.100đ\n- Rating: 4.8\n- Thời gian dự kiến: 21 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%.\n- Link món: https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "Giao nhanh"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Cải Ngọt Nhặt Sẵn (Túi ~ 200gr) - THÁI ECO FARM\n- Danh mục: Rau, Củ Sơ Chế Sẵn\n- Giá gốc: 20.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 17.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui\n\n2. Xương Cục Lợn bản (~500gr) - Bình Minh Farm\n- Danh mục: Lợn\n- Giá gốc: 56.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 42.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 23 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr\n\n3. Rau Mùi Tàu Thái ECO (100gr/ Túi) - Thái Eco\n- Danh mục: Rau, Củ Gia Vị\n- Giá gốc: 9.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 8.100đ\n- Rating: 4.8\n- Thời gian dự kiến: 21 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "Tôi muốn món rating cao hơn"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Canh Rau Ngót Thịt Lợn Quế Bằm (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Canh\n- Giá gốc: 65.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 58.500đ\n- Rating: 4.9\n- Thời gian dự kiến: 24 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 58500đ, dự kiến 24 phút, đã bán 1246, voucher 10.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/set-canh-rau-ngot-thit-bam\n\n2. Măng Tây Xanh (500gr) - THÁI ECO FARM\n- Danh mục: Rau Củ Quả\n- Giá gốc: 75.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 63.750đ\n- Rating: 4.9\n- Thời gian dự kiến: 30 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 63750đ, dự kiến 30 phút, đã bán 1255, voucher 15.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/mang-tay-xanh-thai-eco-bo-250gr\n\n3. Diềm Bò Xào Cải Bó Xôi (3-4 Người Ăn) - FoodHub Kitchen\n- Danh mục: Món Chiên Xào\n- Giá gốc: 89.000đ\n- Voucher: 5.0%\n- Giá sau voucher: 84.550đ\n- Rating: 4.9\n- Thời gian dự kiến: 20 phút\n- Lý do: Món này nổi bật vì rating 4.9, giá sau voucher 84550đ, dự kiến 20 phút, đã bán 1330, voucher 5.0%, không vượt 30 phút.\n- Link món: https://www.foodhub.vn/diem-bo-xao-cai-bo-xoi-4-nguoi-an\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      },
+      {
+        "role": "user",
+        "content": "bạn là cái gì"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình gợi ý 3 món phù hợp nhất:\n\n1. Cải Ngọt Nhặt Sẵn (Túi ~ 200gr) - THÁI ECO FARM\n- Danh mục: Rau, Củ Sơ Chế Sẵn\n- Giá gốc: 20.000đ\n- Voucher: 15.0%\n- Giá sau voucher: 17.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 16 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%.\n- Link món: https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui\n\n2. Xương Cục Lợn bản (~500gr) - Bình Minh Farm\n- Danh mục: Lợn\n- Giá gốc: 56.000đ\n- Voucher: 25.0%\n- Giá sau voucher: 42.000đ\n- Rating: 4.5\n- Thời gian dự kiến: 23 phút\n- Lý do: Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%.\n- Link món: https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr\n\n3. Rau Mùi Tàu Thái ECO (100gr/ Túi) - Thái Eco\n- Danh mục: Rau, Củ Gia Vị\n- Giá gốc: 9.000đ\n- Voucher: 10.0%\n- Giá sau voucher: 8.100đ\n- Rating: 4.8\n- Thời gian dự kiến: 21 phút\n- Lý do: Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%.\n- Link món: https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui\n\nBạn có thể hỏi tiếp:\n- \"giới thiệu món số 1\"\n- \"món số 2 có nguyên liệu gì?\"\n- \"cho tôi link món số 3\"\n- \"lọc rẻ hơn\"\n- \"giao nhanh hơn\""
+      }
+    ],
+    "last_recommendations": [
+      {
+        "url": "https://www.foodhub.vn/cai-ngot-thai-eco-nhat-san-tui",
+        "name": "Cải Ngọt Nhặt Sẵn (Túi ~ 200gr)",
+        "brand": "THÁI ECO FARM",
+        "category": [
+          "Rau, Củ Sơ Chế Sẵn"
+        ],
+        "price": 20000,
+        "parsed_price": 20000,
+        "new_price": 17000,
+        "voucher": 15.0,
+        "rating": 4.5,
+        "distance_km": 1.5,
+        "prep_time_minutes": 13.0,
+        "estimated_time_minutes": 16,
+        "sold_count": 1392,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/05/18/1684399970_gq9dutBiYESb3h1G_1684407164-phpwjwalu.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Cải Ngọt Nhặt Sẵn định lượng 200gr một túi. Nguồn gốc: Thái ECO Rau xanh, được sơ chế sẵn, nhặt bỏ lá vàng, lá héo úa, lá già.",
+        "description": "Cải Ngọt Nhặt Sẵn được đầu bếp FoodHub sơ chế tỉ mỉ, đảm bảo nguyên liệu tươi mới, chất lượng khi giao đến khách hàng.",
+        "product_code": "8102435",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 17000đ, dự kiến 16 phút, đã bán 1392, voucher 15.0%."
+      },
+      {
+        "url": "https://www.foodhub.vn/xuong-cuc-lon-que-khay-300gr",
+        "name": "Xương Cục Lợn bản (~500gr)",
+        "brand": "Bình Minh Farm",
+        "category": [
+          "Lợn"
+        ],
+        "price": 56000,
+        "parsed_price": 56000,
+        "new_price": 42000,
+        "voucher": 25.0,
+        "rating": 4.5,
+        "distance_km": 1.8,
+        "prep_time_minutes": 19.0,
+        "estimated_time_minutes": 23,
+        "sold_count": 1389,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2022/09/23/1663899394_LG0Sm2AP6CHKD7hT_1663904999-phpzz38bc.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Xương Cục Lợn Quế định lượng 300gr một khay Nguồn gốc: Bình Minh Farm Đặc điểm: Tươi, chắc, đã được lọc bỏ gân, cơ, mỡ",
+        "description": "Xương Cục Lợn Quế có chứa nhiều dinh dưỡng như vitamin, khoáng chất dễ hấp thụ. Nguyên liệu được nhập trực tiếp từ trang trại Bình Minh, đảm bảo tươi mới, không chứa chất bảo quản, đóng gói tiêu chuẩn. Thông tin sản phẩm Xương cục là toàn bộ phần xương của con lợn đã được lọc bỏ thịt, gân, cơ, mỡ. Trong xương có chứa rất nhiều chất dinh dưỡng và khoáng chất có lợi cho sức khỏe. Xương khi ninh lên có vị hơi mặn, ngọt, giúp tăng cường các chức năng hoạt động của da, phát triển cơ bắp, tăng huyết mạch, tiêu khát, giải độc, hạn chế nguy cơ mắc các bệnh loãng xương, cải thiện hệ tiêu hóa,... Xương cục khi hầm càng lâu càng cho ra phần nước ngọt, làm canh, nước cốt các loại bún, phở, hủ tiếu,... rất ngon.",
+        "product_code": "8101741",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.5, giá sau voucher 42000đ, dự kiến 23 phút, đã bán 1389, voucher 25.0%."
+      },
+      {
+        "url": "https://www.foodhub.vn/rau-mui-tau-thai-eco-100gr-tui",
+        "name": "Rau Mùi Tàu Thái ECO (100gr/ Túi)",
+        "brand": "Thái Eco",
+        "category": [
+          "Rau, Củ Gia Vị"
+        ],
+        "price": 9000,
+        "parsed_price": 9000,
+        "new_price": 8100,
+        "voucher": 10.0,
+        "rating": 4.8,
+        "distance_km": 1.5,
+        "prep_time_minutes": 18.0,
+        "estimated_time_minutes": 21,
+        "sold_count": 1035,
+        "image_urls": [
+          "https://cdn.abphotos.link/photos/resized/1024x/2023/04/25/1682397099_oSLtu2jw1Ea8CTMZ_1682402331-phppxe4gu.png",
+          "https://www.foodhub.vn/assets/images/avatar-default.png",
+          "https://www.foodhub.vn/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png",
+          "https://www.foodhub.vn/assets/images/icons/2679f513b5f9e235adf2c6c288617e7b.png",
+          "https://www.foodhub.vn/assets/images/icons/759416b55e2bd69ecc360ee2faab7ad0.png",
+          "https://www.foodhub.vn/assets/images/icons/f014ef6b544459bf2463167d3226851f.png",
+          "https://www.foodhub.vn/assets/images/no-cart.png"
+        ],
+        "ingredients": [],
+        "origin": "['Việt Nam English', 'Việt Nam', 'English', 'Tin Tức Tin tức mới nhất 7 cách tiết kiệm tiền đi chợ cùng Foodhub có thể bạn chưa biết? 5 món hấp ăn ngon cho những ngày thời tiết mát mẻ Chăn nuôi xanh tuần hoàn: Chìa khóa tạo nên chất lượng thịt lợn quế 5 món canh giải nhiệt ngon miệng cho ngày hè Cách làm chả cá ngần cho bé Cách làm chả cá ngần lá lốt đơn giản nhất Tiêu Chuẩn 5L Của Thịt Lợn Mán Là Gì? Lợi ích của lối sống thuần chay 5 loại thực phẩm giúp bạn hạnh phúc hơn Lợn 3 máu giống lợn tạo nên chất lượng thịt ngon Xem tất cả', 'Liên hệ', 'Giới thiệu', 'Đăng Nhập']",
+        "product_info": "Rau Mùi Tầu Thái ECO đóng gói túi 100gr. Nguồn gốc: Thái ECO Đặc điểm: tươi, xanh, thơm đặc trưng.",
+        "description": "Rau Mùi Tầu Thái ECO được lấy trực tiếp từ trang trại Thái ECO trong ngày, đảm bảo nguyên liệu sạch, tươi mới. Đơn hàng đầu tiên mua qua app FoodHub được giảm 50.000VNĐ.",
+        "product_code": "8102373",
+        "error": null,
+        "reason": "Món này nổi bật vì rating 4.8, giá sau voucher 8100đ, dự kiến 21 phút, đã bán 1035, voucher 10.0%."
+      }
+    ],
+    "last_filters": {}
+  }
+}

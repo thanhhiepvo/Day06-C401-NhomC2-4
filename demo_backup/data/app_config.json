@@ -1,0 +1,30 @@
+{
+  "max_recommendations": 3,
+  "default_max_eta_minutes": 30,
+  "budget_tolerance_percent": 15,
+  "supported_constraints": [
+    "cheaper",
+    "not_spicy",
+    "faster",
+    "lighter",
+    "more_filling",
+    "different_from_history"
+  ],
+  "supported_meal_times": [
+    "morning",
+    "lunch",
+    "dinner"
+  ],
+  "supported_categories": [
+    "rice",
+    "office_rice",
+    "noodle_soup",
+    "noodle_dry",
+    "bread",
+    "breakfast",
+    "soup",
+    "light",
+    "vegetarian",
+    "street_food"
+  ]
+}

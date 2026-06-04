@@ -1,0 +1,4570 @@
+[
+  {
+    "id": 1,
+    "name": "Bò Xào Măng Tây (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 2,
+    "name": "Canh Cải Thịt Bằm (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 3,
+    "name": "Hoa Cúc Vàng (Bó)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "ĐỒ CÚNG"
+  },
+  {
+    "id": 4,
+    "name": "Cua Đồng Nguyên Chất Bà Bích (200gr/Gói)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 5,
+    "name": "Má Đùi Gà Nướng BBQ (~400gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 6,
+    "name": "Cua Đồng Tinh Chất Bà Bích (200gr/Gói)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 7,
+    "name": "Tỏi Gà Roti (2 Cái)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 8,
+    "name": "Bò Mộc Châu Xào Lúc Lắc (350gr, 3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 9,
+    "name": "Đậu Cove Thái ECO (Kg)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 10,
+    "name": "Cà Rốt Thái ECO",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 11,
+    "name": "Xoài Cát Chu (2,3 Quả/ Kg)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 12,
+    "name": "Mực Xào Ngũ Sắc (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 13,
+    "name": "Mực Xào Sa Tế (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 14,
+    "name": "Mực Xào Bí Đao (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 15,
+    "name": "Bún Khô DONAVI (400gr/ Gói)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 16,
+    "name": "Mực Xào Dưa Leo (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 17,
+    "name": "Súp Lơ Trắng Thái ECO (Kg)",
+    "category": [
+      "Khác",
+      "Thực phẩm khác"
+    ],
+    "main_category": "Khác"
+  },
+  {
+    "id": 18,
+    "name": "Miến Dong Donavi (100gr)",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 19,
+    "name": "Rau Kinh Giới Thái ECO (100gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 20,
+    "name": "Rau Ngổ Thái ECO (100gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Củ quả"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 21,
+    "name": "Lá Lốt Thái ECO (100gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 22,
+    "name": "Ba Chỉ Chiên Mắm Ruốc (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 23,
+    "name": "Miến Dong Bắc Kạn (250g)",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 24,
+    "name": "Ba chỉ bò nhập khẩu lẩu (Short Plate) 500g",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Lợn",
+      "Thịt heo/lợn"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 25,
+    "name": "Ba Chỉ Nướng Xá Xíu (350gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 26,
+    "name": "Bánh Đa Nem Hoàng Gia 76G",
+    "category": [
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÁNH & ĐỒ ĂN VẶT"
+  },
+  {
+    "id": 27,
+    "name": "Ba Chỉ Rút Sườn Lợn Bản (~300gr/ Khay)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 28,
+    "name": "Ba Chỉ Lợn Quế Kho Củ Cải (350gr, 3-4 Người Ăn)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 29,
+    "name": "Ba Chỉ Chiên Sa Tế (450gr, 3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 30,
+    "name": "Ba Chỉ Xào Dưa Chua (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 31,
+    "name": "Bánh Đa Nem Thổ Hà Donavi (15 Lá)",
+    "category": [
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÁNH & ĐỒ ĂN VẶT"
+  },
+  {
+    "id": 32,
+    "name": "Bánh Đa Cuốn Thổ Hà Donavi (20 Lá)",
+    "category": [
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÁNH & ĐỒ ĂN VẶT"
+  },
+  {
+    "id": 33,
+    "name": "Bánh Tráng Chuối 250gr",
+    "category": [
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÁNH & ĐỒ ĂN VẶT"
+  },
+  {
+    "id": 34,
+    "name": "Bánh Ram Hà Tĩnh (50 Lá/Túi)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "ĐỒ CÚNG"
+  },
+  {
+    "id": 35,
+    "name": "Bắp Tròn Bò Ri (~300gr/ Khay)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 36,
+    "name": "Bắp Cải Thái ECO (~1 Kg/ Cây)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 37,
+    "name": "Bắp Cải Tím Thái ECO (~ 1 Kg/ Cây)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 38,
+    "name": "Thịt Chân Giò Lợn bản",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 39,
+    "name": "Bắp hoa Bò ri",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 40,
+    "name": "Bê Chao Tỏi (300gr, 4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 41,
+    "name": "Bầu Quả Thái ECO (~1.2kg / Quả)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 42,
+    "name": "Bê Hầm Bia (300gr/ 3-4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 43,
+    "name": "Bê Hấp Sả Cuốn Bánh Tráng (4 người ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 44,
+    "name": "Bê Tươi Nghệ An Xào Hành Răm (3-4 Người Ăn)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 45,
+    "name": "Bê Tươi Nghệ An Xào Cần Tây (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 46,
+    "name": "Bê Tươi Nghệ An Xào Lá Lốt (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 47,
+    "name": "Bê Tươi Nghệ An Xào Măng Trúc (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 48,
+    "name": "Bê Tươi Nghệ An Xào Rau Muống (4 Người)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 49,
+    "name": "Bê Tươi Nghệ An Xào Ngồng Tỏi (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 50,
+    "name": "Bí Cô Tiên Thái ECO (~1 Kg/ Quả)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 51,
+    "name": "Bê Tươi Nghệ An Xào Sả Ớt (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 52,
+    "name": "Bí Đỏ Gọt Sẵn (300gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 53,
+    "name": "Bí Ngòi Xanh Thái ECO",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 54,
+    "name": "Bí Xanh Gọt Sẵn (300gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 55,
+    "name": "Bí Đỏ Non Thái ECO (2,3 Quả/ Kg)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 56,
+    "name": "Bơ 034 VIP",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 57,
+    "name": "Bí Xanh Thái ECO (~1kg / Quả)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 58,
+    "name": "Thăn bò ri Ướp nướng (500gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 59,
+    "name": "Bò Xào Bí Ngòi (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 60,
+    "name": "Bò Sốt Vang (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 61,
+    "name": "Bò Xào Cải Bó Xôi (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 62,
+    "name": "Bò Xào Bí Xanh (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 63,
+    "name": "Bò Xào Củ Cải (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 64,
+    "name": "Bò xào dưa",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 65,
+    "name": "Bò Xào Hoa Lơ (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 66,
+    "name": "Bò Xào Đậu Cove (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 67,
+    "name": "Bò Xào Khoai Tây (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 68,
+    "name": "Bò Xào Mướp Đắng (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 69,
+    "name": "Bò Xào Ngồng Tỏi (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 70,
+    "name": "Bò Xào Nấm (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 71,
+    "name": "Bò Xào Rau Củ Ngũ Sắc (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 72,
+    "name": "Bò Xào Rau Muống (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 73,
+    "name": "Bò Xào Sả Ớt (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 74,
+    "name": "Bò Xào Su Su (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 75,
+    "name": "Bột Gừng Khô (30gr/ Lọ)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 76,
+    "name": "Bún Trắng Mạch Tràng (500gr/ Set)",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực",
+      "Set món ăn"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 77,
+    "name": "Bột Canh Hải Châu (190gr)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 78,
+    "name": "Cá bống biển (500gr)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 79,
+    "name": "Bột Tiêu Đen (20gr/ Gói)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 80,
+    "name": "Cá Chép Hấp Bia Nguyên Con (4 Người)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 81,
+    "name": "Cá Chép Hấp Hành Nguyên Con (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 82,
+    "name": "Cá Chép Nguyên Con (Kg) (1.2- 1.5Kg/ Con)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 83,
+    "name": "Cà Chua Baby Đỏ Thái ECO (300gr/Khay)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 84,
+    "name": "Cá Chép Phi Lê Hấp Bầu (4 Người Ăn)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 85,
+    "name": "Cà Chua Thái ECO",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 86,
+    "name": "Cá Diêu Hồng Hấp Hành Cuốn Bánh Tráng (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 87,
+    "name": "Cá Diêu Hồng Nguyên Con (Kg) (1.2-1.5Kg/Con)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 88,
+    "name": "Cá Lăng Cắt Khúc (500gr)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 89,
+    "name": "Cá Lăng Phile Sốt Me (500gr/ 4 Người Ăn)",
+    "category": [
+      "Món Sốt",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Sốt"
+  },
+  {
+    "id": 90,
+    "name": "Cá Diêu Hồng Phi Lê Hấp Bầu (4 Người Ăn)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 91,
+    "name": "Cá Lăng Om Riềng Mẻ (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 92,
+    "name": "Cà Muối Chua Nghi Khúc (150gr/ Túi)",
+    "category": [
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "BÚN TRỨNG ĐẬU DƯA CÀ"
+  },
+  {
+    "id": 93,
+    "name": "Cá nục bỏ da (hộp 500gr, 6-8 con)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Thủy, Hải Sản",
+      "Cá"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 94,
+    "name": "Cá Quả Nguyên Con (Kg) (1-1,2Kg/Con)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 95,
+    "name": "Cá Quả Phi Lê Hấp Bầu Cuốn Bánh Tráng (4 Người Ăn)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 96,
+    "name": "Canh Cá Rô Đồng Rau Cải (4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 97,
+    "name": "Cá Rô Phi Hấp Gừng Cuốn Bánh Tráng (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 98,
+    "name": "Cá Rô Đồng Nấu Rau Ngót (3-4 Người Ăn)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 99,
+    "name": "Cá Rô Phi Nguyên Con (Kg) (1-1.2 Kg/Con)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 100,
+    "name": "Cà Rốt Gọt Sẵn (300gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 101,
+    "name": "Cá Thu Xốt Cà Chua (300g, 3-4 Người Ăn)",
+    "category": [
+      "Món Sốt",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Sốt"
+  },
+  {
+    "id": 102,
+    "name": "Cà Tím Bung Thịt Đậu Mơ (3-4 Người Ăn)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 103,
+    "name": "Cà Tím Dài Thái ECO (2-3 Quả/ Khay)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 104,
+    "name": "Cà Tím Tròn Thái ECO (2-3 Quả/ Khay)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 105,
+    "name": "Cá Trắm Trắng Cắt Khúc (400gr/ Khúc)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 106,
+    "name": "Cải Bó Xôi Thái ECO (400gr/ Túi)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 107,
+    "name": "Cải Chíp Thái ECO (400gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 108,
+    "name": "Cải Xanh Thái ECO (400gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 109,
+    "name": "Cải Ngồng Thái ECO (400gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 110,
+    "name": "Cải Ngồng Nhặt Sẵn (Túi ~ 200gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 111,
+    "name": "Cải Ngọt Thái ECO (400gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 112,
+    "name": "Cải Ngọt Nhặt Sẵn (Túi ~ 200gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 113,
+    "name": "Cải Thảo Thái ECO (~1.2 Kg/ Cây)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 114,
+    "name": "Cải Thảo Cuốn Thịt Hấp (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 115,
+    "name": "Cải Xanh Nhặt Sẵn (Túi ~ 200gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 116,
+    "name": "Cần Tây Mỹ Thái ECO (~1kg/ Cây)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 117,
+    "name": "Cam sành Tiền Giang (1kg) (3-4 quả)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 118,
+    "name": "Cần Tây Thái ECO (200gr/ Bó)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 119,
+    "name": "Canh Bầu Nấu Ngao (3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 120,
+    "name": "Canh Bí Xanh Nhồi Thịt Lợn Quế (3-4 người ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 121,
+    "name": "Canh Bí Hầm Xương (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Hấp, Hầm"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 122,
+    "name": "Canh Bí Xanh Nấu Thịt Lợn Quế Bằm (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 123,
+    "name": "Canh Chua Đầu Cá (3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 124,
+    "name": "Canh Chân Giò Hạt Sen Củ Quả (4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 125,
+    "name": "Canh Cá Nam Bộ (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 126,
+    "name": "Canh Chua Nấu Sấu (3-4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 127,
+    "name": "Canh Cá Lăng Phi-Lê Nấu Măng (4 Người)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Hấp, Hầm",
+      "Thủy, Hải Sản",
+      "Cá",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 128,
+    "name": "Canh Diềm Bò Dưa Chua (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 129,
+    "name": "Cánh Gà BBQ (4 Cái)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Nướng",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 130,
+    "name": "Canh Cua Mồng Tơi Mướp Hương (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Củ quả"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 131,
+    "name": "Canh Gà Hầm Củ Quả (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Hấp, Hầm",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 132,
+    "name": "Canh Gà Hầm Nấm (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Hấp, Hầm",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 133,
+    "name": "Cánh Gà Khúc Giữa Chiên Mắm (500g, 3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Chiên Xào",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 134,
+    "name": "Cánh Gà Khúc Giữa Chiên Sa Tế (500g, 3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Chiên Xào",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 135,
+    "name": "Cánh Gà Khúc Giữa Chiên Xù (500g, 3-4 người ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Chiên Xào",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 136,
+    "name": "Cánh Gà Khúc Giữa (500gr)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 137,
+    "name": "Cánh Gà Khúc Giữa Xốt Me (500g, 3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Sốt",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 138,
+    "name": "Cánh Gà Khúc Giữa Chua Ngọt (500g, 4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Sốt",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 139,
+    "name": "Canh Khoai Sọ Hầm Xương (4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Hấp, Hầm",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 140,
+    "name": "Cánh Gà Sa Tế (4 Cái)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 141,
+    "name": "Canh Ngao Mồng Tơi (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 142,
+    "name": "Canh Móng Giò Nấu Măng (4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Hấp, Hầm",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 143,
+    "name": "Canh Mướp Đắng Nhồi Thịt (4 Người, 6-8 set)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Set món ăn"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 144,
+    "name": "Canh Nấm Đậu Phụ Thả Mọc (4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng",
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 145,
+    "name": "Canh Sườn Lợn Quế Củ Quả (3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 146,
+    "name": "Canh Rau Dền Thịt Lợn Quế Bằm (3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 147,
+    "name": "Canh Sườn Hạt Sen Củ Quả (3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 148,
+    "name": "Canh Sườn Sụn Om Măng (3,4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Hấp, Hầm",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 149,
+    "name": "Canh Thịt Mọc Rau Củ (4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 150,
+    "name": "Canh Sườn Sụn Củ Quả (4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 151,
+    "name": "Canh Xương Củ Quả (4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 152,
+    "name": "Canh Xương Hạt Sen Củ Quả (4 Người)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 153,
+    "name": "Chim Bồ Câu (300 - 400gr/Con)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Gà, gia cầm",
+      "Gia cầm"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 154,
+    "name": "Chanh Xanh (3 quả)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 155,
+    "name": "Cơm Mẻ Bà Bích (250 ml/Chai)",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 156,
+    "name": "Set Bánh Chưng - Giò Lụa",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến",
+      "Set món ăn"
+    ],
+    "main_category": "ĐỒ CÚNG"
+  },
+  {
+    "id": 157,
+    "name": "Củ Dền Thái ECO",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 158,
+    "name": "Củ Cải Trắng Thái ECO",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 159,
+    "name": "Củ Su Hào Thái ECO",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 160,
+    "name": "Giấm Bỗng Bà Bích (350 ml/Chai)",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 161,
+    "name": "Đậu Đỏ Hạt Nhỏ Bắc Việt (200gr)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 162,
+    "name": "Đậu Đỏ Hạt To Bắc Việt (200gr)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 163,
+    "name": "Đậu Hũ Cá Phô Mai EB (500g)",
+    "category": [
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến",
+      "BÚN TRỨNG ĐẬU DƯA CÀ"
+    ],
+    "main_category": "BÚN TRỨNG ĐẬU DƯA CÀ"
+  },
+  {
+    "id": 164,
+    "name": "Đậu Non Làng Mơ (Khay)",
+    "category": [
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÚN TRỨNG ĐẬU DƯA CÀ"
+  },
+  {
+    "id": 165,
+    "name": "Đậu Thanh Truyền Thống (Khay)",
+    "category": [
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÚN TRỨNG ĐẬU DƯA CÀ"
+  },
+  {
+    "id": 166,
+    "name": "Đậu Phụ Rán Nhồi Thịt Xốt Cà Chua (9 Miếng)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Sốt",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 167,
+    "name": "Đậu Xanh Vỡ Hạt Donavi (200gr)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 168,
+    "name": "Dẻ Sườn Bò Ri (400gr)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Lợn",
+      "Thịt heo/lợn"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 169,
+    "name": "Diềm Bò Xào Cải Bó Xôi (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 170,
+    "name": "Diềm Bò Xào Cải Ngọt (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 171,
+    "name": "Diềm Thăn Bò Ri (~300gr)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 172,
+    "name": "Diềm thăn bò (350gr/ Khay)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 173,
+    "name": "Dưa Chuột Thái ECO (400gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 174,
+    "name": "Dưa hấu Sài Gòn (Quả ~ 3Kg)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 175,
+    "name": "Dưa Kim Hoàng Hậu (Kg)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 176,
+    "name": "Dưa Muối Chua Nghi Khúc (250gr/ Hộp)",
+    "category": [
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "BÚN TRỨNG ĐẬU DƯA CÀ"
+  },
+  {
+    "id": 177,
+    "name": "Dưa Leo Baby Thái ECO (500gr/ 8-10 quả)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 178,
+    "name": "Dứa Xanh Gọt Sẵn (Quả)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 179,
+    "name": "Dứa Quả Thái ECO (Quả ~ 1kg )",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 180,
+    "name": "Tỏi Gà Chua Ngọt (2 đùi)",
+    "category": [
+      "Món Sốt",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Sốt"
+  },
+  {
+    "id": 181,
+    "name": "Dừa Xiêm",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 182,
+    "name": "Tỏi Gà Chiên Xù (2 chiếc)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 183,
+    "name": "Đùi Gà Góc Tư N21 (~350gr/ Khay)",
+    "category": [
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 184,
+    "name": "Tỏi Gà Nướng Xá Xíu (350gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 185,
+    "name": "Ếch Om Chuối Đậu (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Ếch",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 186,
+    "name": "Đường Thốt Nốt (300g)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 187,
+    "name": "Ếch Xào Măng (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Ếch",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 188,
+    "name": "Ếch Xào Sả Ớt (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Ếch",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 189,
+    "name": "Gà Kho Gừng Nghệ (500g, 3-4 Người Ăn)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 190,
+    "name": "Gà Cánh Tiên (Gà Quế Luộc Sẵn, 1,7-2kg/con)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Hấp, Hầm",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 191,
+    "name": "Gà quế - gà giun quế (1.2-1.4kg/con)",
+    "category": [
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 192,
+    "name": "Gà Xào Nấm (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 193,
+    "name": "Gà Xào Sả Ớt (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 194,
+    "name": "Gạo Lứt Huyết Rồng Donavi (1kg)",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 195,
+    "name": "Gạo Nếp Cái Hoa Vàng Donavi (1kg)",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 196,
+    "name": "Gạo ST25 Ông Cua (5kg/Túi)",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 197,
+    "name": "Gạo Nếp Cẩm Donavi (1kg)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống",
+      "Gạo, mỳ, miến",
+      "Lương thực",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 198,
+    "name": "Giá Đỗ Thái ECO (300gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 199,
+    "name": "Gia Vị Bò Kho Donavi 20gr",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 200,
+    "name": "Gia Vị Phở Bò Chinh Spicy (25gr/ Túi)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 201,
+    "name": "Gia Vị Tần Hầm Lẩu (50gr/ Túi)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 202,
+    "name": "Giò Lụa Lợn Quế (300gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 203,
+    "name": "Giò Sống N21 (~300gr/ Khay)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 204,
+    "name": "Gừng Củ Thái ECO (150gr/ Set)",
+    "category": [
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ",
+      "Set món ăn"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 205,
+    "name": "Hành Lá Thái ECO (100gr/ Bó)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 206,
+    "name": "Hành Khô Thái ECO (200gr/ Túi)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 207,
+    "name": "Hành Tây Thái ECO (~300gr/ Củ)",
+    "category": [
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 208,
+    "name": "Hạt Sen Tươi Sơ Chế Thái ECO (200gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 209,
+    "name": "ICHIBAN KIMCHI CẢI THẢO HŨ 450G FRESH CABBAGE KIMCHI",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 210,
+    "name": "Khoai Sọ Sơ Chế (400gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 211,
+    "name": "Khoai Lang Nhật Thái ECO (4-5 Củ /Kg)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 212,
+    "name": "Khoai Sọ Thái ECO (10-12 Củ/ Kg)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 213,
+    "name": "Khoai Tây Chiên",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 214,
+    "name": "Khoai Tây Gọt Sẵn (300gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 215,
+    "name": "KIM CHI CẢI THẢO ICHIBAN 350GR",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 216,
+    "name": "Lê Nam Phi Size 45 (Kg)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "ĐỒ CÚNG"
+  },
+  {
+    "id": 217,
+    "name": "Khoai Tây Thái ECO (4-5 Củ/ Kg)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 218,
+    "name": "Lườn Gà (~500gr/ Khay)",
+    "category": [
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 219,
+    "name": "Lưỡi Lợn Bản ( cái)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 220,
+    "name": "Lườn Gà Nướng Sa Tế (400gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 221,
+    "name": "Má đào lợn bản (350gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 222,
+    "name": "Má Đùi Gà N21",
+    "category": [
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 223,
+    "name": "Má Đùi Gà N21 (~400gr/ Khay)",
+    "category": [
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 224,
+    "name": "Mắm Tép Đồng Tâm Đức (180gr/Chai)",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 225,
+    "name": "Má Đùi Gà Nướng Sa Tế (~400gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 226,
+    "name": "Chinsu Tỏi Ớt Nắp Đỏ Masan 330ml",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 227,
+    "name": "Măng cụt (kg)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 228,
+    "name": "Măng Tây Xanh (500gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 229,
+    "name": "Miến Kiên Sơn (250gr)",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 230,
+    "name": "Me Chua (300g)",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 231,
+    "name": "Mít Sấy Đặc Sản Lâm Đồng",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 232,
+    "name": "Mộc Nhĩ Donavi (50gr/Túi)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 233,
+    "name": "Mộc Nhĩ Đen Bắc Việt (Túi 100gr)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 234,
+    "name": "Mỡ Thăn Lợn Bản (300gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 235,
+    "name": "Mọc Thịt (350g)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 236,
+    "name": "Mộc Nhĩ Thái Chỉ Bắc Việt (50gr/ Gói)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 237,
+    "name": "Móng Giò Lợn Bản (cái ~ 600gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 238,
+    "name": "Mực Ống Nguyên Con - HTK Food (Size 10-15 cm) (500gr)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 239,
+    "name": "Móng Giò Giả Cầy (3-4 Người Ăn)",
+    "category": [
+      "Món Sốt",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Sốt"
+  },
+  {
+    "id": 240,
+    "name": "Mực Ống Vân Đồn Nhồi Thịt Hấp (4 người)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 241,
+    "name": "Mực Trứng Cơm Xôi (400gr)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 242,
+    "name": "Mực Xào Cần Tỏi (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 243,
+    "name": "Mực Xào Chua Ngọt (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Sốt",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 244,
+    "name": "Muối Tiêu Hồng Nahas (68gr/Hộp)",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 245,
+    "name": "Mực Xào Dứa (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 246,
+    "name": "Mướp Đắng Thái ECO",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 247,
+    "name": "Mỳ Sợi Nam Dương (400gr)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 248,
+    "name": "Nạc nọng lợn bản (500gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 249,
+    "name": "Nạc nọng lợn bản Ướp nướng BBQ (500gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 250,
+    "name": "Mỳ Chũ Nam Dương (400gr/Túi)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 251,
+    "name": "Nạc Thăn Lợn Bản (Khay 300gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 252,
+    "name": "Nạc Vai Giòn Lợn Bản (350gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 253,
+    "name": "Nạm bò ri (300gr)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 254,
+    "name": "Nạc Vai Xay (~250gr/ Khay)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 255,
+    "name": "Nấm Đùi Gà Thái ECO (300gr/ Khay)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 256,
+    "name": "Nấm Hương Bắc Việt (100gr/ Gói)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 257,
+    "name": "Nấm Hương Khô Bắc Việt 50G",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 258,
+    "name": "Nấm Hương Khô Donavi (50 gr/Túi)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 259,
+    "name": "Nấm Kim Châm Thái ECO (150gr)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 260,
+    "name": "Nấm Hương Tươi Thái ECO (200gr/ Khay)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 261,
+    "name": "Nấm Sò Yến Nâu Thái ECO (300gr/ Khay)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 262,
+    "name": "Nấm Ngọc Châm Trắng Thái ECO (150gr/ Khay)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 263,
+    "name": "Nem bùi Kinh Bắc",
+    "category": [
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÁNH & ĐỒ ĂN VẶT"
+  },
+  {
+    "id": 264,
+    "name": "NEM CHUA ĂN LIỀN",
+    "category": [
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÁNH & ĐỒ ĂN VẶT"
+  },
+  {
+    "id": 265,
+    "name": "Nem Chua Con Lợn Bay",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 266,
+    "name": "Nem Thịt Lợn Quế",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 267,
+    "name": "Nghệ Củ Thái ECO (150gr/ Túi)",
+    "category": [
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 268,
+    "name": "Ngan Ta (1.3-1.6kg/ Con)",
+    "category": [
+      "Gà, gia cầm",
+      "Gia cầm",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 269,
+    "name": "Nghêu Sạch Lenger (600gr/ Khay)",
+    "category": [
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Thủy, Hải Sản"
+  },
+  {
+    "id": 270,
+    "name": "Ngô ngọt Miền 3 Xanh (1 bắp)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 271,
+    "name": "Ngô Ngọt Tách Hạt (250gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 272,
+    "name": "Ngọn Rau Lang Thái ECO (400gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 273,
+    "name": "Ngọn Su Su Thái ECO (400gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 274,
+    "name": "Ngồng Tỏi Thái ECO (200gr/ Bó)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 275,
+    "name": "Nộm Dưa Chuột (3-4 Người Ăn)",
+    "category": [
+      "Nộm",
+      "Salad",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Salad"
+  },
+  {
+    "id": 276,
+    "name": "Nhân Lạc Chay Bắc Việt (200gr)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 277,
+    "name": "Nộm Gà Xé Phay (400gr)",
+    "category": [
+      "Nộm",
+      "Salad",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Salad"
+  },
+  {
+    "id": 278,
+    "name": "Nộm Rau Củ Mùa Hạ (500gr/ Set)",
+    "category": [
+      "Nộm",
+      "Salad",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Set món ăn"
+    ],
+    "main_category": "Salad"
+  },
+  {
+    "id": 279,
+    "name": "Ớt Chuông Đỏ Thái ECO (~250gr/Quả)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 280,
+    "name": "Ốc Om Chuối Đậu Sơ Chế (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 281,
+    "name": "Ớt Chuông Xanh Thái ECO (~250gr/ Quả)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 282,
+    "name": "Ớt Hiểm Thái ECO (100gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 283,
+    "name": "Ớt Sừng Đỏ Thái ECO (Túi 100gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 284,
+    "name": "Phở Khô DONAVI (400gr/ Gói)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 285,
+    "name": "Phomai Cắt Mozzarella (200gr)",
+    "category": [
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÁNH & ĐỒ ĂN VẶT"
+  },
+  {
+    "id": 286,
+    "name": "Quất Xanh Thái ECO 200Gr",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 287,
+    "name": "Quả Sấu Chua (300g)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 288,
+    "name": "Quế Hồi Thảo Quả (20gr/ Gói)",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 289,
+    "name": "Quýt đường Ôn Châu",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 290,
+    "name": "Rau Dền Thái Eco (300gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 291,
+    "name": "Rau Dền Nhặt Sẵn (Túi ~ 200gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 292,
+    "name": "Rau Húng Quế Thái ECO (100gr/ Gói)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 293,
+    "name": "Rau Mồng Tơi Thái ECO (400gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 294,
+    "name": "Rau Mùi Ta Thái ECO (100gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 295,
+    "name": "Rau Mồng Tơi Nhặt Sẵn (Túi ~ 200gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 296,
+    "name": "Rau Mùi Tàu Thái ECO (100gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 297,
+    "name": "Rau Muống Nhặt Sẵn (Túi ~ 200gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 298,
+    "name": "Rau Muống Thái ECO (400gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 299,
+    "name": "Rau Ngót Nhặt Sẵn (Túi ~ 200gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 300,
+    "name": "Rau Muống Xào Ngao (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 301,
+    "name": "Rau Ngót (300gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 302,
+    "name": "Rau Răm Thái ECO (100gr/ Túi)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "ĐỒ CÚNG"
+  },
+  {
+    "id": 303,
+    "name": "Rau Thì Là Thái ECO",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 304,
+    "name": "Rau Tía Tô Thái ECO (100gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 305,
+    "name": "Riềng Củ Thái ECO",
+    "category": [
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 306,
+    "name": "Roi Đỏ An Phước (Kg)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 307,
+    "name": "Rượu nếp cẩm Mom's Kitchen (hộp 500g)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 308,
+    "name": "Rượu Cúng",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ"
+    ],
+    "main_category": "ĐỒ CÚNG"
+  },
+  {
+    "id": 309,
+    "name": "Sả Cây Thái ECO (5 Cây/ Bó)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 310,
+    "name": "Sa Tế Tâm Đức (85gr/Chai)",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 311,
+    "name": "Salad Bắp Cải (2-4 Người Ăn)",
+    "category": [
+      "Salad",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Salad"
+  },
+  {
+    "id": 312,
+    "name": "Salad Thịt Bò (2 Người Ăn)",
+    "category": [
+      "Salad",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Salad"
+  },
+  {
+    "id": 313,
+    "name": "Salad Thịt Heo (2 Người Ăn)",
+    "category": [
+      "Salad",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Salad"
+  },
+  {
+    "id": 314,
+    "name": "Sắn Hấp Dừa VibaFood 400G",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "BÁNH & ĐỒ ĂN VẶT",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 315,
+    "name": "SẦU RIÊNG RI 6",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 316,
+    "name": "Sen Củ Cắt Lát Thái ECO (350gr/ Túi)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 317,
+    "name": "Salad Lườn Gà (2 Người Ăn)",
+    "category": [
+      "Salad",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Salad"
+  },
+  {
+    "id": 318,
+    "name": "Set 3 Loại Củ Gọt Sẵn (300gr)",
+    "category": [
+      "Rau, Củ Sơ Chế Sẵn",
+      "RAU, CỦ, QUẢ",
+      "Set món ăn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 319,
+    "name": "Bò Xào Cần Tỏi (4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 320,
+    "name": "Ba chỉ Kho Trứng Cút (4 Người Ăn)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 321,
+    "name": "Sườn Xào Chua Ngọt (400gr)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Sốt",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 322,
+    "name": "Set Đồ Cúng (Tiền Vàng, Rượu, Thuốc, Chè, Trầu Cau, Hoa Cúc)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ",
+      "Set món ăn"
+    ],
+    "main_category": "ĐỒ CÚNG"
+  },
+  {
+    "id": 323,
+    "name": "Canh Rau Ngót Thịt Lợn Quế Bằm (3-4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 324,
+    "name": "Set Rau Ăn Ghém (350-400gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh",
+      "Thực phẩm tươi sống",
+      "Set món ăn"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 325,
+    "name": "Su Su Gọt Sẵn (300gr)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Sơ Chế Sẵn"
+    ],
+    "main_category": "Rau, Củ Sơ Chế Sẵn"
+  },
+  {
+    "id": 326,
+    "name": "Su Su Thái ECO (3,4 Củ/ Kg)",
+    "category": [
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Rau Củ Quả"
+  },
+  {
+    "id": 327,
+    "name": "Sườn Non Lợn Bản (~400gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 328,
+    "name": "Sườn Lợn Quế Sốt Me (400g, 4 Người Ăn)",
+    "category": [
+      "Món Sốt",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Sốt"
+  },
+  {
+    "id": 329,
+    "name": "Sườn Om Mắm Ruốc (3-4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 330,
+    "name": "Sườn Nướng Sa Tế (400gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 331,
+    "name": "Sườn Sụn Hầm Thuốc Bắc (3,4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 332,
+    "name": "Sườn Sụn Kho Trứng Cút (3-4 Người Ăn)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 333,
+    "name": "Sụn non Lợn Bản (~300gr)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 334,
+    "name": "Sườn Sụn Om Mắm Ruốc (3,4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 335,
+    "name": "Súp Lơ Xanh Thái ECO (350-500gr/ Cái)",
+    "category": [
+      "Khác",
+      "Thực phẩm khác"
+    ],
+    "main_category": "Khác"
+  },
+  {
+    "id": 336,
+    "name": "Sườn Sụn Om Sấu (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 337,
+    "name": "Tai Lợn bản (cái)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 338,
+    "name": "Tàu Hũ Non Ichiban 300G",
+    "category": [
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÚN TRỨNG ĐẬU DƯA CÀ"
+  },
+  {
+    "id": 339,
+    "name": "Gia Vị Tần Gà (50gr/ Gói)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 340,
+    "name": "Thăn bò Ri (300gr)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 341,
+    "name": "Thăn Bò Xào Thơm (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 342,
+    "name": "Thanh Long Ruột Đỏ (2,3 Quả/ Kg)",
+    "category": [
+      "TRÁI CÂY",
+      "Rau Củ Quả",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "TRÁI CÂY"
+  },
+  {
+    "id": 343,
+    "name": "Thịt bê Nghệ An (500g)",
+    "category": [
+      "Bò, bê",
+      "Thịt bê",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 344,
+    "name": "Ba Chỉ Rang Cháy Cạnh (350gr/ 4 Người Ăn)",
+    "category": [
+      "Món Canh",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Món Kho, Rang",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Canh"
+  },
+  {
+    "id": 345,
+    "name": "Thịt Heo Chao Tỏi (4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 346,
+    "name": "Thịt Bò Cuốn Lá Lốt (350gr, 3-4 Người Ăn)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 347,
+    "name": "Thịt Lợn Quế Cuốn Lá Lốt (10 Cái)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 348,
+    "name": "Thịt Heo Xào Đậu Cove (3 Người)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Củ quả"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 349,
+    "name": "Thịt Heo Xào Lúc Lắc (350gr, 3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 350,
+    "name": "Thịt Heo Xào Sả Ớt (2-3 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 351,
+    "name": "Thịt Heo Xào Rau Củ (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Rau Củ Quả",
+      "RAU, CỦ, QUẢ",
+      "Rau xanh"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 352,
+    "name": "Thịt Kho Tàu (350g, 4 Người Ăn)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 353,
+    "name": "Thịt Nạc Vai N21",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 354,
+    "name": "Thịt Lợn Quế Xiên Mắc Mật (500gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 355,
+    "name": "Thịt Nạc Thăn N21",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 356,
+    "name": "Thịt Thăn Lợn Quế Tẩm Bột Chiên Xù (~300gr, 3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 357,
+    "name": "Tiền Vàng Lễ Giấy (1 Thiếp)",
+    "category": [
+      "ĐỒ CÚNG",
+      "RẰM & LỄ",
+      "MÂM CỖ RẰM LỄ"
+    ],
+    "main_category": "ĐỒ CÚNG"
+  },
+  {
+    "id": 358,
+    "name": "Thịt Vai Nướng Xá Xíu (300g, 3-4 người ăn)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 359,
+    "name": "Thịt xiên ướp nướng (500gr)",
+    "category": [
+      "Món Nướng",
+      "MÓN ĂN NẤU CHÍN SẴN"
+    ],
+    "main_category": "Món Nướng"
+  },
+  {
+    "id": 360,
+    "name": "Quả Tim Lợn Bản (quả)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 361,
+    "name": "Tinh Bột Nghệ (500gr)",
+    "category": [
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Rau, Củ Gia Vị"
+  },
+  {
+    "id": 362,
+    "name": "Tỏi Gà (2 Cái/ Khay)",
+    "category": [
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 363,
+    "name": "Tỏi Tây Thái ECO (200gr/ Bó)",
+    "category": [
+      "Bò, bê",
+      "Thịt bò",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Bò, bê"
+  },
+  {
+    "id": 364,
+    "name": "Tỏi Khô Thái ECO (200gr/ Túi)",
+    "category": [
+      "Món Kho, Rang",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Kho, Rang"
+  },
+  {
+    "id": 365,
+    "name": "Tóp Mỡ (100gr/ Set)",
+    "category": [
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống",
+      "Set món ăn"
+    ],
+    "main_category": "Lợn"
+  },
+  {
+    "id": 366,
+    "name": "Tôm nõn Sinh thái hấp Size Đại (500gr)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Thủy, Hải Sản",
+      "Hải sản",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 367,
+    "name": "Tóp Mỡ Xào Dưa Chua (3-4 Người Ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Lợn",
+      "Thịt heo/lợn",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 368,
+    "name": "Trà Cà Gai Leo Hapi (Hộp)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 369,
+    "name": "Trứng cút (30 quả)",
+    "category": [
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "BÚN TRỨNG ĐẬU DƯA CÀ"
+  },
+  {
+    "id": 370,
+    "name": "Tương nếp bần Tâm Đức (500ml)",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 371,
+    "name": "Trứng Gà Ta (10 Quả/ Khay)",
+    "category": [
+      "Gà, gia cầm",
+      "Thịt gà",
+      "Thực phẩm tươi sống",
+      "BÚN TRỨNG ĐẬU DƯA CÀ",
+      "Thực phẩm chế biến"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 372,
+    "name": "Vịt Chao Riềng (3-4 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Gia cầm",
+      "Thực phẩm tươi sống",
+      "Rau, Củ Gia Vị",
+      "Gia vị tươi",
+      "RAU, CỦ, QUẢ"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 373,
+    "name": "Vịt Nấu Măng (4-5 Người Ăn)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Gia cầm",
+      "Thực phẩm tươi sống",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Nấm/Măng"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 374,
+    "name": "Vịt Cỏ (1.5-2kg/Con)",
+    "category": [
+      "Gà, gia cầm",
+      "Gia cầm",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Gà, gia cầm"
+  },
+  {
+    "id": 375,
+    "name": "Vịt Om Sấu Nguyên Con (1.8-2kg/con)",
+    "category": [
+      "Món Hấp, Hầm",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Gia cầm",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Hấp, Hầm"
+  },
+  {
+    "id": 376,
+    "name": "Vịt Xào Sả Ớt (4,5 người ăn)",
+    "category": [
+      "Món Chiên Xào",
+      "MÓN ĂN NẤU CHÍN SẴN",
+      "Gà, gia cầm",
+      "Gia cầm",
+      "Thực phẩm tươi sống"
+    ],
+    "main_category": "Món Chiên Xào"
+  },
+  {
+    "id": 377,
+    "name": "Vừng Đen DONAVI (100gr)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 378,
+    "name": "Vừng Vàng Tách Vỏ DONAVI (100gr) (Túi)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 379,
+    "name": "Vừng Vàng Nguyên Vỏ DONAVI (100gr) (Túi)",
+    "category": [
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Đồ Khô, Hạt, Măng, Nấm"
+  },
+  {
+    "id": 380,
+    "name": "Mù Tạt Wasabi Xanh S&b Tuýp 43g",
+    "category": [
+      "Gia Vị, Sốt, Chấm",
+      "Gia vị"
+    ],
+    "main_category": "Gia Vị, Sốt, Chấm"
+  },
+  {
+    "id": 381,
+    "name": "Xôi Đậu Xanh (500gr)",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực",
+      "Đồ Khô, Hạt, Măng, Nấm",
+      "Thực phẩm khô"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  },
+  {
+    "id": 382,
+    "name": "Xôi gấc đĩa 1,5kg",
+    "category": [
+      "Gạo, mỳ, miến",
+      "Lương thực"
+    ],
+    "main_category": "Gạo, mỳ, miến"
+  }
+]

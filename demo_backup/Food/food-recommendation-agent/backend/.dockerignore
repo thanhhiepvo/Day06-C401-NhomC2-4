@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+.venv
+.env
+chat_store.json
+data/foods.json
+data/*.json
+
