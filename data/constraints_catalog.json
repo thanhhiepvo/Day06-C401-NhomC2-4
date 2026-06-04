@@ -1,0 +1,38 @@
+[
+  {
+    "key": "cheaper",
+    "label_vi": "Rẻ hơn",
+    "label_en": "Cheaper",
+    "description": "Lower the target price and prioritize meals below the user's current budget."
+  },
+  {
+    "key": "not_spicy",
+    "label_vi": "Không cay",
+    "label_en": "Not spicy",
+    "description": "Remove spicy meals and prioritize mild, easy-to-eat dishes."
+  },
+  {
+    "key": "faster",
+    "label_vi": "Giao nhanh hơn",
+    "label_en": "Faster delivery",
+    "description": "Prioritize available meals with shorter ETA and closer stores."
+  },
+  {
+    "key": "lighter",
+    "label_vi": "Nhẹ bụng hơn",
+    "label_en": "Lighter",
+    "description": "Prioritize lighter meals such as soup, rolls, vegetarian dishes, or less oily options."
+  },
+  {
+    "key": "more_filling",
+    "label_vi": "No hơn",
+    "label_en": "More filling",
+    "description": "Prioritize rice, noodle, protein-heavy, and larger meals."
+  },
+  {
+    "key": "different_from_history",
+    "label_vi": "Đổi món",
+    "label_en": "Different from history",
+    "description": "Avoid recently ordered dishes and suggest diverse alternatives from preferred categories."
+  }
+]
