@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thin SPEC Day 05 - Quick Meal Picker</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --text: #18212f;
+      --muted: #5f6b7a;
+      --border: #d9e0e8;
+      --primary: #0f766e;
+      --primary-soft: #dff5f1;
+      --accent: #f59e0b;
+      --danger: #b42318;
+      --danger-soft: #fff1f0;
+      --ok: #157347;
+      --ok-soft: #e8f6ee;
+      --info-soft: #eef4ff;
+      --shadow: 0 10px 30px rgba(24, 33, 47, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 18px 56px;
+    }
+
+    header {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--primary);
+      font-size: 0.83rem;
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+    }
+
+    header p {
+      max-width: 880px;
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .meta-item {
+      min-height: 86px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      background: #fbfcfd;
+    }
+
+    .meta-item.wide {
+      grid-column: span 2;
+    }
+
+    .meta-label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      margin-bottom: 4px;
+    }
+
+    .meta-value {
+      display: block;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .member-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-weight: 700;
+    }
+
+    .member-list li {
+      margin: 2px 0;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin: 18px 0;
+    }
+
+    nav a {
+      min-height: 64px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      padding: 10px 12px;
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    nav a span {
+      display: block;
+      color: var(--primary);
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 24px;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--primary-soft);
+      color: #12312d;
+      font-size: 1.35rem;
+    }
+
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 1rem;
+      color: #253244;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    ul,
+    ol {
+      margin: 8px 0 0 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.92rem;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #eef2f5;
+      color: #263243;
+      font-weight: 800;
+    }
+
+    code {
+      padding: 1px 5px;
+      border-radius: 5px;
+      background: #edf1f5;
+      color: #27364a;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.92em;
+    }
+
+    .callout {
+      border-left: 4px solid var(--primary);
+      background: var(--primary-soft);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 12px 0;
+    }
+
+    .callout.warn {
+      border-left-color: var(--accent);
+      background: #fff7e6;
+    }
+
+    .callout.danger {
+      border-left-color: var(--danger);
+      background: var(--danger-soft);
+    }
+
+    .statement {
+      background: #fbfcfd;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 12px 0;
+      font-weight: 650;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fbfcfd;
+      padding: 14px;
+      min-height: 156px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--primary);
+    }
+
+    .path-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .path {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fbfcfd;
+      min-height: 170px;
+    }
+
+    .path strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .path.happy {
+      border-top: 4px solid var(--ok);
+      background: var(--ok-soft);
+    }
+
+    .path.low {
+      border-top: 4px solid var(--accent);
+      background: #fff7e6;
+    }
+
+    .path.failure {
+      border-top: 4px solid var(--danger);
+      background: var(--danger-soft);
+    }
+
+    .path.correction {
+      border-top: 4px solid var(--primary);
+      background: var(--primary-soft);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: var(--info-soft);
+      color: #23406f;
+      font-size: 0.84rem;
+      font-weight: 800;
+      margin: 2px 4px 2px 0;
+    }
+
+    .yes {
+      color: var(--ok);
+      font-weight: 800;
+    }
+
+    .no {
+      color: var(--danger);
+      font-weight: 800;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 18px 0 0;
+    }
+
+    @media (max-width: 920px) {
+      .meta-grid,
+      nav,
+      .cards,
+      .path-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .meta-item.wide {
+        grid-column: span 2;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 16px 10px 40px;
+      }
+
+      header,
+      section {
+        padding: 18px;
+      }
+
+      .meta-grid,
+      nav,
+      .cards,
+      .path-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .meta-item.wide {
+        grid-column: span 1;
+      }
+
+      table {
+        display: block;
+        overflow-x: auto;
+        white-space: normal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="eyebrow">Day 05 Lab - Thin SPEC cuối ngày</p>
+      <h1>AI Product Spec: Quick Meal Picker</h1>
+      <p>
+        Bản SPEC này dùng yêu cầu trong <strong>Batch02-Day05-AI-Product-Labs</strong> để chốt một lát cắt nhỏ cho Day 06:
+        giúp người dùng đang đói chọn nhanh 1 món phù hợp từ app giao đồ ăn, không build cả nền tảng đặt đồ ăn.
+      </p>
+
+      <div class="meta-grid">
+        <div class="meta-item wide">
+          <span class="meta-label">Nhóm thực hiện - 6 thành viên</span>
+          <ul class="member-list">
+            <li>Đoàn Minh Quang - MHV: 2A202600757</li>
+            <li>Trường Thành Thảo - MHV: 2A202600735</li>
+            <li>Nguyễn Công Tuấn Anh - MHV: 2A202600977</li>
+            <li>Nguyễn Công Thành - MHV: 2A202600696</li>
+            <li>Nguyễn Tuấn Minh - MHV: 2A202600692</li>
+            <li>Võ Thanh Hiệp - MHV: 2A202600836</li>
+          </ul>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Track</span>
+          <span class="meta-value">Food delivery - decision support</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Product/App thật</span>
+          <span class="meta-value">ShopeeFood / GrabFood workflow</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Ngày cập nhật</span>
+          <span class="meta-value">03/06/2026</span>
+        </div>
+      </div>
+    </header>
+
+    <nav aria-label="Điều hướng SPEC">
+      <a href="#track"><span>01</span>Track, app, user</a>
+      <a href="#evidence"><span>02</span>Evidence pack</a>
+      <a href="#slice"><span>03</span>Pain và build slice</a>
+      <a href="#ai-behavior"><span>04</span>AI behavior</a>
+      <a href="#paths"><span>05</span>Auto/Aug và 4 paths</a>
+      <a href="#failure"><span>06</span>Failure mode</a>
+      <a href="#demo"><span>07</span>Demo Day 06</a>
+      <a href="#owner"><span>08</span>Owner plan</a>
+    </nav>
+
+    <section id="track">
+      <h2>1. Track, Product/App Và User</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>Track</th>
+            <td>Food delivery - hỗ trợ ra quyết định khi đặt đồ ăn.</td>
+          </tr>
+          <tr>
+            <th>Nhóm thực hiện</th>
+            <td>
+              Đoàn Minh Quang (MHV: 2A202600757); Trường Thành Thảo (MHV: 2A202600735);
+              Nguyễn Công Tuấn Anh (MHV: 2A202600977); Nguyễn Công Thành (MHV: 2A202600696);
+              Nguyễn Tuấn Minh (MHV: 2A202600692); Võ Thanh Hiệp (MHV: 2A202600836).
+            </td>
+          </tr>
+          <tr>
+            <th>Product/app thật</th>
+            <td>
+              Workflow hiện có trên ShopeeFood / GrabFood: mở app, xem danh sách quán/món, lọc theo vị trí/giá/khuyến mãi,
+              vào quán, chọn món, checkout.
+            </td>
+          </tr>
+          <tr>
+            <th>User cụ thể</th>
+            <td>
+              Sinh viên hoặc dân văn phòng ở thành phố lớn, đặt đồ ăn trưa/tối 1-2 lần/ngày, thường có ngân sách 40.000-70.000 VND,
+              muốn ăn nhanh nhưng chưa có món cụ thể trong đầu.
+            </td>
+          </tr>
+          <tr>
+            <th>Nhóm có phải user thật không?</th>
+            <td>
+              Có một phần. Nhóm làm SPEC có hành vi đặt đồ ăn qua app và từng mất thời gian chọn món. Khác biệt cần kiểm thêm:
+              tần suất đặt, khu vực giao hàng, khẩu vị, mức nhạy giá và mức phụ thuộc vào voucher.
+            </td>
+          </tr>
+          <tr>
+            <th>Task hẹp được chọn</th>
+            <td>
+              Không chọn cả hành trình đặt đồ ăn. Chỉ chọn bước <strong>"tôi không biết ăn gì, hãy rút gọn lựa chọn"</strong>
+              trước khi user vào checkout.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        <strong>Câu chốt scope:</strong>
+        Quick Meal Picker không tự đặt món, không tự thanh toán, không thay app giao đồ ăn. Prototype chỉ tạo một shortlist 3 món có lý do rõ ràng để user quyết định nhanh hơn.
+      </div>
+    </section>
+
+    <section id="evidence">
+      <h2>2. Evidence Pack</h2>
+
+      <h3>2.1 Evidence summary</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Evidence</th>
+            <th>Nguồn</th>
+            <th>User/pain nói lên điều gì?</th>
+            <th>SPEC phải đổi gì?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Khi mở app giao đồ ăn vào giờ trưa, user phải lướt qua nhiều quán, món, banner, voucher và rating trước khi chọn.</td>
+            <td>Self-use observation trên workflow ShopeeFood / GrabFood, khung giờ trưa.</td>
+            <td>Pain không nằm ở thiếu món, mà nằm ở quá nhiều tín hiệu cần cân nhắc cùng lúc.</td>
+            <td>Không build search chung. Build shortlist tối đa 3 món, có lý do chọn và phù hợp ngân sách.</td>
+          </tr>
+          <tr>
+            <td>GrabFood truyền thông mạnh về "đa dạng lựa chọn" và quy trình chọn nhà hàng, chọn món, hoàn tất đơn.</td>
+            <td>
+              Trang GrabFood Vietnam:
+              <a href="https://www.grab.com/vn/food/" target="_blank" rel="noopener">grab.com/vn/food</a>.
+            </td>
+            <td>Đa dạng là lợi ích chính, nhưng với user chưa biết ăn gì thì sự đa dạng làm tăng tải quyết định.</td>
+            <td>AI cần biến "đa dạng" thành "ít lựa chọn nhưng đúng bối cảnh", không thêm một danh sách dài khác.</td>
+          </tr>
+          <tr>
+            <td>Nghiên cứu về online food ordering cho thấy choice overload có thể dẫn tới decision paralysis.</td>
+            <td>
+              Kumala &amp; Maizi, 2025:
+              <a href="https://journal.stmiki.ac.id/index.php/jmt/article/view/1560" target="_blank" rel="noopener">Jurnal Manajemen dan Teknologi</a>.
+            </td>
+            <td>Vấn đề "lướt mãi không chọn" có cơ sở từ hành vi ra quyết định, không chỉ là cảm giác cá nhân.</td>
+            <td>Metric chính phải là giảm thời gian/chuyển động lướt, không chỉ tăng số món được xem.</td>
+          </tr>
+          <tr>
+            <td>Nghiên cứu trên sinh viên về food delivery apps ghi nhận information overload và cognitive strain khi có quá nhiều lựa chọn.</td>
+            <td>
+              Arohi &amp; Dayal, 2024:
+              <a href="https://9vom.in/journals/index.php/vips/article/view/323" target="_blank" rel="noopener">Vivekananda Journal of Research</a>.
+            </td>
+            <td>Segment sinh viên phù hợp với pain chọn món nhanh, đặc biệt trong bối cảnh đô thị.</td>
+            <td>Prototype cần ưu tiên người dùng sinh viên/dân văn phòng, giờ trưa/tối, ngân sách cụ thể.</td>
+          </tr>
+          <tr>
+            <td>Choice overload mạnh hơn khi task khó, lựa chọn phức tạp, user không chắc preference và muốn giảm effort.</td>
+            <td>
+              Chernev, Bockenholt &amp; Goodman, 2015:
+              <a href="https://www.kellogg.northwestern.edu/academics-research/research/detail/2015/when-product-assortment-leads-to-choice-overload-a-conceptual/?p=1" target="_blank" rel="noopener">Journal of Consumer Psychology summary</a>.
+            </td>
+            <td>Khi user đói, vội và không biết ăn gì, họ có mục tiêu giảm effort, nên shortlist có thể có giá trị.</td>
+            <td>AI phải hỏi ít, giải thích ngắn, và có nút refine nhanh thay vì bắt user nhập prompt dài.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2.2 Self-use evidence</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Observation</th>
+            <th>Screenshot/link</th>
+            <th>Path liên quan</th>
+            <th>Điều học được</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mở app giờ trưa, user phải chọn giữa quán gần, món quen, món đang giảm giá, rating, phí ship và thời gian giao.</td>
+            <td>Chụp màn hình danh sách home/search trong app trước checkpoint M1 Day 06.</td>
+            <td>Low-confidence</td>
+            <td>Nếu AI không chắc, nên hỏi 1 câu phân biệt chính: "Bạn muốn ăn nhẹ, no, hay tiết kiệm?"</td>
+          </tr>
+          <tr>
+            <td>User thường lướt nhiều rồi quay lại món quen như cơm tấm/bún bò, dù ban đầu muốn đổi món.</td>
+            <td>Self-use note: thời gian chọn khoảng 5-10 phút khi chưa có món trong đầu.</td>
+            <td>Correction</td>
+            <td>Shortlist phải cân bằng món quen và món đổi vị, tránh chỉ lặp lịch sử order.</td>
+          </tr>
+          <tr>
+            <td>Một gợi ý sai khẩu vị có thể làm user mất niềm tin và quay lại tự lướt.</td>
+            <td>Observation từ hành vi tự dùng: bỏ gợi ý khi món quá cay/quá xa/quá ngân sách.</td>
+            <td>Failure</td>
+            <td>Cần nút phản hồi nhanh: "Không cay", "Rẻ hơn", "Gần hơn", "Đổi món".</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2.3 User / review / social evidence</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Quote / review / observation</th>
+            <th>Nguồn</th>
+            <th>User là ai?</th>
+            <th>Pain/failure mode</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>"Không biết ăn gì" là câu nói phổ biến khi user mở app nhưng chưa có preference rõ.</td>
+            <td>Observation trong nhóm/lớp, cần kiểm bằng phỏng vấn nhanh.</td>
+            <td>Sinh viên, nhân viên văn phòng.</td>
+            <td>Preference uncertainty, dễ lướt lâu hoặc chọn đại rồi regret.</td>
+          </tr>
+          <tr>
+            <td>Food delivery apps có thể làm sinh viên bị overload vì có quá nhiều nhà hàng, món, review và rating.</td>
+            <td>Nghiên cứu public về sinh viên và food delivery apps, 2024.</td>
+            <td>Sinh viên đô thị.</td>
+            <td>Information overload, cognitive strain.</td>
+          </tr>
+          <tr>
+            <td>Kế hoạch lấy nguồn local: hỏi nhanh 5 người trong lớp/ký túc xá/văn phòng về lần gần nhất mất hơn 5 phút để chọn món.</td>
+            <td>Survey 5 câu trước M1 Day 06, lưu screenshot/form response vào repo.</td>
+            <td>Người đặt đồ ăn 1-2 lần/ngày.</td>
+            <td>Kiểm chứng tỷ lệ gặp pain, trigger và tiêu chí chọn món quan trọng nhất.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2.4 Competitor / analog evidence</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>App / mô hình tham khảo</th>
+            <th>Họ xử lý task thế nào?</th>
+            <th>Pattern học được</th>
+            <th>Có áp dụng trong 1 ngày không?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ShopeeFood / GrabFood</td>
+            <td>Danh mục, search, filter, rating, voucher, danh sách quán gần.</td>
+            <td>Giỏi khám phá và checkout, nhưng không giải quyết trực tiếp câu hỏi "ăn gì bây giờ?".</td>
+            <td>Có. Dùng mock data giống cấu trúc app thật: món, quán, giá, thời gian giao, rating.</td>
+          </tr>
+          <tr>
+            <td>Spotify / Netflix recommendations</td>
+            <td>Đưa shortlist cá nhân hóa theo lịch sử và bối cảnh.</td>
+            <td>Gợi ý phải có lý do ngắn để user tin và sửa được.</td>
+            <td>Có. Dùng thẻ món kèm "vì sao gợi ý".</td>
+          </tr>
+          <tr>
+            <td>Rule-based meal picker</td>
+            <td>Lọc theo budget/time/category bằng luật cứng.</td>
+            <td>Rule đủ cho baseline; AI cần thêm phần giải thích, cân bằng lịch sử và xử lý prompt mơ hồ.</td>
+            <td>Có. Prototype có thể kết hợp rule score + AI explanation.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2.5 Evidence -&gt; Insight -&gt; Opportunity</h3>
+      <div class="statement">
+        <p><strong>Evidence nổi bật nhất:</strong> Khi user chưa biết ăn gì, app giao đồ ăn đưa ra rất nhiều món/quán/tín hiệu cùng lúc. Nghiên cứu public về food delivery và choice overload cho thấy điều này có thể làm tăng decision paralysis.</p>
+        <p><strong>Insight:</strong> User không chỉ cần thêm món để xem. Họ thật ra cần một cách giảm tải quyết định trong bối cảnh cụ thể: giờ ăn, ngân sách, khoảng cách giao, món đã ăn gần đây và khẩu vị.</p>
+        <p><strong>Opportunity:</strong> AI có thể augment bước ra quyết định bằng cách rút gọn thành 3 lựa chọn có lý do, cho phép user sửa tiêu chí ngay khi gợi ý không đúng.</p>
+      </div>
+
+      <h3>2.6 Evidence đổi SPEC như thế nào?</h3>
+      <ul>
+        <li><span class="yes">Đổi build slice:</span> từ "AI gợi ý món" chung chung sang "AI tạo 3 món phù hợp trong 1 lần mở app".</li>
+        <li><span class="yes">Đổi Auto/Aug decision:</span> AI chỉ augment, user vẫn quyết định món và checkout.</li>
+        <li><span class="yes">Đổi 4 paths:</span> thêm low-confidence hỏi 1 câu và correction bằng feedback chip.</li>
+        <li><span class="yes">Đổi failure mode:</span> failure nguy hiểm nhất không phải "không có món", mà là gợi ý sai khẩu vị/ngân sách làm user mất niềm tin.</li>
+      </ul>
+    </section>
+
+    <section id="slice">
+      <h2>3. Pain Statement Và Build Slice</h2>
+
+      <h3>3.1 Pain statement</h3>
+      <div class="statement">
+        User là sinh viên hoặc dân văn phòng đang gặp khó ở bước chọn món trên app giao đồ ăn,
+        vì danh sách quán/món/voucher/rating quá nhiều trong khi họ chưa có preference rõ,
+        dẫn tới mất 5-10 phút lướt app, chọn đại món quen hoặc regret sau khi order.
+        Bằng chứng chính là self-use observation khi lướt ShopeeFood / GrabFood giờ trưa và các nguồn public về choice overload trong online food ordering.
+      </div>
+
+      <h3>3.2 Build slice</h3>
+      <div class="statement">
+        Cho sinh viên hoặc dân văn phòng đang mở app giao đồ ăn nhưng chưa biết ăn gì,
+        prototype sẽ dùng AI để <strong>augment</strong> việc chọn món bằng cách xếp hạng và gợi ý 3 món phù hợp theo giờ ăn, ngân sách, lịch sử và khoảng cách giao,
+        tạo ra 3 thẻ món có giá, thời gian giao, lý do gợi ý và nút hành động,
+        và xử lý failure mode "gợi ý không hợp khẩu vị/ngân sách" bằng feedback chip để refine ngay trong một lượt.
+      </div>
+
+      <h3>3.3 Out of scope cho Day 06</h3>
+      <ul>
+        <li>Không tích hợp API thật của ShopeeFood / GrabFood.</li>
+        <li>Không tự đặt đơn, tự thanh toán hoặc tự áp voucher.</li>
+        <li>Không cá nhân hóa dài hạn bằng tài khoản thật; chỉ dùng mock order history.</li>
+        <li>Không giải quyết dinh dưỡng/y tế chuyên sâu, dị ứng phức tạp hoặc chế độ ăn bệnh lý.</li>
+      </ul>
+    </section>
+
+    <section id="ai-behavior">
+      <h2>4. AI Behavior</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Input tối thiểu</h3>
+          <ul>
+            <li>Thời điểm: trưa / tối / khuya.</li>
+            <li>Ngân sách: ví dụ 50.000 VND.</li>
+            <li>Vị trí/khoảng cách giao giả lập.</li>
+            <li>Lịch sử: cơm tấm, bún bò, bánh mì.</li>
+            <li>Ràng buộc: không cay, ăn no, giao dưới 25 phút.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>AI decision</h3>
+          <ul>
+            <li>Lọc món không đạt ngân sách/thời gian/quán mở cửa.</li>
+            <li>Chấm điểm theo fit: time, budget, history, variety, rating.</li>
+            <li>Chọn 3 món đa dạng, không trùng category quá nhiều.</li>
+            <li>Gắn confidence và lý do ngắn cho từng món.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Output</h3>
+          <ul>
+            <li>3 thẻ món, mỗi thẻ có món, quán, giá dự kiến, ETA.</li>
+            <li>Lý do: "hợp ngân sách", "món bạn hay đặt", "giao nhanh".</li>
+            <li>CTA: Chọn món, Đổi tiêu chí, Không hợp.</li>
+            <li>Nếu confidence thấp: hỏi 1 câu trước khi gợi ý lại.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>4.1 Demo input mẫu</h3>
+      <table>
+        <tbody>
+          <tr>
+            <th>Time</th>
+            <td>Trưa, 12:10</td>
+          </tr>
+          <tr>
+            <th>Budget</th>
+            <td>50.000 VND</td>
+          </tr>
+          <tr>
+            <th>History</th>
+            <td>Cơm tấm, bún bò, bánh mì, trà sữa.</td>
+          </tr>
+          <tr>
+            <th>Preference hôm nay</th>
+            <td>Ăn no, không quá cay, giao dưới 25 phút.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>4.2 Demo output mẫu</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Món gợi ý</th>
+            <th>Giá dự kiến</th>
+            <th>ETA</th>
+            <th>Lý do AI chọn</th>
+            <th>Confidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Cơm gà xối mỡ - quán gần trường</td>
+            <td>48.000 VND</td>
+            <td>22 phút</td>
+            <td>Ăn no, gần ngân sách, giao nhanh, khác món đã ăn hôm qua.</td>
+            <td>Cao</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Bún thịt nướng</td>
+            <td>45.000 VND</td>
+            <td>18 phút</td>
+            <td>Phù hợp giờ trưa, không quá cay, rating tốt.</td>
+            <td>Cao</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Bánh mì bò nướng + sữa đậu</td>
+            <td>39.000 VND</td>
+            <td>15 phút</td>
+            <td>Rẻ hơn budget, nhanh, phù hợp nếu muốn ăn nhẹ.</td>
+            <td>Trung bình</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>4.3 Guardrails</h3>
+      <ul>
+        <li>Không nói "đã đặt món" khi user chưa checkout trong app thật.</li>
+        <li>Không gợi ý món vượt budget quá 10% nếu user không cho phép.</li>
+        <li>Không gợi ý quán đang đóng cửa hoặc ETA vượt ràng buộc trong mock data.</li>
+        <li>Không đưa claim sức khỏe như "tốt cho bệnh" nếu không có nguồn và không phải scope.</li>
+        <li>Luôn cho user sửa: khẩu vị, giá, thời gian giao, mức no, món muốn tránh.</li>
+      </ul>
+    </section>
+
+    <section id="paths">
+      <h2>5. Auto/Aug Decision Và Four Paths</h2>
+
+      <h3>5.1 Auto/Aug decision</h3>
+      <table>
+        <tbody>
+          <tr>
+            <th>Quyết định</th>
+            <td><span class="yes">Augmentation</span> - AI gợi ý và giải thích, user quyết món cuối cùng.</td>
+          </tr>
+          <tr>
+            <th>Lý do chọn</th>
+            <td>
+              Chọn món ăn có yếu tố khẩu vị cá nhân, ngân sách và cảm giác tại thời điểm đó. Nếu AI tự đặt món sẽ rủi ro sai khẩu vị,
+              sai giá hoặc tạo cảm giác mất kiểm soát.
+            </td>
+          </tr>
+          <tr>
+            <th>Human role</th>
+            <td>Decider và rescuer: user chọn món, sửa tiêu chí, bỏ qua gợi ý hoặc quay lại danh sách app.</td>
+          </tr>
+          <tr>
+            <th>AI không được làm</th>
+            <td>Tự checkout, tự thanh toán, tự lưu preference nhạy cảm nếu user chưa đồng ý.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>5.2 Four paths prototype phải thể hiện</h3>
+      <div class="path-grid">
+        <div class="path happy">
+          <strong>Happy path</strong>
+          User nhập "trưa nay 50k, ăn no, không cay". AI trả 3 món đúng budget/ETA. User chọn một món và chuyển sang bước checkout mock.
+        </div>
+        <div class="path low">
+          <strong>Low-confidence path</strong>
+          Input quá mơ hồ: "ăn gì cũng được". AI không bịa shortlist ngay, mà hỏi 1 câu: "Bạn muốn ăn no, ăn nhẹ hay tiết kiệm?".
+        </div>
+        <div class="path failure">
+          <strong>Failure path</strong>
+          AI gợi ý món cay hoặc vượt ngân sách. UI hiển thị nút "Không cay", "Rẻ hơn", "Giao nhanh hơn" để user sửa.
+        </div>
+        <div class="path correction">
+          <strong>Correction path</strong>
+          User bấm "Không cay". AI refine lại 3 món, bỏ món cay, ghi rõ tiêu chí đã cập nhật cho lượt hiện tại.
+        </div>
+      </div>
+
+      <h3>5.3 Path table</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Path</th>
+            <th>Trigger</th>
+            <th>Prototype behavior</th>
+            <th>Success signal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Happy</td>
+            <td>Input đủ: thời điểm, ngân sách, 1-2 preference.</td>
+            <td>Show 3 cards kèm lý do và CTA.</td>
+            <td>User chọn 1 món trong dưới 30 giây ở demo.</td>
+          </tr>
+          <tr>
+            <td>Low-confidence</td>
+            <td>Thiếu budget hoặc preference quá mơ hồ.</td>
+            <td>Ask one focused question, không hỏi form dài.</td>
+            <td>User trả lời 1 câu và nhận shortlist mới.</td>
+          </tr>
+          <tr>
+            <td>Failure</td>
+            <td>Gợi ý sai ràng buộc: cay, xa, đắt, trùng món vừa ăn.</td>
+            <td>Show feedback chips và giải thích "mình sẽ bỏ món cay".</td>
+            <td>User thấy lỗi có đường recover rõ.</td>
+          </tr>
+          <tr>
+            <td>Correction</td>
+            <td>User feedback vào chip hoặc text ngắn.</td>
+            <td>Refine kết quả, hiển thị tiêu chí đã sửa.</td>
+            <td>Shortlist mới tôn trọng correction.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="failure">
+      <h2>6. Failure Mode Nguy Hiểm Nhất</h2>
+
+      <div class="callout danger">
+        <strong>Failure mode:</strong>
+        Nếu user đang đói/vội và nhập ràng buộc như "50k, không cay, giao nhanh",
+        AI có thể gợi ý món vượt ngân sách hoặc không đúng khẩu vị,
+        hậu quả là user mất niềm tin, quay lại lướt app thủ công hoặc đặt đại món không hài lòng.
+        Prototype sẽ xử lý bằng feedback chip, refine tức thì, hiển thị lý do và không tự checkout.
+        Owner kiểm thử path này là <strong>Nguyễn Tuấn Minh</strong>, phối hợp với <strong>Nguyễn Công Thành</strong>.
+      </div>
+
+      <h3>Mitigation chi tiết</h3>
+      <ul>
+        <li>Luôn hiển thị tiêu chí đang dùng: ngân sách, thời gian giao, khẩu vị, món tránh.</li>
+        <li>Gắn confidence. Nếu confidence thấp, hỏi lại trước khi gợi ý.</li>
+        <li>Có feedback chip cố định: <span class="badge">Rẻ hơn</span><span class="badge">Gần hơn</span><span class="badge">Không cay</span><span class="badge">Đổi món</span>.</li>
+        <li>Sau correction, show dòng "Đã bỏ món cay và giới hạn dưới 50.000 VND".</li>
+        <li>Không lưu preference dài hạn trong prototype; chỉ dùng cho session hiện tại.</li>
+      </ul>
+    </section>
+
+    <section id="demo">
+      <h2>7. Demo Plan Day 06</h2>
+
+      <h3>7.1 Prototype screen</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Màn hình</th>
+            <th>Phải có</th>
+            <th>Không cần build</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Input panel</td>
+            <td>Time, budget, history, preference chips, free-text prompt.</td>
+            <td>Login, account thật, location permission thật.</td>
+          </tr>
+          <tr>
+            <td>Recommendation cards</td>
+            <td>3 món, quán, giá, ETA, reason, confidence, CTA.</td>
+            <td>Menu đầy đủ của quán, thanh toán thật.</td>
+          </tr>
+          <tr>
+            <td>Refine state</td>
+            <td>Feedback chips và shortlist mới sau correction.</td>
+            <td>Training model thật, lưu preference dài hạn.</td>
+          </tr>
+          <tr>
+            <td>Checkout mock</td>
+            <td>Thông báo "Chuyển sang app đặt món" hoặc "Mock checkout".</td>
+            <td>Tạo đơn hàng thật.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>7.2 Demo script 3-5 phút</h3>
+      <ol>
+        <li>Mở prototype với tình huống: "12:10, ngân sách 50k, ăn no, không cay".</li>
+        <li>AI trả 3 món kèm lý do và confidence.</li>
+        <li>User bấm "Không hợp - rẻ hơn" hoặc "Không cay".</li>
+        <li>AI refine lại shortlist, giải thích tiêu chí đã đổi.</li>
+        <li>User chọn một món và thấy checkout mock, trong đó nhắc rõ user vẫn là người quyết định cuối.</li>
+      </ol>
+
+      <h3>7.3 Acceptance criteria</h3>
+      <ul>
+        <li>SPEC demo được một task hẹp trong 3-5 phút.</li>
+        <li>Có ít nhất 1 happy path, 1 low-confidence path, 1 failure path, 1 correction path.</li>
+        <li>Mỗi món gợi ý có reason, price, ETA và confidence.</li>
+        <li>Gợi ý không vượt budget/ETA trong mock data nếu user đã khai báo ràng buộc.</li>
+        <li>Không có copy gây hiểu nhầm rằng AI đã đặt món hoặc thanh toán.</li>
+      </ul>
+    </section>
+
+    <section id="owner">
+      <h2>8. Owner Plan Cho Sáng Day 06</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Thành viên</th>
+            <th>Việc phụ trách</th>
+            <th>Bằng chứng cần có trong repo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Trường Thành Thảo<br /><span class="small">MHV: 2A202600735</span></td>
+            <td>Research / evidence</td>
+            <td>Self-use note, link nguồn public, ảnh/survey local nếu kịp trước M1.</td>
+          </tr>
+          <tr>
+            <td>Đoàn Minh Quang<br /><span class="small">MHV: 2A202600757</span></td>
+            <td>SPEC</td>
+            <td><code>spec-final.html</code> có đủ track, evidence, pain, build slice, auto/aug, 4 paths, failure mode, owner plan.</td>
+          </tr>
+          <tr>
+            <td>Nguyễn Công Tuấn Anh<br /><span class="small">MHV: 2A202600977</span></td>
+            <td>AI behavior / mock data</td>
+            <td>Danh sách món/quán mock, scoring rule, input-output mẫu và guardrails cho AI.</td>
+          </tr>
+          <tr>
+            <td>Nguyễn Công Thành<br /><span class="small">MHV: 2A202600696</span></td>
+            <td>Prototype UI</td>
+            <td>UI mock hoặc app nhỏ thể hiện input, 3 recommendation cards, refine state.</td>
+          </tr>
+          <tr>
+            <td>Nguyễn Tuấn Minh<br /><span class="small">MHV: 2A202600692</span></td>
+            <td>Test / failure path</td>
+            <td>Test case: input mơ hồ, input "không cay", input vượt budget, correction "rẻ hơn".</td>
+          </tr>
+          <tr>
+            <td>Võ Thành Hiệp<br /><span class="small">MHV: 2A202600836</span></td>
+            <td>Demo script / repo</td>
+            <td>README hoặc demo note 3-5 phút, ảnh chụp màn hình prototype, link/spec cuối.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Backlog sau Day 06</h3>
+      <ul>
+        <li>Tích hợp dữ liệu quán/món thật từ API hoặc scraping hợp lệ.</li>
+        <li>Học preference dài hạn có consent.</li>
+        <li>A/B test số lựa chọn 3 món so với 5 món.</li>
+        <li>Tối ưu ranking theo phí ship, voucher và thời tiết.</li>
+      </ul>
+
+      <div class="callout warn">
+        <strong>Điểm cần kiểm trước demo:</strong>
+        Nếu giảng viên yêu cầu nguồn ngoài nhóm là review local cụ thể, cần bổ sung thêm 3-5 screenshot review/comment/phỏng vấn nhanh vào repo.
+        Bản này đã có nguồn nghiên cứu public và kế hoạch lấy nguồn local theo đúng điều kiện "nguồn ngoài nhóm hoặc kế hoạch lấy nguồn rõ".
+      </div>
+    </section>
+
+    <footer>
+      <p>Thin SPEC cuối Day 05 - sẵn sàng dùng làm đầu vào build prototype Day 06.</p>
+    </footer>
+  </div>
+</body>
+</html>
