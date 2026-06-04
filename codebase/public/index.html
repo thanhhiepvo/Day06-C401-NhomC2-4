@@ -3,165 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <title>ShopeeFood — Gợi ý nhanh (Prototype)</title>
+  <title>Quick Meal Picker — Chatbot</title>
   <link rel="stylesheet" href="/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div class="sf-app">
-    <header class="sf-header">
-      <div class="sf-location">
-        <span class="sf-pin" aria-hidden="true">📍</span>
+  <div class="chat-app">
+    <header class="chat-header">
+      <div class="chat-header-main">
+        <span class="chat-avatar" aria-hidden="true">🍊</span>
         <div>
-          <span class="sf-location-label">Giao đến</span>
-          <strong>Khu ký túc xá · 2.3 km</strong>
+          <h1 class="chat-title">Gợi ý món AI</h1>
+          <p class="chat-subtitle">ShopeeFood · augment · không tự đặt</p>
         </div>
-        <span class="sf-chevron">›</span>
       </div>
-      <div class="sf-brand-row">
-        <div class="sf-logo">
-          <span class="sf-logo-icon">🍊</span>
-          <span class="sf-logo-text">Shopee<span>Food</span></span>
-        </div>
-        <span id="ai-status" class="sf-ai-badge">AI…</span>
-      </div>
-      <div class="sf-search">
-        <span class="sf-search-icon" aria-hidden="true">🔍</span>
-        <input
-          id="prompt"
-          type="search"
-          class="sf-search-input"
-          placeholder="Tìm món, quán — hoặc 'trưa 50k không cay'"
-          autocomplete="off"
-        />
+      <div class="chat-header-actions">
+        <span id="ai-status" class="chat-ai-badge">AI…</span>
+        <button type="button" id="btn-reset" class="chat-icon-btn" title="Cuộc trò chuyện mới">↺</button>
       </div>
     </header>
 
-    <div class="sf-promo">
-      <span class="sf-promo-tag">AI</span>
-      <p><strong>Chọn nhanh 3 món</strong> — prototype augment, không tự đặt hàng</p>
-    </div>
-
-    <nav class="sf-categories" aria-label="Danh mục (mock)">
-      <button type="button" class="sf-cat active">🔥 Gợi ý</button>
-      <button type="button" class="sf-cat">🍚 Cơm</button>
-      <button type="button" class="sf-cat">🍜 Bún/Phở</button>
-      <button type="button" class="sf-cat">🥖 Bánh mì</button>
-      <button type="button" class="sf-cat">🧋 Trà sữa</button>
-      <button type="button" class="sf-cat">💰 Dưới 50k</button>
-    </nav>
-
-    <main class="sf-main">
-      <section class="sf-filter-panel">
-        <h2 class="sf-section-title">Bộ lọc nhanh</h2>
-        <div class="sf-row-2">
-          <label class="sf-field">
-            <span>Giờ ăn</span>
-            <select id="time-slot">
-              <option value="trưa">🌞 Trưa</option>
-              <option value="tối">🌆 Tối</option>
-              <option value="khuya">🌙 Khuya</option>
-            </select>
-          </label>
-          <label class="sf-field">
-            <span>Ngân sách</span>
-            <div class="sf-budget-wrap">
-              <input id="budget" type="number" min="0" step="1000" value="50000" />
-              <span class="sf-suffix">đ</span>
-            </div>
-          </label>
-        </div>
-        <label class="sf-field sf-field-full">
+    <details class="chat-settings">
+      <summary>Tùy chọn nhanh (giờ ăn, ngân sách)</summary>
+      <div class="chat-settings-body">
+        <label class="chat-setting">
+          <span>Giờ ăn</span>
+          <select id="time-slot">
+            <option value="trưa">Trưa</option>
+            <option value="tối">Tối</option>
+            <option value="khuya">Khuya</option>
+          </select>
+        </label>
+        <label class="chat-setting">
+          <span>Ngân sách (đ)</span>
+          <input id="budget" type="number" min="0" step="1000" placeholder="VD: 50000" value="50000" />
+        </label>
+        <label class="chat-setting chat-setting-full">
           <span>Đã đặt gần đây</span>
           <input id="history" type="text" value="cơm tấm, bún bò, bánh mì" />
         </label>
-        <div class="sf-chips" id="pref-chips">
-          <button type="button" class="chip" data-chip="Ăn no">Ăn no</button>
-          <button type="button" class="chip" data-chip="Ăn nhẹ">Ăn nhẹ</button>
-          <button type="button" class="chip" data-chip="Không cay">Không cay</button>
-          <button type="button" class="chip" data-chip="Giao &lt; 25 phút">Giao &lt; 25p</button>
-          <button type="button" class="chip" data-chip="Tiết kiệm">Tiết kiệm</button>
-        </div>
-        <div class="sf-actions-inline">
-          <button type="button" id="btn-reset" class="btn btn-ghost">Làm mới</button>
-        </div>
-        <p class="sf-hint">Demo: để trống ngân sách + gõ «Ăn gì cũng được» → AI hỏi lại 1 câu</p>
-      </section>
-
-      <section class="sf-results">
-        <div class="sf-results-head">
-          <h2 class="sf-section-title">Gợi ý cho bạn</h2>
-          <span class="sf-results-sub">Tối đa 3 món · có lý do AI</span>
-        </div>
-
-        <p id="criteria-line" class="sf-criteria hidden"></p>
-
-        <div id="clarify-box" class="sf-clarify hidden" role="status">
-          <div class="sf-clarify-icon">🤔</div>
-          <p id="clarify-question" class="sf-clarify-q"></p>
-          <div class="sf-chips" id="clarify-chips">
-            <button type="button" class="chip" data-answer="Ăn no">Ăn no</button>
-            <button type="button" class="chip" data-answer="Ăn nhẹ">Ăn nhẹ</button>
-            <button type="button" class="chip" data-answer="Tiết kiệm">Tiết kiệm</button>
-          </div>
-        </div>
-
-        <div id="loading" class="sf-loading hidden">
-          <div class="sf-spinner"></div>
-          <span>Đang chọn món phù hợp…</span>
-        </div>
-        <div id="error" class="sf-error hidden"></div>
-        <div id="cards" class="sf-cards"></div>
-
-        <div id="refine-bar" class="sf-refine hidden">
-          <p class="sf-refine-title">Gợi ý chưa hợp?</p>
-          <div class="sf-chips" id="refine-chips">
-            <button type="button" class="chip chip-refine" data-refine="Không cay">Không cay</button>
-            <button type="button" class="chip chip-refine" data-refine="Rẻ hơn">Rẻ hơn</button>
-            <button type="button" class="chip chip-refine" data-refine="Giao nhanh hơn">Giao nhanh</button>
-            <button type="button" class="chip chip-refine" data-refine="Đổi món">Đổi món</button>
-          </div>
-        </div>
-
-        <div id="empty-state" class="sf-empty">
-          <div class="sf-empty-art">🍱</div>
-          <p>Bấm <strong>Gợi ý 3 món</strong> để rút gọn lựa chọn</p>
-        </div>
-      </section>
-    </main>
-
-    <div class="sf-cta-bar">
-      <button type="button" id="btn-suggest" class="btn btn-primary btn-block">
-        Gợi ý 3 món nhanh
-      </button>
-    </div>
-
-    <nav class="sf-tabbar" aria-label="Điều hướng mock">
-      <span class="sf-tab active"><span>🏠</span>Trang chủ</span>
-      <span class="sf-tab"><span>🔍</span>Khám phá</span>
-      <span class="sf-tab"><span>📋</span>Đơn hàng</span>
-      <span class="sf-tab"><span>👤</span>Tài khoản</span>
-    </nav>
-
-    <div id="checkout-modal" class="sf-sheet hidden" role="dialog" aria-modal="true">
-      <div class="sf-sheet-backdrop" id="sheet-backdrop"></div>
-      <div class="sf-sheet-panel">
-        <div class="sf-sheet-handle"></div>
-        <h3>Giỏ hàng (mock)</h3>
-        <p id="checkout-text" class="sf-sheet-body"></p>
-        <p class="sf-sheet-note">
-          Prototype không thanh toán. Mở app ShopeeFood thật để đặt món.
-        </p>
-        <button type="button" id="btn-close-modal" class="btn btn-primary btn-block">
-          Đóng
-        </button>
-        <button type="button" class="btn btn-secondary btn-block sf-sheet-secondary">
-          Mở ShopeeFood (mock)
-        </button>
       </div>
-    </div>
+    </details>
+
+    <main id="chat-messages" class="chat-messages" aria-live="polite"></main>
+
+    <div id="quick-replies" class="chat-quick hidden"></div>
+
+    <footer class="chat-composer">
+      <form id="chat-form" class="chat-form">
+        <input
+          id="chat-input"
+          type="text"
+          class="chat-input"
+          placeholder="VD: Trưa 50k, ăn no, không cay…"
+          autocomplete="off"
+          required
+        />
+        <button type="submit" id="btn-send" class="chat-send" aria-label="Gửi">➤</button>
+      </form>
+    </footer>
   </div>
   <script src="/app.js" type="module"></script>
 </body>

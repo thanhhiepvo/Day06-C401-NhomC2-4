@@ -1,5 +1,4 @@
 const $ = (sel) => document.querySelector(sel);
-const $$ = (sel) => document.querySelectorAll(sel);
 
 const FOOD_EMOJI = {
   cơm: "🍚",
@@ -17,17 +16,58 @@ const FOOD_EMOJI = {
   default: "🍱",
 };
 
+const STARTER_CHIPS = [
+  "Trưa 50k, ăn no, không cay",
+  "Ăn gì cũng được",
+  "Tối 80k, giao nhanh",
+];
+
+const CLARIFY_CHIPS = ["Ăn no", "Ăn nhẹ", "Tiết kiệm"];
+
+const REFINE_CHIPS = ["Không cay", "Rẻ hơn", "Giao nhanh hơn", "Đổi món"];
+
 const state = {
   selectedPrefs: new Set(),
   corrections: [],
   clarifyAnswer: null,
-  lastPayload: null,
+  prompt: "",
+  busy: false,
 };
 
 function parseHistory() {
   const raw = $("#history").value.trim();
   if (!raw) return [];
   return raw.split(/[,;]/).map((s) => s.trim()).filter(Boolean);
+}
+
+function parseUserMessage(text) {
+  const t = text.toLowerCase();
+  const prefs = new Set(state.selectedPrefs);
+
+  if (/không cay|ko cay|khong cay/.test(t)) prefs.add("Không cay");
+  if (/ăn no|an no/.test(t)) prefs.add("Ăn no");
+  if (/ăn nhẹ|an nhe/.test(t)) prefs.add("Ăn nhẹ");
+  if (/tiết kiệm|tiet kiem|re hon|rẻ/.test(t)) prefs.add("Tiết kiệm");
+  if (/giao nhanh|nhanh hon|<\s*25/.test(t)) prefs.add("Giao < 25 phút");
+
+  if (/trưa|trua/.test(t)) $("#time-slot").value = "trưa";
+  if (/\btối\b|toi\b/.test(t)) $("#time-slot").value = "tối";
+  if (/khuya|đêm|dem/.test(t)) $("#time-slot").value = "khuya";
+
+  const budgetMatch = t.match(/(\d+)\s*k\b/);
+  if (budgetMatch) {
+    $("#budget").value = String(Number(budgetMatch[1]) * 1000);
+  } else {
+    const numMatch = t.match(/\b(\d{5,6})\b/);
+    if (numMatch) $("#budget").value = numMatch[1];
+  }
+
+  if (/ăn gì cũng được|gì cũng được|không biết|tùy/.test(t)) {
+    $("#budget").value = "";
+  }
+
+  state.selectedPrefs = prefs;
+  state.prompt = text.trim();
 }
 
 function getPayload(extra = {}) {
@@ -37,7 +77,7 @@ function getPayload(extra = {}) {
     budget: budgetVal ? Number(budgetVal) : 0,
     history: parseHistory(),
     chips: [...state.selectedPrefs],
-    prompt: $("#prompt").value.trim(),
+    prompt: state.prompt,
     corrections: [...state.corrections],
     clarifyAnswer: state.clarifyAnswer,
     maxEta: 25,
@@ -45,21 +85,14 @@ function getPayload(extra = {}) {
   };
 }
 
-function setCriteria(text) {
-  const el = $("#criteria-line");
-  if (!text) {
-    el.classList.add("hidden");
-    return;
-  }
-  el.textContent = text;
-  el.classList.remove("hidden");
+function escapeHtml(s) {
+  const d = document.createElement("div");
+  d.textContent = s;
+  return d.innerHTML;
 }
 
-function confClass(c) {
-  const v = (c || "").toLowerCase();
-  if (v.includes("cao")) return "conf-high";
-  if (v.includes("thấp")) return "conf-low";
-  return "conf-mid";
+function escapeAttr(s) {
+  return escapeHtml(s).replace(/"/g, "&quot;");
 }
 
 function thumbEmoji(name) {
@@ -80,171 +113,237 @@ function formatPrice(price) {
   return `${price.toLocaleString("vi-VN")}₫`;
 }
 
-function setResultsMode(hasCards) {
-  const results = $(".sf-results");
-  const empty = $("#empty-state");
-  if (hasCards) {
-    results.classList.add("has-cards");
-    empty.classList.add("hidden");
-  } else {
-    results.classList.remove("has-cards");
-    empty.classList.remove("hidden");
-  }
+function confClass(c) {
+  const v = (c || "").toLowerCase();
+  if (v.includes("cao")) return "conf-high";
+  if (v.includes("thấp")) return "conf-low";
+  return "conf-mid";
 }
 
-function renderCards(recommendations, aiSource) {
-  const container = $("#cards");
-  container.innerHTML = "";
-  if (!recommendations?.length) {
-    setResultsMode(false);
+function scrollToBottom() {
+  const el = $("#chat-messages");
+  el.scrollTop = el.scrollHeight;
+}
+
+function appendMessage(role, html, meta = "") {
+  const row = document.createElement("div");
+  row.className = `msg-row ${role}`;
+  const avatar = role === "user" ? "🧑" : "🤖";
+  row.innerHTML = `
+    <span class="msg-avatar" aria-hidden="true">${avatar}</span>
+    <div>
+      <div class="msg-bubble">${html}</div>
+      ${meta ? `<div class="msg-meta">${escapeHtml(meta)}</div>` : ""}
+    </div>
+  `;
+  $("#chat-messages").appendChild(row);
+  scrollToBottom();
+  return row;
+}
+
+function showTyping() {
+  const row = document.createElement("div");
+  row.className = "msg-row bot msg-typing";
+  row.id = "typing-indicator";
+  row.innerHTML = `
+    <span class="msg-avatar" aria-hidden="true">🤖</span>
+    <div class="msg-bubble">
+      <span class="typing-dot"></span>
+      <span class="typing-dot"></span>
+      <span class="typing-dot"></span>
+    </div>
+  `;
+  $("#chat-messages").appendChild(row);
+  scrollToBottom();
+}
+
+function hideTyping() {
+  $("#typing-indicator")?.remove();
+}
+
+function setQuickReplies(chips, handler) {
+  const bar = $("#quick-replies");
+  bar.innerHTML = "";
+  if (!chips?.length) {
+    bar.classList.add("hidden");
     return;
   }
-
-  setResultsMode(true);
-
-  recommendations.forEach((r, i) => {
-    const rating = (4.2 + (i * 0.1)).toFixed(1);
-    const card = document.createElement("article");
-    card.className = "sf-dish-card";
-    card.dataset.rank = `#${i + 1}`;
-    card.innerHTML = `
-      <div class="sf-dish-thumb" aria-hidden="true">${thumbEmoji(r.name)}</div>
-      <div class="sf-dish-body">
-        <h3 class="sf-dish-name">${escapeHtml(r.name)}</h3>
-        <p class="sf-dish-shop">${escapeHtml(r.restaurant)}</p>
-        <div class="sf-dish-stats">
-          <span class="sf-stat-star">★ ${rating}</span>
-          <span>🕐 ${r.etaMinutes} phút</span>
-          <span>🛵 15.000₫</span>
-          <span><strong style="color:#ee4d2d">${formatPrice(r.price)}</strong></span>
-        </div>
-        <div class="sf-dish-tags">
-          <span class="badge ${confClass(r.confidence)}">AI ${escapeHtml(r.confidence)}</span>
-          ${r.spicy ? '<span class="badge spicy">Cay</span>' : ""}
-          <span class="badge sf-voucher">Freeship</span>
-        </div>
-        <p class="sf-dish-reason"><em>Vì sao:</em> ${escapeHtml(r.reason)}</p>
-        <button type="button" class="btn btn-primary pick" data-name="${escapeAttr(r.name)}">
-          Thêm vào giỏ
-        </button>
-      </div>
-    `;
-    container.appendChild(card);
+  bar.classList.remove("hidden");
+  chips.forEach((label) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "quick-chip";
+    btn.textContent = label;
+    btn.addEventListener("click", () => handler(label, btn));
+    bar.appendChild(btn);
   });
+}
 
-  const sourceNote = document.createElement("p");
-  sourceNote.className = "sf-source-note";
-  sourceNote.textContent =
+function clearQuickReplies() {
+  $("#quick-replies").classList.add("hidden");
+  $("#quick-replies").innerHTML = "";
+}
+
+function buildMealsHtml(recommendations, aiSource) {
+  if (!recommendations?.length) return "<p>Không có gợi ý phù hợp.</p>";
+
+  const cards = recommendations
+    .map((r, i) => {
+      const rating = (4.2 + i * 0.1).toFixed(1);
+      return `
+        <article class="meal-card">
+          <div class="meal-thumb">${thumbEmoji(r.name)}</div>
+          <div>
+            <h3 class="meal-name">${escapeHtml(r.name)}</h3>
+            <p class="meal-shop">${escapeHtml(r.restaurant)}</p>
+            <div class="meal-stats">
+              <span>★ ${rating}</span>
+              <span>🕐 ${r.etaMinutes}p</span>
+              <span class="meal-price">${formatPrice(r.price)}</span>
+            </div>
+            <div class="meal-tags">
+              <span class="badge ${confClass(r.confidence)}">AI ${escapeHtml(r.confidence)}</span>
+              ${r.spicy ? '<span class="badge spicy">Cay</span>' : ""}
+            </div>
+            <p class="meal-reason"><em>Vì sao:</em> ${escapeHtml(r.reason)}</p>
+            <button type="button" class="btn-pick" data-name="${escapeAttr(r.name)}">Chọn món này</button>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+
+  const source =
     aiSource === "llm"
-      ? "Gợi ý từ AI thật · OpenAI-compatible"
+      ? "Gợi ý từ AI thật"
       : aiSource === "llm+rule"
-        ? "AI + bổ sung rule"
-        : "Rule fallback · thêm OPENAI_API_KEY vào .env";
-  container.appendChild(sourceNote);
+        ? "AI + rule bổ sung"
+        : "Rule fallback (thêm OPENAI_API_KEY)";
 
-  $$(".pick").forEach((btn) => {
+  return `<div class="meal-cards">${cards}</div><p class="msg-source">${escapeHtml(source)}</p>`;
+}
+
+function wirePickButtons(container) {
+  container.querySelectorAll(".btn-pick").forEach((btn) => {
     btn.addEventListener("click", () => {
-      $("#checkout-text").innerHTML = `Bạn đã chọn <strong>${escapeHtml(btn.dataset.name)}</strong>. Tiếp theo mở ShopeeFood để thanh toán.`;
-      $("#checkout-modal").classList.remove("hidden");
+      const name = btn.dataset.name;
+      appendMessage(
+        "user",
+        `Mình chọn <strong>${escapeHtml(name)}</strong> nhé!`,
+        "Vừa xong"
+      );
+      appendMessage(
+        "bot",
+        `<p>Đã ghi nhận <strong>${escapeHtml(name)}</strong>. Mở ShopeeFood thật để thanh toán nhé — prototype không đặt hộ.</p>`,
+        "Giỏ hàng mock"
+      );
+      clearQuickReplies();
+      setQuickReplies(REFINE_CHIPS, handleRefineChip);
     });
   });
-
-  $("#refine-bar").classList.remove("hidden");
-}
-
-function escapeHtml(s) {
-  const d = document.createElement("div");
-  d.textContent = s;
-  return d.innerHTML;
-}
-
-function escapeAttr(s) {
-  return escapeHtml(s).replace(/"/g, "&quot;");
-}
-
-function showClarify(question) {
-  $("#clarify-box").classList.remove("hidden");
-  $("#clarify-question").textContent = question;
-  $("#cards").innerHTML = "";
-  $("#refine-bar").classList.add("hidden");
-  setResultsMode(false);
-}
-
-function hideClarify() {
-  $("#clarify-box").classList.add("hidden");
 }
 
 async function fetchRecommend(payload) {
-  $("#loading").classList.remove("hidden");
-  $("#error").classList.add("hidden");
-  state.lastPayload = payload;
-
   const res = await fetch("/api/recommend", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
   });
   const data = await res.json();
-  $("#loading").classList.add("hidden");
-
   if (!res.ok) {
-    $("#error").textContent = data.error || "Lỗi gọi API";
-    $("#error").classList.remove("hidden");
-    return null;
+    throw new Error(data.error || data.hint || "Lỗi gọi API");
   }
   return data;
 }
 
-async function runSuggest() {
-  hideClarify();
-  const payload = getPayload();
-  const data = await fetchRecommend(payload);
-  if (!data) return;
-
-  setCriteria(data.criteriaSummary);
+function handleBotResponse(data) {
+  const criteria = data.criteriaSummary
+    ? `<p class="msg-criteria"><strong>Tiêu chí:</strong> ${escapeHtml(data.criteriaSummary)}</p>`
+    : "";
 
   if (data.mode === "clarify") {
-    showClarify(data.clarifyQuestion);
+    appendMessage(
+      "bot",
+      `<p>${escapeHtml(data.clarifyQuestion || "Bạn muốn ăn no, ăn nhẹ hay tiết kiệm?")}</p>${criteria}`,
+      "Cần thêm thông tin"
+    );
+    setQuickReplies(CLARIFY_CHIPS, handleClarifyChip);
     return;
   }
 
-  renderCards(data.recommendations, data.aiSource);
+  const intro =
+    "<p>Mình gợi ý <strong>3 món</strong> phù hợp với bạn:</p>";
+  const row = appendMessage(
+    "bot",
+    `${intro}${buildMealsHtml(data.recommendations, data.aiSource)}${criteria}`,
+    "Gợi ý xong"
+  );
+  wirePickButtons(row);
+  setQuickReplies(REFINE_CHIPS, handleRefineChip);
 }
 
-async function runRefine(chip) {
-  if (!state.corrections.includes(chip)) {
-    state.corrections.push(chip);
-  }
-  const payload = getPayload();
-  const data = await fetchRecommend(payload);
-  if (!data) return;
+async function sendUserText(text, { skipParse = false } = {}) {
+  if (!text.trim() || state.busy) return;
 
-  const update =
-    data.criteriaSummary ||
-    `Đã cập nhật: ${state.corrections.join(", ")}`;
-  setCriteria(update);
+  state.busy = true;
+  $("#btn-send").disabled = true;
+  clearQuickReplies();
 
-  if (data.mode === "clarify") {
-    showClarify(data.clarifyQuestion);
-    return;
+  appendMessage("user", `<p>${escapeHtml(text)}</p>`);
+  if (!skipParse) parseUserMessage(text);
+
+  showTyping();
+  try {
+    const data = await fetchRecommend(getPayload());
+    hideTyping();
+    handleBotResponse(data);
+  } catch (err) {
+    hideTyping();
+    appendMessage("bot", `<p class="msg-error">${escapeHtml(err.message)}</p>`, "Lỗi");
+    setQuickReplies(STARTER_CHIPS, (label) => sendUserText(label));
+  } finally {
+    state.busy = false;
+    $("#btn-send").disabled = false;
+    $("#chat-input").focus();
   }
-  hideClarify();
-  renderCards(data.recommendations, data.aiSource);
 }
 
-function resetSession() {
+function handleClarifyChip(label) {
+  state.clarifyAnswer = label;
+  if (!state.selectedPrefs.has(label)) state.selectedPrefs.add(label);
+  if (!$("#budget").value.trim()) $("#budget").value = "50000";
+  sendUserText(label, { skipParse: true });
+}
+
+function handleRefineChip(label) {
+  if (!state.corrections.includes(label)) state.corrections.push(label);
+  if (label === "Không cay" && !state.selectedPrefs.has("Không cay")) {
+    state.selectedPrefs.add("Không cay");
+  }
+  sendUserText(label, { skipParse: true });
+}
+
+function resetChat() {
   state.selectedPrefs.clear();
   state.corrections = [];
   state.clarifyAnswer = null;
-  $$("#pref-chips .chip").forEach((c) => c.classList.remove("active"));
-  $("#prompt").value = "";
+  state.prompt = "";
+  state.busy = false;
   $("#budget").value = "50000";
-  $("#cards").innerHTML = "";
-  $("#criteria-line").classList.add("hidden");
-  $("#refine-bar").classList.add("hidden");
-  hideClarify();
-  $("#error").classList.add("hidden");
-  setResultsMode(false);
+  $("#time-slot").value = "trưa";
+  $("#chat-messages").innerHTML = "";
+  clearQuickReplies();
+  showWelcome();
+}
+
+function showWelcome() {
+  appendMessage(
+    "bot",
+    `<p>Xin chào! Mình là trợ lý <strong>gợi ý món</strong> — bạn nói giờ ăn, ngân sách và sở thích, mình chọn tối đa 3 món.</p>
+     <p>Ví dụ: <em>Trưa 50k, ăn no, không cay</em> hoặc thử <em>Ăn gì cũng được</em> để xem AI hỏi lại.</p>`,
+    "Quick Meal Picker"
+  );
+  setQuickReplies(STARTER_CHIPS, (label) => sendUserText(label));
 }
 
 async function initHealth() {
@@ -256,7 +355,7 @@ async function initHealth() {
       pill.textContent = "AI ON";
       pill.classList.remove("off");
     } else {
-      pill.textContent = "AI fallback";
+      pill.textContent = "Fallback";
       pill.classList.add("off");
     }
   } catch {
@@ -265,62 +364,16 @@ async function initHealth() {
   }
 }
 
-$("#pref-chips").addEventListener("click", (e) => {
-  const chip = e.target.closest(".chip[data-chip]");
-  if (!chip) return;
-  const val = chip.dataset.chip;
-  if (state.selectedPrefs.has(val)) {
-    state.selectedPrefs.delete(val);
-    chip.classList.remove("active");
-  } else {
-    state.selectedPrefs.add(val);
-    chip.classList.add("active");
-  }
+$("#chat-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const input = $("#chat-input");
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = "";
+  sendUserText(text);
 });
 
-$("#clarify-chips").addEventListener("click", async (e) => {
-  const chip = e.target.closest(".chip[data-answer]");
-  if (!chip) return;
-  state.clarifyAnswer = chip.dataset.answer;
-  if (!state.selectedPrefs.has(state.clarifyAnswer)) {
-    state.selectedPrefs.add(state.clarifyAnswer);
-  }
-  if (!$("#budget").value.trim()) {
-    $("#budget").value = "50000";
-  }
-  hideClarify();
-  await runSuggest();
-});
-
-$("#refine-chips").addEventListener("click", (e) => {
-  const chip = e.target.closest(".chip[data-refine]");
-  if (!chip) return;
-  runRefine(chip.dataset.refine);
-});
-
-$("#btn-suggest").addEventListener("click", runSuggest);
-$("#btn-reset").addEventListener("click", resetSession);
-$("#btn-close-modal").addEventListener("click", () => {
-  $("#checkout-modal").classList.add("hidden");
-});
-$("#sheet-backdrop")?.addEventListener("click", () => {
-  $("#checkout-modal").classList.add("hidden");
-});
-
-$$(".sf-cat").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    $$(".sf-cat").forEach((b) => b.classList.remove("active"));
-    btn.classList.add("active");
-  });
-});
-
-$("#prompt").value = "Trưa nay 50k, ăn no, không cay";
-["Ăn no", "Không cay", "Giao < 25 phút"].forEach((label) => {
-  const btn = [...$$("#pref-chips .chip")].find((b) => b.dataset.chip === label);
-  if (btn) {
-    state.selectedPrefs.add(label);
-    btn.classList.add("active");
-  }
-});
+$("#btn-reset").addEventListener("click", resetChat);
 
 initHealth();
+showWelcome();
