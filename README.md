@@ -5,7 +5,7 @@
 | Mã HV | Họ và tên |
 |-------|-----------|
 | 2A202600757 | Đoàn Minh Quang |
-| 2A202600735 | Trường Thành Thảo |
+| 2A202600735 | Trương Thành Thảo |
 | 2A202600977 | Nguyễn Công Tuấn Anh |
 | 2A202600696 | Nguyễn Công Thành |
 | 2A202600692 | Nguyễn Tuấn Minh |
