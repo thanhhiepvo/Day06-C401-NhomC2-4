@@ -18,11 +18,11 @@ const FOOD_EMOJI = {
 
 const STARTER_CHIPS = [
   "Trưa 50k, ăn no, không cay",
-  "Ăn gì cũng được",
-  "Tối 80k, giao nhanh",
+  "Mình chưa biết ăn gì",
+  "Tối 80k, ăn no, giao nhanh",
 ];
 
-const CLARIFY_CHIPS = ["Ăn no", "Ăn nhẹ", "Tiết kiệm"];
+const CLARIFY_CHIPS = ["Ăn no, 50k", "Ăn nhẹ, 40k", "Tiết kiệm, 35k"];
 
 const REFINE_CHIPS = ["Không cay", "Rẻ hơn", "Giao nhanh hơn", "Đổi món"];
 
@@ -30,6 +30,10 @@ const state = {
   selectedPrefs: new Set(),
   corrections: [],
   clarifyAnswer: null,
+  userNotes: [],
+  latestMessage: "",
+  lastRecommendationIds: [],
+  excludedMealIds: [],
   prompt: "",
   busy: false,
 };
@@ -42,6 +46,7 @@ function parseHistory() {
 
 function parseUserMessage(text) {
   const t = text.toLowerCase();
+  const note = text.trim();
   const prefs = new Set(state.selectedPrefs);
 
   if (/không cay|ko cay|khong cay/.test(t)) prefs.add("Không cay");
@@ -54,20 +59,30 @@ function parseUserMessage(text) {
   if (/\btối\b|toi\b/.test(t)) $("#time-slot").value = "tối";
   if (/khuya|đêm|dem/.test(t)) $("#time-slot").value = "khuya";
 
+  let detectedBudget = false;
+  const rangeBudgetMatch = t.match(/(\d+)\s*[-–]\s*(\d+)\s*k\b/);
   const budgetMatch = t.match(/(\d+)\s*k\b/);
-  if (budgetMatch) {
+  if (rangeBudgetMatch) {
+    $("#budget").value = String(Number(rangeBudgetMatch[2]) * 1000);
+    detectedBudget = true;
+  } else if (budgetMatch) {
     $("#budget").value = String(Number(budgetMatch[1]) * 1000);
+    detectedBudget = true;
   } else {
     const numMatch = t.match(/\b(\d{5,6})\b/);
-    if (numMatch) $("#budget").value = numMatch[1];
+    if (numMatch) {
+      $("#budget").value = numMatch[1];
+      detectedBudget = true;
+    }
   }
 
-  if (/ăn gì cũng được|gì cũng được|không biết|tùy/.test(t)) {
+  if (/ăn gì cũng được|gì cũng được|không biết|chưa biết|tùy/.test(t) && !detectedBudget) {
     $("#budget").value = "";
   }
 
+  if (note) state.userNotes.push(note);
   state.selectedPrefs = prefs;
-  state.prompt = text.trim();
+  state.prompt = state.userNotes.join(" | ");
 }
 
 function getPayload(extra = {}) {
@@ -78,7 +93,9 @@ function getPayload(extra = {}) {
     history: parseHistory(),
     chips: [...state.selectedPrefs],
     prompt: state.prompt,
+    latestMessage: state.latestMessage,
     corrections: [...state.corrections],
+    excludedMealIds: [...state.excludedMealIds],
     clarifyAnswer: state.clarifyAnswer,
     maxEta: 25,
     ...extra,
@@ -218,6 +235,8 @@ function buildMealsHtml(recommendations, aiSource) {
       ? "Gợi ý từ AI thật"
       : aiSource === "llm+rule"
         ? "AI + rule bổ sung"
+        : aiSource === "llm-error+rule"
+          ? "Rule fallback do AI lỗi mạng"
         : "Rule fallback (thêm OPENAI_API_KEY)";
 
   return `<div class="meal-cards">${cards}</div><p class="msg-source">${escapeHtml(source)}</p>`;
@@ -244,11 +263,25 @@ function wirePickButtons(container) {
 }
 
 async function fetchRecommend(payload) {
-  const res = await fetch("/api/recommend", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
+  let res;
+  try {
+    res = await fetch("/api/recommend", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+  } catch {
+    await new Promise((resolve) => setTimeout(resolve, 600));
+    try {
+      res = await fetch("/api/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+    } catch {
+      throw new Error("Không kết nối được backend. Hãy refresh trang rồi thử lại.");
+    }
+  }
   const data = await res.json();
   if (!res.ok) {
     throw new Error(data.error || data.hint || "Lỗi gọi API");
@@ -257,6 +290,34 @@ async function fetchRecommend(payload) {
 }
 
 function handleBotResponse(data) {
+  if (data.mode === "chat") {
+    if (state.userNotes[state.userNotes.length - 1] === state.latestMessage) {
+      state.userNotes.pop();
+      state.prompt = state.userNotes.join(" | ");
+    }
+    const routeMeta = {
+      general: "AI ngoài luồng",
+      nonsense: "Cần làm rõ",
+      future: "Không dự đoán chắc chắn",
+      sensitive: "Trả lời an toàn",
+    }[data.route] || "AI ngoài luồng";
+    const meta =
+      data.aiSource === "llm-chat"
+        ? `${routeMeta} · OpenAI`
+        : data.aiSource === "llm-error+safe"
+          ? `${routeMeta} · fallback an toàn`
+          : data.route === "general"
+            ? "Cần OpenAI API key"
+            : `${routeMeta} · rule fallback`;
+    appendMessage(
+      "bot",
+      `<p>${escapeHtml(data.answer || "Mình chưa có câu trả lời cho câu này.")}</p>`,
+      meta
+    );
+    setQuickReplies(STARTER_CHIPS, (label) => sendUserText(label));
+    return;
+  }
+
   const criteria = data.criteriaSummary
     ? `<p class="msg-criteria"><strong>Tiêu chí:</strong> ${escapeHtml(data.criteriaSummary)}</p>`
     : "";
@@ -265,14 +326,19 @@ function handleBotResponse(data) {
     appendMessage(
       "bot",
       `<p>${escapeHtml(data.clarifyQuestion || "Bạn muốn ăn no, ăn nhẹ hay tiết kiệm?")}</p>${criteria}`,
-      "Cần thêm thông tin"
+      data.aiSource === "llm-dialog" ? "AI đang hỏi thêm" : "Cần thêm thông tin"
     );
-    setQuickReplies(CLARIFY_CHIPS, handleClarifyChip);
+    setQuickReplies(data.quickReplies?.length ? data.quickReplies : CLARIFY_CHIPS, handleClarifyChip);
     return;
   }
 
+  state.lastRecommendationIds = (data.recommendations || [])
+    .map((r) => r.mealId)
+    .filter(Boolean);
+  state.excludedMealIds = [];
+
   const intro =
-    "<p>Mình gợi ý <strong>3 món</strong> phù hợp với bạn:</p>";
+    "<p>Mình gợi ý <strong>tối đa 3 món</strong> phù hợp với bạn:</p>";
   const row = appendMessage(
     "bot",
     `${intro}${buildMealsHtml(data.recommendations, data.aiSource)}${criteria}`,
@@ -290,6 +356,7 @@ async function sendUserText(text, { skipParse = false } = {}) {
   clearQuickReplies();
 
   appendMessage("user", `<p>${escapeHtml(text)}</p>`);
+  state.latestMessage = text.trim();
   if (!skipParse) parseUserMessage(text);
 
   showTyping();
@@ -310,13 +377,15 @@ async function sendUserText(text, { skipParse = false } = {}) {
 
 function handleClarifyChip(label) {
   state.clarifyAnswer = label;
-  if (!state.selectedPrefs.has(label)) state.selectedPrefs.add(label);
-  if (!$("#budget").value.trim()) $("#budget").value = "50000";
-  sendUserText(label, { skipParse: true });
+  sendUserText(label);
 }
 
 function handleRefineChip(label) {
-  if (!state.corrections.includes(label)) state.corrections.push(label);
+  if (label === "Đổi món") {
+    state.excludedMealIds = [...state.lastRecommendationIds];
+  } else if (!state.corrections.includes(label)) {
+    state.corrections.push(label);
+  }
   if (label === "Không cay" && !state.selectedPrefs.has("Không cay")) {
     state.selectedPrefs.add("Không cay");
   }
@@ -327,9 +396,13 @@ function resetChat() {
   state.selectedPrefs.clear();
   state.corrections = [];
   state.clarifyAnswer = null;
+  state.userNotes = [];
+  state.latestMessage = "";
+  state.lastRecommendationIds = [];
+  state.excludedMealIds = [];
   state.prompt = "";
   state.busy = false;
-  $("#budget").value = "50000";
+  $("#budget").value = "";
   $("#time-slot").value = "trưa";
   $("#chat-messages").innerHTML = "";
   clearQuickReplies();
@@ -339,8 +412,8 @@ function resetChat() {
 function showWelcome() {
   appendMessage(
     "bot",
-    `<p>Xin chào! Mình là trợ lý <strong>gợi ý món</strong> — bạn nói giờ ăn, ngân sách và sở thích, mình chọn tối đa 3 món.</p>
-     <p>Ví dụ: <em>Trưa 50k, ăn no, không cay</em> hoặc thử <em>Ăn gì cũng được</em> để xem AI hỏi lại.</p>`,
+    `<p>Xin chào! Mình sẽ hỏi nhanh để hiểu bạn muốn ăn gì, rồi mới gợi ý tối đa <strong>3 món</strong>.</p>
+     <p>Ví dụ: <em>Trưa 50k, ăn no, không cay</em> hoặc thử <em>Mình chưa biết ăn gì</em> để xem AI hỏi thêm.</p>`,
     "Quick Meal Picker"
   );
   setQuickReplies(STARTER_CHIPS, (label) => sendUserText(label));
