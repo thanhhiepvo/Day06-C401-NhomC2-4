@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quick Meal Picker — Day 06</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <p class="eyebrow">Food delivery · Augment</p>
+      <h1>Quick Meal Picker</h1>
+      <p class="subtitle">
+        Rút gọn “không biết ăn gì” thành <strong>3 món</strong> có lý do.
+        AI gợi ý — bạn vẫn là người quyết định cuối.
+      </p>
+      <p id="ai-status" class="status-pill">Đang kiểm tra AI…</p>
+    </header>
+
+    <main class="grid">
+      <section class="panel" aria-label="Đầu vào">
+        <h2>1. Bối cảnh hôm nay</h2>
+
+        <label class="field">
+          <span>Giờ ăn</span>
+          <select id="time-slot">
+            <option value="trưa">Trưa</option>
+            <option value="tối">Tối</option>
+            <option value="khuya">Khuya</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Ngân sách (VND)</span>
+          <input id="budget" type="number" min="0" step="1000" placeholder="50000" value="50000" />
+        </label>
+
+        <label class="field">
+          <span>Lịch sử đặt gần đây (mock)</span>
+          <input id="history" type="text" placeholder="cơm tấm, bún bò, bánh mì" value="cơm tấm, bún bò, bánh mì" />
+        </label>
+
+        <fieldset class="chips-group">
+          <legend>Ưu tiên nhanh</legend>
+          <div class="chips" id="pref-chips">
+            <button type="button" class="chip" data-chip="Ăn no">Ăn no</button>
+            <button type="button" class="chip" data-chip="Ăn nhẹ">Ăn nhẹ</button>
+            <button type="button" class="chip" data-chip="Không cay">Không cay</button>
+            <button type="button" class="chip" data-chip="Giao &lt; 25 phút">Giao &lt; 25 phút</button>
+            <button type="button" class="chip" data-chip="Tiết kiệm">Tiết kiệm</button>
+          </div>
+        </fieldset>
+
+        <label class="field">
+          <span>Ghi chú / prompt</span>
+          <textarea id="prompt" rows="3" placeholder="Trưa nay 50k, ăn no, không cay"></textarea>
+        </label>
+
+        <div class="actions">
+          <button type="button" id="btn-suggest" class="btn primary">Gợi ý 3 món</button>
+          <button type="button" id="btn-reset" class="btn ghost">Làm mới</button>
+        </div>
+
+        <p class="hint">
+          <strong>Demo low-confidence:</strong> để trống ngân sách, gõ “Ăn gì cũng được”.
+        </p>
+      </section>
+
+      <section class="panel results" aria-label="Kết quả">
+        <h2>2. Gợi ý</h2>
+        <p id="criteria-line" class="criteria hidden"></p>
+
+        <div id="clarify-box" class="clarify hidden" role="status">
+          <p id="clarify-question"></p>
+          <div class="chips" id="clarify-chips">
+            <button type="button" class="chip" data-answer="Ăn no">Ăn no</button>
+            <button type="button" class="chip" data-answer="Ăn nhẹ">Ăn nhẹ</button>
+            <button type="button" class="chip" data-answer="Tiết kiệm">Tiết kiệm</button>
+          </div>
+        </div>
+
+        <div id="loading" class="loading hidden">AI đang chọn 3 món phù hợp…</div>
+        <div id="error" class="error hidden"></div>
+        <div id="cards" class="cards"></div>
+
+        <div id="refine-bar" class="refine hidden">
+          <p>Gợi ý chưa hợp?</p>
+          <div class="chips" id="refine-chips">
+            <button type="button" class="chip warn" data-refine="Không cay">Không cay</button>
+            <button type="button" class="chip warn" data-refine="Rẻ hơn">Rẻ hơn</button>
+            <button type="button" class="chip warn" data-refine="Giao nhanh hơn">Giao nhanh hơn</button>
+            <button type="button" class="chip warn" data-refine="Đổi món">Đổi món</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="checkout-modal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <h3>Checkout mock</h3>
+        <p id="checkout-text"></p>
+        <p class="small">
+          Prototype không đặt món thật. Trên ShopeeFood/GrabFood, bạn vẫn tự chọn và thanh toán.
+        </p>
+        <button type="button" id="btn-close-modal" class="btn primary">Đóng</button>
+      </div>
+    </div>
+  </div>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
